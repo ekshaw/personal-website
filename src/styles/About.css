@@ -1,0 +1,44 @@
+.about-top-wrapper {
+    padding: 4vw 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-top {
+    align-self: flex-start;
+    width: 60vw;
+    padding: 0 4vw;
+}
+
+.about-top-wrapper img {
+    align-self: flex-start;
+    width: 24vw;
+    padding: 0 4vw;
+    
+}
+
+.about-middle-wrapper {
+    padding: 12vw 12vw 6vw;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.about-middle-text {
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 0;
+    padding-right: 12vw;
+    width: 40vw;
+}
+
+.about-middle-wrapper img {
+    width: 76vw;
+}
+
+.about-bottom-wrapper {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}

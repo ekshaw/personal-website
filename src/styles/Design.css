@@ -1,0 +1,25 @@
+.design-page {
+    width: 100%;
+    overflow-y: auto;
+    padding-bottom: 8vw;
+}
+
+.design-wrapper {
+    width: 72vw;
+    margin: auto;
+    display: grid;
+    place-items: center;
+  }
+  
+  .design-images-wrapper {
+    display: flex;
+    place-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .design-images-wrapper img {
+    max-width: 100%;
+    margin: 2vw 0;
+    
+  }

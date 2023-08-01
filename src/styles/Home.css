@@ -1,0 +1,140 @@
+.homepage {
+    background-color: #ebe4ce;
+    width: 100%;
+    border-top: 1px solid #1f1f1f;
+}
+
+.home-top-wrapper{
+    width: 92vw;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    border-left: 1px solid #1f1f1f;
+    border-right: 1px solid #1f1f1f;
+
+}
+
+.home-top {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 2vw 0 3vw;
+    }
+
+.home-top .hello-wrapper {
+    max-width: 60vw;
+    text-align: center;
+    
+}
+
+.home-top .top-graphic-container img {
+    max-width: 56vw;
+    height: auto;
+}
+
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+}
+  
+
+.home-middle-wrapper{
+    width: 92vw;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    border-left: 1px solid #1f1f1f;
+    border-right: 1px solid #1f1f1f;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.home-middle {
+    margin:2vw 2vw 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.home-middle .heading-wrapper {
+    margin: 2vw;
+}
+
+.home-middle .icon-item {
+    flex: 1; 
+    flex-shrink: 1;
+    padding: 4vw 4vw 2vw;
+}
+.work-btn-container {
+    width: fit-content;
+    height: auto;
+    margin: 2vw 0 6vw;
+    z-index: 1000;
+}
+.work-btn {
+    padding: 1vw 4vw;
+    border: 1px solid #1f1f1f;
+    transition: transform 0.5s ease;
+}
+
+ .work-btn:hover {
+    transform: scale(1.05); /* Increase the scale to make the image grow on hover */
+}
+  
+.work-btn p {
+    margin: 0;
+}
+
+.icon-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.home-bottom-wrapper {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+   
+}
+
+.home-bottom-text {
+    width: 36vw;
+    position: relative;
+    top: 6vw;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.home-bottom h4 {
+    margin: 0 0 2vw;
+}
+
+.home-bottom-wrapper img{
+    width: 72%;
+    position: relative;
+    bottom: 8vw;
+}
+
+.email-btn-container {
+    z-index: 1000;
+    margin: 2vw 0 6vw;
+    
+}
+.email-btn {
+    display: inline-block;
+    padding: 1vw 4vw;
+    border: 1px solid #1f1f1f;
+    transition: transform 0.5s ease;
+}
+
+ .email-btn:hover {
+    transform: scale(1.05); /* Increase the scale to make the image grow on hover */
+}
+  
+.email-btn p {
+    margin: 0;
+}

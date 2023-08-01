@@ -1,0 +1,67 @@
+.work-top-wrapper {
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.work-top img { 
+    width: 60vw;
+}
+
+.client-work{
+    position: absolute;
+    right: 8vw;
+    bottom: 4vw;
+    
+}
+.client-work img {
+    width: 20vw;
+}
+
+.personal-projects{
+    position: absolute;
+    left: 8vw;
+    top: 15vw;
+}
+
+.personal-projects img {
+    width: 20vw;
+}
+
+.work-middle-wrapper {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 4vw 0;
+}
+
+.work-middle {
+    width: 72vw;
+    padding: 2vw 0;
+    border: 1px solid #1f1f1f;
+}
+
+.work-middle h2 {
+    font-size: 3vw;
+}
+
+.work-bottom-wrapper {
+    width: 100%;
+    padding-bottom: 8vw;
+  }
+  
+  .design-card-col {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100000;
+  }
+  
+  .design-card-row {
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+  }

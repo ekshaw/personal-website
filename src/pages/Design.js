@@ -26,6 +26,17 @@ const Design = () => {
     <div className='design-page'>
       <div className='design-wrapper'>
         <div className='design-images-wrapper'>{images}</div>
+        {/* <div>
+          {Designs[designNum].url && (
+            <div className='design-bottom'>
+              <a href={Designs[designNum].url}>
+                <div className='design-external-link'>
+                  <p>Thanks for viewing! Click here to visit {Designs[designNum].title}</p>
+                </div>
+              </a>
+            </div>
+          )}
+        </div> */}
       </div>
     </div>
   );

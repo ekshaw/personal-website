@@ -7,7 +7,7 @@ function Footer() {
       <div className='footer-wrapper'>
         <div className='footer-text'></div>
         <p>
-          Always looking to connect. Follow me on my socials.
+          Want to connect? Follow me on my socials.
           <br />
           Check out my website on GitHub.
         </p>

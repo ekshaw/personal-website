@@ -75,13 +75,13 @@ const Designs = [
       require('../images/assurance-04.png')
     ]
   },
-  {
-    title: 'Home Cafe',
-    type: 'Graphic Design',
-    designId: 'home_cafe',
-    url: '',
-    images: [require('../images/placeholder.png'), require('../images/placeholder.png')]
-  },
+  // {
+  //   title: 'Home Cafe',
+  //   type: 'Graphic Design',
+  //   designId: 'home_cafe',
+  //   url: '',
+  //   images: [require('../images/placeholder.png'), require('../images/placeholder.png')]
+  // },
   {
     title: 'Asha Berkeley',
     type: 'Branding & Marketing',
@@ -94,19 +94,24 @@ const Designs = [
       require('../images/asha-04.png')
     ]
   },
+  // {
+  //   title: 'Stickers',
+  //   type: 'Graphic Design',
+  //   designId: 'stickers',
+  //   url: '',
+  //   images: [require('../images/placeholder.png'), require('../images/placeholder.png')]
+  // },
   {
-    title: 'Stickers',
-    type: 'Graphic Design',
-    designId: 'stickers',
-    url: '',
-    images: [require('../images/placeholder.png'), require('../images/placeholder.png')]
-  },
-  {
-    title: 'Zine',
+    title: 'Zine Concept',
     type: 'Graphic Design',
     designId: 'zine',
     url: '',
-    images: [require('../images/placeholder.png'), require('../images/placeholder.png')]
+    images: [
+      require('../images/zine-01.png'),
+      require('../images/zine-02.png'),
+      require('../images/zine-03.png'),
+      require('../images/zine-04.png')
+    ]
   }
 ];
 

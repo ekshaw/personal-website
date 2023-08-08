@@ -9,7 +9,7 @@ function Home() {
         <div className='home-top'>
           <div className='hello-wrapper'>
             <h1>
-              Hello, design enthusiasts! Step into Emily&#39;s creative playground{' '}
+              Hello, design enthusiasts! Step into Emily&#39;s creative playground
               <span className='span'>→ </span>a showcase of my work and just a place to get to know
               me :)
             </h1>
@@ -34,9 +34,10 @@ function Home() {
               UI &amp; Web<br></br> Design
             </h4>
             <p className='text-wrapper'>
-              With aesthetics and user psychology in mind, the focus is on visually captivating
-              interfaces that engage users. Web design ensures meticulous consideration of every
-              aspect, from layout and structure to website responsiveness and performance.
+              With aesthetics and user psychology in mind, my focus is on creating captivating
+              interfaces that effectively engage users. Each project involves consideration in
+              aspects ranging from layout and structure to website responsiveness, ensuring that
+              each user has a positive journey.
             </p>
           </div>
           <div className='icon-item'>
@@ -45,9 +46,10 @@ function Home() {
               Graphic <br></br>Design
             </h4>
             <p className='text-wrapper'>
-              Understanding user needs and market trends, the goal is to craft innovative and
-              functional solutions. With form, function, and aesthetics in mind, products are
-              designed to create captivating and user-centric experiences.
+              Graphic design is the art of visual communication, where creativity meets purpose.
+              Through the use of typography, imagery, color, and a deep understanding of design
+              principles, I want to bring ideas and concepts to life, conveying messages, evoking
+              emotions, and captivating audiences.
             </p>
           </div>
           <div className='icon-item'>
@@ -60,9 +62,10 @@ function Home() {
               Branding &amp; <br></br>Marketing
             </h4>
             <p className='text-wrapper'>
-              From brand identity development to strategic campaigns, we want to resonate with
-              customers. By combining creativity, storytelling, and market insights, brands are
-              positioned to stand out, connect with audiences, and achieve long-term success.
+              From brand identity development to strategic campaigns, my ultimate goal is to
+              resonate with customers. By combining creativity, storytelling, and market insights, I
+              want to position brands to stand out, connect with their audiences, and achieve
+              long-term success.
             </p>
           </div>
         </div>
@@ -80,8 +83,8 @@ function Home() {
           <div className='home-bottom-text'>
             <h4>Get in Touch!</h4>
             <p>
-              Always down to meet more lovely people. Contact me to collaborate on a project,
-              brainstorm ideas, recommend a book, or just say hello!
+              Always open to meeting more lovely people. Contact me for design inquires. Give me a
+              book recommendation. Just say hello!
             </p>
             <p>...</p>
             <div className='email-btn-container'>

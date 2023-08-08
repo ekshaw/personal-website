@@ -30,16 +30,16 @@ h1 {
 h2{
   color: #1f1f1f;
   font-family: 'kepler-std-semicondensed', serif;
-  font-size: 5vw;
+  font-size: 4vw;
   font-style: italic;
   font-weight: 300;
-  line-height: .25;
+  line-height: 0;
 }
 
 h3{
   color: #1f1f1f;
   font-family: 'kepler-std-semicondensed', serif;
-  font-size: 5vw;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 300;
   line-height: .25;

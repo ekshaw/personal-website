@@ -102,6 +102,31 @@ const Designs = [
   //   images: [require('../images/placeholder.png'), require('../images/placeholder.png')]
   // },
   {
+    title: 'Kingpin Donuts',
+    type: 'Branding & Marketing',
+    designId: 'kpd',
+    url: '',
+    images: [
+      require('../images/kpd-01.png'),
+      require('../images/kpd-02.png'),
+      require('../images/kpd-03.png'),
+      require('../images/kpd-04.png'),
+      require('../images/kpd-05.png'),
+      require('../images/kpd-06.png')
+    ]
+  },
+  {
+    title: 'Asian American Association',
+    type: 'Graphic Design',
+    designId: 'aaa',
+    url: '',
+    images: [
+      require('../images/aaa-01.png'),
+      require('../images/aaa-02.png'),
+      require('../images/aaa-03.png')
+    ]
+  },
+  {
     title: 'Zine Concept',
     type: 'Graphic Design',
     designId: 'zine',

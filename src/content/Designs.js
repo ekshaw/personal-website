@@ -11,7 +11,10 @@ const Designs = [
       require('../images/yhwh-02.png'),
       require('../images/yhwh-03.png'),
       require('../images/yhwh-04.png'),
-      require('../images/yhwh-05.png')
+      require('../images/yhwh-05.png'),
+      require('../images/yhwh-06.png'),
+      require('../images/yhwh-07.png'),
+      require('../images/yhwh-08.png')
     ]
   },
   {
@@ -23,7 +26,10 @@ const Designs = [
       require('../images/berkeley-food-collective-01.png'),
       require('../images/berkeley-food-collective-02.png'),
       require('../images/berkeley-food-collective-03.png'),
-      require('../images/berkeley-food-collective-04.png')
+      require('../images/berkeley-food-collective-04.png'),
+      require('../images/berkeley-food-collective-05.png'),
+      require('../images/berkeley-food-collective-06.png'),
+      require('../images/berkeley-food-collective-07.png')
     ]
   },
   {

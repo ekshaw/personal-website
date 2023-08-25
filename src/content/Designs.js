@@ -53,7 +53,9 @@ const Designs = [
       require('../images/illustrator-01.png'),
       require('../images/illustrator-02.png'),
       require('../images/illustrator-03.png'),
-      require('../images/illustrator-04.png')
+      require('../images/illustrator-04.png'),
+      require('../images/illustrator-05.png'),
+      require('../images/illustrator-06.png')
     ]
   },
 

@@ -38,5 +38,5 @@
     border: none;
     padding: 2vw 4vw;
     background: transparent;
-    position: absolute;
+    position: fixed;
   }

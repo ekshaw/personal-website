@@ -14,6 +14,7 @@
   
   aside {
     position: fixed;
+    top: 0;
     right: 0;
     background-color: #EBE4CE;
     height: 100vh;

@@ -94,10 +94,12 @@ export default function MobileNav() {
           <motion.aside
             initial={{ width: 0 }}
             animate={{
-              width: 200
+              width: 200,
+              height: 'auto'
             }}
             exit={{
               width: 0,
+              height: 'auto',
               transition: { delay: 0.5, duration: 0.3 }
             }}>
             <motion.div

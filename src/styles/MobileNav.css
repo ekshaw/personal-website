@@ -1,0 +1,42 @@
+.navbar-container-mobile {
+    background-color: #EBE4CE;
+    display: flex;
+    border-bottom: 1px solid #1f1f1f;
+
+  }
+
+.navbar-logo-mobile {
+    padding: 4vw 6vw 2vw;
+}
+
+.navbar-logo-mobile img{
+    width: 10vw;
+  }
+  
+  aside {
+    position: fixed;
+    right: 0;
+    background-color: #EBE4CE;
+    height: 100vh;
+    box-shadow: 0vw 1vw 2vw #888;
+  }
+  
+  .menu-container-mobile {
+    margin: 24vw 8vw;
+  }
+  
+  .nav-btn-container-mobile {
+    position: fixed;
+    right: 0;
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .nav-btn-container-mobile button {
+    cursor: pointer;
+    margin: 4vw 2vw;
+    border: none;
+    padding: 2vw 4vw;
+    background: transparent;
+    position: absolute;
+  }

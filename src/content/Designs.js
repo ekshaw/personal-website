@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Designs = [
   {
     title: 'YHWH Apparel',

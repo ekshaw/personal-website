@@ -1,0 +1,55 @@
+.work-top-wrapper-mobile {
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.work-top-mobile {
+    padding: 4vw 0;
+    width: 48vw;
+}
+
+.work-top-graphic-container-mobile {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.work-top-graphic-container-mobile img { 
+    width: 120vw;
+}
+
+.work-middle-wrapper-mobile {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 4vw 0;
+}
+
+.work-middle-mobile {
+    width: 72vw;
+    padding: 2vw 0;
+    border: 1px solid #1f1f1f;
+}
+
+.work-bottom-wrapper-mobile {
+    width: 100%;
+    padding-bottom: 8vw;
+  }
+  
+  .design-card-col-mobile {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100000;
+  }
+  
+  .design-card-row-mobile {
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+  }

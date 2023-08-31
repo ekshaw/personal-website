@@ -5,6 +5,13 @@
     border-bottom: 1px solid #1f1f1f;
 }
 
+@media (max-width: 480px) {
+    .scrolling-container {
+      width: 460%;
+    }
+  }
+  
+
 .scrolling-text {
     display: flex;
     flex-direction: row;
@@ -17,6 +24,12 @@
     width: 4vw;
     height: auto;
 }
+
+@media (max-width: 480px) {
+    .scrolling-text img {
+      width: 6vw;
+    }
+  }
 
 .marquee {
     position: relative;

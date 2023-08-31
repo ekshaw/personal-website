@@ -3,9 +3,9 @@ import '../styles/DesignCard.css';
 import Designs from '../content/Designs';
 
 class DesignCard extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     const coverDesign = Designs[this.props.index].images[0];

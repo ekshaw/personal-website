@@ -23,6 +23,8 @@
   
   .menu-container-mobile {
     margin: 24vw 8vw;
+    width: 20vw;
+    height: 100vh;
   }
   
   .nav-btn-container-mobile {
@@ -30,7 +32,7 @@
     right: 0;
     top: 0;
     width: 20vw;
-    height: 20vw;
+    height: 100vh;
   }
 
   .nav-btn-container-mobile button {

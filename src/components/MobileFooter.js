@@ -8,17 +8,21 @@ function MobileFooter() {
         <div className='footer-icons-mobile'>
           <a href='https://www.instagram.com/eshawmily/' target='_blank' className='footer-icon'>
             <img
-              src={require('../images/instagram.png')}
+              src={require('../images/instagramMobile.png')}
               alt='Instagram Mobile'
               id='instagram-mobile'
             />
           </a>
           <a href='https://github.com/ekshaw' target='_blank' className='footer-icon'>
-            <img src={require('../images/github.png')} alt='Github Mobile' id='github-mobile' />
+            <img
+              src={require('../images/githubMobile.png')}
+              alt='Github Mobile'
+              id='github-mobile'
+            />
           </a>
           <a href='https://www.linkedin.com/in/ekshaw/' target='_blank' className='footer-icon'>
             <img
-              src={require('../images/linkedin.png')}
+              src={require('../images/linkedinMobile.png')}
               alt='Linkedin Mobile'
               id='linkedin-mobile'
             />

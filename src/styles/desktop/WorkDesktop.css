@@ -7,27 +7,28 @@
 }
 
 .work-top img { 
-    width: 60vw;
+    width: 72vw;
 }
 
 .client-work{
     position: absolute;
-    right: 8vw;
-    bottom: 4vw;
+    left: 12vw;
+    top: 13vw;
+    
     
 }
 .client-work img {
-    width: 20vw;
+    width: 12vw;
 }
 
 .personal-projects{
     position: absolute;
-    left: 8vw;
-    top: 15vw;
+    right: 12vw;
+    bottom: 9vw;
 }
 
 .personal-projects img {
-    width: 20vw;
+    width: 12vw;
 }
 
 .work-middle-wrapper {

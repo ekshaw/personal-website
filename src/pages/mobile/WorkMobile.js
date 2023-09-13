@@ -17,8 +17,9 @@ const WorkMobile = props => {
     <div class='workpage-mobile'>
       <div className='work-top-wrapper-mobile'>
         <div className='work-top-mobile'>
-          <h3>Have a Look</h3>
-          <h3>Around</h3>
+          <h3>a collection</h3>
+          <h3>of my favorite</h3>
+          <h3>projects😎</h3>
         </div>
         <div className='work-top-graphic-container-mobile'>
           <img

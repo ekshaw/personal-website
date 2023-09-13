@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../styles/desktop/HomeDesktop.css';
 import ScrollingText from '../../components/ScrollingText';
 
 function HomeDesktop() {
+  // Use state to track the visibility of the conversation starters
+  const [showConversationStarters, setShowConversationStarters] = useState(false);
+
+  // Function to toggle the visibility of conversation starters
+  const toggleConversationStarters = () => {
+    setShowConversationStarters(!showConversationStarters);
+  };
+
   return (
     <div className='homepage'>
       <div className='home-top-wrapper'>
         <div className='home-top'>
           <div className='hello-wrapper'>
             <h1>
-              Hello, design enthusiasts! Step into Emily&#39;s creative playground
-              <span className='span'>→ </span>a showcase of my work and just a place to get to know
-              me :)
+              multidisciplinary designer. born and raised in washington. graduated from uc berkeley.
+              based in the bay area. <span className='span'> → </span> have a look around to explore
+              my work and get to know me✨
             </h1>
           </div>
           <div className='top-graphic-container'>
@@ -31,13 +39,11 @@ function HomeDesktop() {
           <div className='icon-item'>
             <img src={require('../../images/webIcon.png')} alt='Web Icon' id='web-icon' />
             <h4 className='heading-wrapper'>
-              UI &amp; Web<br></br> Design
+              📱ui/ux <br></br>design
             </h4>
             <p className='text-wrapper'>
-              With aesthetics and user psychology in mind, my focus is on creating captivating
-              interfaces that effectively engage users. Each project involves consideration in
-              aspects ranging from layout and structure to website responsiveness, ensuring that
-              each user has a positive journey.
+              Creating visually appealing and intuitive digital interfaces that provide users with a
+              seamless and enjoyable experience
             </p>
           </div>
           <div className='icon-item'>
@@ -47,13 +53,11 @@ function HomeDesktop() {
               id='product-icon'
             />
             <h4 className='heading-wrapper'>
-              Graphic <br></br>Design
+              graphic <br></br>design🎨
             </h4>
             <p className='text-wrapper'>
-              Graphic design is the art of visual communication, where creativity meets purpose.
-              Through the use of typography, imagery, color, and a deep understanding of design
-              principles, I want to bring ideas and concepts to life, conveying messages, evoking
-              emotions, and captivating audiences.
+              Communicating ideas, messages, and concepts using typography, imagery, color, and
+              layout in both print and digital media
             </p>
           </div>
           <div className='icon-item'>
@@ -63,13 +67,11 @@ function HomeDesktop() {
               id='branding-icon'
             />
             <h4 className='heading-wrapper'>
-              Branding &amp; <br></br>Marketing
+              web 💻<br></br>development
             </h4>
             <p className='text-wrapper'>
-              From brand identity development to strategic campaigns, my ultimate goal is to
-              resonate with customers. By combining creativity, storytelling, and market insights, I
-              want to position brands to stand out, connect with their audiences, and achieve
-              long-term success.
+              Building dynamic, interactive, and user-friendly websites to translate design concepts
+              into vibrant digital experiences.
             </p>
           </div>
         </div>
@@ -85,7 +87,7 @@ function HomeDesktop() {
       <div className='home-bottom-wrapper'>
         <div className='home-bottom'>
           <div className='home-bottom-text'>
-            <h4>Get in Touch!</h4>
+            <h4>📫get in touch!</h4>
             <p>
               Always open to meeting more lovely people. Contact me for design inquires. Give me a
               book recommendation. Just say hello!
@@ -103,6 +105,42 @@ function HomeDesktop() {
           alt='Bottom Graphic'
           id='bottom-graphic'
         />
+      </div>
+      <div
+        className={`home-overlay ${showConversationStarters ? 'show-conversation-starters' : ''}`}>
+        <img
+          src={require('../../images/conversation.png')}
+          alt='Conversation'
+          id='conversation'
+          onClick={toggleConversationStarters}
+        />
+        <div className='conversation-starters'>
+          <img
+            src={require('../../images/conversation-starter-01.png')}
+            alt='Conversation Starter 01'
+            id='conversation-starter-01'
+          />
+          <img
+            src={require('../../images/conversation-starter-02.png')}
+            alt='Conversation Starter 02'
+            id='conversation-starter-02'
+          />
+          <img
+            src={require('../../images/conversation-starter-03.png')}
+            alt='Conversation Starter 03'
+            id='conversation-starter-03'
+          />
+          <img
+            src={require('../../images/conversation-starter-04.png')}
+            alt='Conversation Starter 04'
+            id='conversation-starter-04'
+          />
+          <img
+            src={require('../../images/conversation-starter-05.png')}
+            alt='Conversation Starter 05'
+            id='conversation-starter-05'
+          />
+        </div>
       </div>
     </div>
   );

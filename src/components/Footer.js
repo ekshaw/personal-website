@@ -1,6 +1,13 @@
 import React from 'react';
 import '../styles/Footer.css';
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+};
+
 function Footer() {
   return (
     <footer>
@@ -22,6 +29,14 @@ function Footer() {
             <img src={require('../images/linkedin.png')} alt='Linkedin' id='linkedin' />
           </a>
         </div>
+      </div>
+      <div className='back-to-top'>
+        <img
+          onClick={scrollToTop}
+          src={require('../images/back-to-top.png')}
+          alt='Back to Top'
+          id='back-to-top'
+        />
       </div>
     </footer>
   );

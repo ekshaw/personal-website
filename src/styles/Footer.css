@@ -28,3 +28,26 @@
 .footer-icons img:hover {
     transform: scale(1.2); /* Increase the scale to make the image grow on hover */
 }
+
+.back-to-top img {
+    position: absolute;
+    width: 6vw;
+    right: 3vw;
+    bottom: 7vw;
+    z-index: 100000000;
+    animation: rotate 5s linear infinite;
+
+}
+
+.back-to-top img:hover {
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

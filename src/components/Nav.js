@@ -46,11 +46,15 @@ function Nav() {
   return (
     <motion.nav className='navbar' variants={navScaleVariants} animate={scale}>
       <Link to='/' className='navbar-item' onClick={scrollToTop}>
-        <div className='navbar-item-text'>Home</div>
+        <div className='navbar-item-text'>
+          <p>Home</p>
+        </div>
       </Link>
 
       <Link to='/about' className='navbar-item' onClick={scrollToTop}>
-        <div className='navbar-item-text'>About</div>
+        <div className='navbar-item-text'>
+          <p>About</p>
+        </div>
       </Link>
 
       <Link to='/' className='navbar-item' onClick={scrollToTop}>
@@ -58,11 +62,15 @@ function Nav() {
       </Link>
 
       <Link to='/work' className='navbar-item' onClick={scrollToTop}>
-        <div className='navbar-item-text'>Work</div>
+        <div className='navbar-item-text'>
+          <p>Work</p>
+        </div>
       </Link>
 
       <a href='mailto:emily253shaw@gmail.com' class='navbar-item'>
-        <div className='navbar-item-text'>Contact</div>
+        <div className='navbar-item-text'>
+          <p>Contact</p>
+        </div>
       </a>
     </motion.nav>
   );

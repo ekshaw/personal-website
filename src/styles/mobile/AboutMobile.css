@@ -27,6 +27,7 @@
 
 .about-top-content-mobile {
     width: 68vw;
+    padding-top: 4vw;
 }
 
 .about-middle-wrapper-mobile {
@@ -53,7 +54,7 @@
     padding-top: 4vw;
 }
 
-.about-bottom-wrapper-mobile {
+/* .about-bottom-wrapper-mobile {
     padding-top: 4vw;
     display: grid;
     place-items: center;
@@ -65,4 +66,4 @@
 .about-bottom-mobile img {
     width: 80vw;
     padding: 8vw 0;
-}
+} */

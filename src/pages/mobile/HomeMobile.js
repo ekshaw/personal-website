@@ -9,9 +9,9 @@ function HomeMobile() {
         <div className='home-top-mobile'>
           <div className='hello-wrapper-mobile'>
             <h1>
-              Hello, design enthusiasts! Step into Emily&#39;s creative playground
-              <span className='span'>→ </span>a showcase of my work and just a place to get to know
-              me :)
+              multidisciplinary designer. born and raised in washington. graduated from uc berkeley.
+              based in the bay area. <span className='span'> → </span> have a look around to explore
+              my work and get to know me✨
             </h1>
           </div>
           <div className='top-graphic-container-mobile'>
@@ -39,12 +39,12 @@ function HomeMobile() {
               id='web-icon-mobile'
             />
             <h4 className='heading-wrapper-left-mobile'>
-              UI &amp; Web<br></br> Design
+              📱 UI/UX <br></br>Design
             </h4>
           </div>
           <div className='icon-item-mobile'>
             <h4 className='heading-wrapper-right-mobile'>
-              Branding &amp; <br></br>Marketing
+              Web 💻<br></br>Development
             </h4>
             <img
               src={require('../../images/brandingIcon.png')}
@@ -59,7 +59,7 @@ function HomeMobile() {
               id='product-icon-mobile'
             />
             <h4 className='heading-wrapper-left-mobile'>
-              Graphic <br></br>Design
+              🎨 Graphic<br></br>Design
             </h4>
           </div>
         </div>
@@ -75,7 +75,7 @@ function HomeMobile() {
       <div className='home-bottom-wrapper-mobile'>
         <div className='home-bottom-mobile'>
           <div className='home-bottom-text-mobile'>
-            <h4>Get in Touch!</h4>
+            <h4>📫Get in Touch!</h4>
             <p>
               Always open to meeting more lovely people. Contact me for design inquires. Give me a
               book recommendation. Just say hello!

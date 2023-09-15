@@ -17,8 +17,8 @@ const WorkMobile = props => {
     <div class='workpage-mobile'>
       <div className='work-top-wrapper-mobile'>
         <div className='work-top-mobile'>
-          <h3>a collection</h3>
-          <h3>of my favorite</h3>
+          <h3>some of</h3>
+          <h3>my favorite</h3>
           <h3>projects😎</h3>
         </div>
         <div className='work-top-graphic-container-mobile'>
@@ -29,11 +29,6 @@ const WorkMobile = props => {
           />
         </div>
       </div>
-      {/* <div className='work-middle-wrapper-mobile'>
-        <div className='work-middle-mobile'>
-          <h2>A Collection of my Favorite Work</h2>
-        </div>
-      </div> */}
       <div className='work-bottom-wrapper-mobile'>
         <div className='design-card-col-mobile'>{designCardRows}</div>
       </div>

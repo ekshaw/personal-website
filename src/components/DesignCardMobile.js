@@ -17,7 +17,9 @@ class DesignCardMobile extends Component {
           </div>
           <div className='design-card-text-container-mobile'>
             <div className='design-card-text-mobile'>
-              <p>{Designs[this.props.index].title}</p>
+              <h5>{Designs[this.props.index].type}</h5>
+              <h1>{Designs[this.props.index].title}</h1>
+              <p>{Designs[this.props.index].description}</p>
             </div>
           </div>
         </a>

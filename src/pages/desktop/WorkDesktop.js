@@ -18,29 +18,14 @@ const WorkDesktop = props => {
     <div class='workpage'>
       <div className='work-top-wrapper'>
         <div className='work-top'>
-          <h3>a collection of my favorite projects😎</h3>
+          <h3>some of my favorite projects😎</h3>
           <img
             src={require('../../images/aboutMiddleGraphic.png')}
             alt='Work Top Graphic'
             id='work -top-graphic'
           />
-          <div className='personal-projects'>
-            {/* <img
-              src={require('../../images/personalProjects.png')}
-              alt='Personal Projects'
-              id='personal-projects'
-            /> */}
-          </div>
-          <div className='client-work'>
-            {/* <img src={require('../../images/clientWork.png')} alt='Client Work' id='client-work' /> */}
-          </div>
         </div>
       </div>
-      {/* <div className='work-middle-wrapper'>
-        <div className='work-middle'>
-          <h2>a collection of my favorite work📚</h2>
-        </div>
-      </div> */}
       <div className='work-bottom-wrapper'>
         <div className='design-card-col'>{designCardRows}</div>
       </div>

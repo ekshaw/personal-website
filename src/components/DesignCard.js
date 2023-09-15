@@ -11,17 +11,18 @@ class DesignCard extends Component {
     const coverDesign = Designs[this.props.index].images[0];
     return (
       <div className='design-card-container'>
-        <div className='design-card-image'>
-          {' '}
-          <img src={coverDesign} alt={'Cover Design'} id={'cover-design'} />
-        </div>
-        <div className='design-card-text-container'>
-          <a href={`/design?design=${Designs[this.props.index].designId}`}>
+        <a href={`/design?design=${Designs[this.props.index].designId}`}>
+          <div className='design-card-image'>
+            <img src={coverDesign} alt={'Cover Design'} id={'cover-design'} />
+          </div>
+          <div className='design-card-text-container'>
             <div className='design-card-text'>
-              <p>{Designs[this.props.index].title}</p>
+              <h5>{Designs[this.props.index].type}</h5>
+              <h1>{Designs[this.props.index].title}</h1>
+              <p>{Designs[this.props.index].description}</p>
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     );
   }

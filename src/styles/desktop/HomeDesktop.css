@@ -2,6 +2,7 @@
     background-color: #ebe4ce;
     width: 100%;
     border-top: 1px solid #1f1f1f;
+    margin-top: 6vw;
 }
 
 .home-top-wrapper{
@@ -159,7 +160,7 @@
 #conversation {
     position: absolute;
     left: 8vw;
-    top: 112vw;
+    top: 111vw;
     width: 16vw;
     transition: transform 0.5s ease;
 }
@@ -172,7 +173,7 @@
 .conversation-starters{
     position: absolute;
     width: 92vw;
-    top: 100vw;
+    top: 99vw;
     opacity: 0;
     transition: opacity 0.3s ease;
 }

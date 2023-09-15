@@ -4,48 +4,11 @@
     display: grid;
     place-items: center;
     text-align: center;
+    padding-top: 10vw;
 }
 
 .work-top img { 
     width: 72vw;
-}
-
-.client-work{
-    position: absolute;
-    left: 12vw;
-    top: 13vw;
-    
-    
-}
-.client-work img {
-    width: 12vw;
-}
-
-.personal-projects{
-    position: absolute;
-    right: 12vw;
-    bottom: 9vw;
-}
-
-.personal-projects img {
-    width: 12vw;
-}
-
-.work-middle-wrapper {
-    display: grid;
-    place-items: center;
-    text-align: center;
-    padding: 4vw 0;
-}
-
-.work-middle {
-    width: 72vw;
-    padding: 2vw 0;
-    border: 1px solid #1f1f1f;
-}
-
-.work-middle h2 {
-    font-size: 3vw;
 }
 
 .work-bottom-wrapper {

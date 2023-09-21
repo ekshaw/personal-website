@@ -110,24 +110,26 @@ const Design = () => {
             {features}
           </div>
         </div>
-        <div className='design-outro'>
-          <h1>
-            {Designs[designNum].end}
-            {Designs[designNum].url && (
-              <a href={Designs[designNum].url}>
-                <text> </text>
-                <text
-                  style={{
-                    textDecoration: 'underline',
-                    textDecorationThickness: '.08vw',
-                    color: 'black'
-                  }}>
-                  here
-                </text>
-              </a>
-            )}
-          </h1>
-        </div>{' '}
+        <a href={Designs[designNum].url}>
+          <div className='design-outro'>
+            <h1>
+              {Designs[designNum].end}
+              {Designs[designNum].url && (
+                <a href={Designs[designNum].url}>
+                  <text> </text>
+                  <text
+                    style={{
+                      textDecoration: 'underline',
+                      textDecorationThickness: '.08vw',
+                      color: 'black'
+                    }}>
+                    here
+                  </text>
+                </a>
+              )}
+            </h1>
+          </div>
+        </a>
         {/* <div className='design-images-wrapper'>{images}</div> */}
       </div>
     </div>

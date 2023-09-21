@@ -443,6 +443,147 @@ const Designs = [
       require('../images/illustrator-02.png'),
       require('../images/illustrator-03.png')
     ]
+  },
+  {
+    title: 'assurance collection',
+    timeline: '4 weeks',
+    description: 'Apparel/Tote Design for YHWH Apparel',
+    role: 'Graphic Designer',
+    team: (
+      <div>
+        4 Graphic Designers <br />1 Content Writer
+      </div>
+    ),
+    type: 'Graphic Design, Apparel Design',
+    tools: 'Illustrator / Photoshop',
+    designId: 'assurance',
+    url: 'https://yhwhapparel.medium.com/introducing-the-assurance-collection-2228b3de414',
+    end: 'read more about the intentions behind the design',
+    overview: (
+      <div>
+        The Assurance Collection marks a significant milestone for YHWH Apparel, an apparel brand
+        with a unique blend of faith and fashion. This collection, consisting of long-sleeve
+        t-shirts and tote bags, is not only a testament to the brand's commitment to creativity but
+        also a reflection of its deep spiritual values.
+        <br />
+        <br />
+        As a team of four graphic designers and a content writer, we collaborated closely to bring
+        this collection to life. My design, utilizing a technique that stitched together images in a
+        surreal manner with Photoshop, was chosen as the visual centerpiece of the collection.
+        Alongside my fellow graphic designers, who worked on typography and layout, we crafted a
+        collection that embodies the theme of "assurance" in a visually compelling way.
+        <br />
+        <br />
+        This profits from this collection supported Letters of Hope, a nonprofit that spreads the
+        Gospel to the incarcerated.
+      </div>
+    ),
+    problem: (
+      <div>
+        The challenge lay in translating the theme of assurance into a collection that not only
+        conveyed a powerful message but also resonated with our audience. Furthermore, the time
+        constraints posed by the impending launch date added an element of urgency to the design
+        process.
+      </div>
+    ),
+    solution: (
+      <div>
+        Our approach involved a deep dive into the theme of assurance through prayer, Bible study,
+        and scriptural exploration. We sought to understand the essence of assurance in Christ and
+        how it related to the world's uncertainties and challenges. This foundational understanding
+        informed our design choices.
+        <br />
+        <br />
+        The design process was a collaborative effort among the team members. We drew inspiration
+        from passages like Acts 16:23–34, Hebrews 10:19–25, Psalm 118:24, John 11:1–6, 17–27, and
+        Habakkuk 1:1–5, aligning our designs with these scriptural references. Our collective vision
+        centered on conveying the goodness of God, the complexities of life, and the comfort,
+        confidence, and community found in Christ. Visually, we aimed for a nature-inspired,
+        earth-related aesthetic.
+      </div>
+    ),
+    question: (
+      <div>
+        How might we create a collection that effectively communicates the theme of assurance?
+      </div>
+    ),
+    research: (
+      <div>
+        Our research began with prayer and Bible study, an integral part of the YHWH Apparel design
+        process. We delved into the Word of God to seek inspiration and insight. We explored
+        scriptures related to assurance and examined the concept from various angles.
+        <br />
+        <br />
+        In addition to scriptural exploration, we recognized the importance of understanding
+        contemporary design trends that resonate with our target audience—college students and
+        twenty-somethings. We delved into the visual preferences and aesthetics that captivate this
+        demographic, aiming to create designs that would genuinely connect with them.
+      </div>
+    ),
+    ideation: (
+      <div>
+        Drawing from our research, we initiated the ideation process. Together, we reflected on the
+        theme of assurance and the scriptures that resonated with it. Our brainstorming sessions
+        generated key messages that emphasized the challenges of life and the assurance found in
+        Christ. Visually, we envisioned an aesthetic inspired by nature and the Earth.
+        <br />
+        <br />
+        One of our primary sources of inspiration was the growing trend of surrealism in art and
+        design. We recognized that surreal and abstract styles had a unique ability to spark
+        curiosity and contemplation. Taking cues from artists like Kanghee Kim, whose work pushes
+        the boundaries of reality, we decided to experiment with surreal-style photo manipulations.
+        These manipulations allowed us to create designs that were not only visually stunning but
+        also thought-provoking.
+      </div>
+    ),
+
+    features: [
+      [
+        'long sleeve t-shirt',
+        <div>
+          Our long-sleeve t-shirt, inspired by Habakkuk 3:17–19, boldly declares "Assurance" in a
+          simple sans-serif font on the front. The back of the shirt features direct scripture from
+          Habakkuk 3, presented in a unique typography and layout design. The focal point is a
+          surreal-style photo manipulation
+        </div>,
+        require('../images/assurance-04.png')
+      ],
+      [
+        'tote bag',
+        <div>
+          The tote bag design draws from Habakkuk 1:1–5, acknowledging the brokenness and challenges
+          in the world. It features an editorial, newspaper-style layout with excerpts from
+          Habakkuk. The surreal-style photo manipulation symbolizes the assurance and peace of
+          knowing that God is in control, even when His work is not immediately visible.
+        </div>,
+        require('../images/assurance-05.png')
+      ],
+      [
+        'social media assets',
+        <div>
+          In conjunction with the launch, we designed a set of social media assets to promote the
+          collection effectively across various platforms. These assets were carefully crafted to
+          maintain a cohesive visual identity and engage our audience in meaningful conversations
+          about assurance and faith.
+        </div>,
+        require('../images/assurance-06.png')
+      ],
+      [
+        'website assets',
+        <div>
+          To ensure a seamless online shopping experience, we created website assets that align with
+          the collection's branding and imagery. These assets enhance the user interface and
+          maintain a consistent visual identity across the website, making it easier for customers
+          to explore and purchase products from the Assurance Collection.
+        </div>,
+        require('../images/assurance-07.png')
+      ]
+    ],
+    images: [
+      require('../images/assurance-01.png'),
+      require('../images/assurance-02.png'),
+      require('../images/assurance-03.png')
+    ]
   }
   // {
   //   title: '"Jane Doe" & "John Smith\'s" Wedding',

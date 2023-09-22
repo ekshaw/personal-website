@@ -474,7 +474,7 @@ const Designs = [
         collection that embodies the theme of "assurance" in a visually compelling way.
         <br />
         <br />
-        This profits from this collection supported Letters of Hope, a nonprofit that spreads the
+        The profits from this collection supported Letters of Hope, a nonprofit that spreads the
         Gospel to the incarcerated.
       </div>
     ),

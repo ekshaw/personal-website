@@ -236,7 +236,7 @@ const Designs = [
     description: 'Brand Redesign for a Podcast',
     role: 'Graphic Designer',
     team: <div>1 Graphic Designer</div>,
-    type: 'Brand Redesign',
+    type: 'Brand Redesign, Graphic Design',
     tools: 'Figma / Illustrator / Photoshop / Womp3D',
     designId: 'the_next_iteration_podcast',
     url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
@@ -333,9 +333,9 @@ const Designs = [
         require('../images/next-iteration-06.png')
       ],
       [
-        'merchandise exploration',
+        'website exploration',
         <div>
-          To expand the podcast's reach and engagement, we explored potential merchandise ideas that
+          To expand the podcast's reach and engagement, we explored potential website ideas that
           incorporated the redesigned logo and branding elements.
         </div>,
         require('../images/next-iteration-07.png')

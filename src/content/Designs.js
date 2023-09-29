@@ -348,6 +348,138 @@ const Designs = [
     ]
   },
   {
+    title: 'easypark',
+    timeline: '1 Semester',
+    description: 'Mobile Parking Application Concept',
+    role: 'Product Designer',
+    team: <div>4 Product Designer</div>,
+    type: 'Product Design, Mobile App Design',
+    tools: 'Figma',
+    designId: 'easy_park',
+    url: 'https://www.figma.com/file/laKR6MNNc7GLvDwlADTQfW/Parking-Application?type=design&node-id=0%3A1&mode=design&t=lCRqeMupzNyFo2Bo-1',
+    end: 'check out the design file',
+    overview: (
+      <div>
+        The Mobile Parking App project was developed as the final project for CS160, a user
+        interface design and development course at the University of California, Berkeley. This
+        project was driven by a team of four individuals with the goal of revolutionizing the way
+        people find and rent parking spaces. Much like Airbnb transformed the hospitality industry,
+        our app aimed to connect hosts who had available parking spaces with guests in need of
+        short-term or long-term parking solutions. Whether it's a road trip, a visit to a new place,
+        or a long-term internship in another city, our app sought to provide a convenient,
+        cost-effective, and user-friendly solution for parking needs.
+      </div>
+    ),
+    problem: (
+      <div>
+        The existing parking landscape was riddled with challenges for both hosts and guests. Hosts
+        struggled to find reliable and secure ways to rent out their spare parking spaces, often
+        resorting to inefficient methods. Guests faced difficulties in locating affordable and
+        convenient parking options, leading to frustration and wasted time. Parking enforcement was
+        also a concern, with many relying on outdated systems that did not provide real-time
+        information on parking availability and pricing.
+      </div>
+    ),
+    solution: (
+      <div>
+        Our team set out to create a comprehensive mobile parking app that addressed the challenges
+        faced by hosts and guests. The app allowed hosts to easily list their parking spaces, set
+        pricing, and manage bookings seamlessly. For guests, we designed an intuitive platform to
+        search for available parking spots, compare prices, and book spots for their desired
+        duration. Real-time availability updates and secure payment processing were integral
+        features of the app.
+      </div>
+    ),
+    question: <div>How might we simplify the process of parking?</div>,
+    research: (
+      <div>
+        Our research phase involved an in-depth analysis of the existing parking industry. Our
+        initial concept focused on displaying free and paid parking options in specific area,
+        evolving into a more comprehensive solution as we recognized the multifaceted challenges
+        faced by both hosts and guests in the parking ecosystem.
+        <br />
+        <br />
+        We shifted our focus and studied successful sharing economy platforms like Airbnb and Uber
+        to understand their business models and user experiences. This pivot was driven by our
+        commitment to providing a solution that not only simplified parking space discovery but also
+        facilitated bookings and secure transactions to take the frustration out of parking. Our
+        goal was to create an application that would not only streamline the process of locating a
+        parking space but also establish a sense of trust and reliability in the parking experience.
+      </div>
+    ),
+    ideation: (
+      <div>
+        Based on our research findings, we brainstormed ideas to streamline the user experience for
+        both hosts and guests. We explored various features such as real-time GPS navigation to
+        parking spots, automated payment systems, and a robust review and rating system to establish
+        trust within the community. The user interface and design were also a focal point to ensure
+        ease of use and a visually appealing experience.
+        <br />
+        <br />
+        To ensure the effectiveness of our concepts, we actively sought feedback from other teams
+        within the CS160 course. This approach allowed us to gather valuable insights and refine our
+        ideas based on the input of peers with varied backgrounds. Moreover, we conducted user
+        testing sessions with members of other teams, simulating real-world scenarios to identify
+        pain points and opportunities for improvement.
+      </div>
+    ),
+
+    features: [
+      [
+        'host features',
+        <div>
+          <span style={{ fontWeight: 'bold' }}>Listing Management:</span> Hosts could easily list
+          their available parking spaces, specifying location, pricing, and availability schedules.
+          <br />
+          <br />
+          <span style={{ fontWeight: 'bold' }}>Booking Management:</span> Hosts had access to a
+          dashboard for managing bookings, accepting or rejecting requests, and communicating with
+          guests.
+        </div>,
+        require('../images/easy-park-04.png')
+      ],
+      [
+        'guest features',
+        <div>
+          <span style={{ fontWeight: 'bold' }}>Search and Booking:</span> Guests could search for
+          parking spaces by location, price, and duration, with real-time availability updates.
+          Booking and payment were made simple and secure with options to contact your host with
+          questions and updates.
+          <br />
+          <br />
+          <span style={{ fontWeight: 'bold' }}>Navigation:</span> The app provided GPS navigation to
+          guide guests to their reservation.
+        </div>,
+        require('../images/easy-park-05.png')
+      ],
+      [
+        'future development',
+        <div>
+          <span style={{ fontWeight: 'bold' }}>Sustainable Parking Options: </span>
+          Promote sustainable transportation by including information on bike racks, bike-sharing
+          stations, and public transportation options near parking locations. Encourage users to
+          consider eco-friendly alternatives.
+          <br />
+          <br />
+          <span style={{ fontWeight: 'bold' }}>Parking Space Verification: </span>
+          Implement a verification system for hosts to validate the accuracy of their parking space
+          listings, including details like dimensions and accessibility for different vehicle types.
+          <br />
+          <br />
+          <span style={{ fontWeight: 'bold' }}>EV Parking Options: </span>
+          Introduce features that allow users to find and book parking spaces specifically designed
+          for electric vehicles or those equipped with EV charging stations.
+        </div>,
+        require('../images/easy-park-06.png')
+      ]
+    ],
+    images: [
+      require('../images/easy-park-01.png'),
+      require('../images/easy-park-02.png'),
+      require('../images/easy-park-03.png')
+    ]
+  },
+  {
     title: 'intro to illustrator & photoshop',
     timeline: '1 Semester (taught for 3 semesters!)',
     description: 'Design Instructor for an offical UC Berkeley Course',

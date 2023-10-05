@@ -356,7 +356,7 @@ const Designs = [
     type: 'Product Design, Mobile App Design',
     tools: 'Figma',
     designId: 'easy_park',
-    url: 'https://www.figma.com/file/laKR6MNNc7GLvDwlADTQfW/Parking-Application?type=design&node-id=0%3A1&mode=design&t=lCRqeMupzNyFo2Bo-1',
+    url: 'https://www.figma.com/file/e2XwFYjv1KX1caYpGFWLC2/EasyPark?type=design&node-id=11%3A1833&mode=design&t=2JxYRmKGqW7ZjsZP-1',
     end: 'check out the design file',
     overview: (
       <div>

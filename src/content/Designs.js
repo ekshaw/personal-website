@@ -2,7 +2,7 @@ const Designs = [
   {
     title: 'yhwh apparel',
     timeline: '12 weeks',
-    description: 'Brand Redesign & Website Overhaul for a Christian apparel company',
+    description: 'A website that that empowers people to express their identities through apparel',
     role: 'UI/UX Designer, Web Developer',
     team: (
       <div>
@@ -110,7 +110,8 @@ const Designs = [
   {
     title: 'berkeley student food collective',
     timeline: '10 weeks',
-    description: 'Website Overhaul for a Cooperative Grocery Store',
+    description:
+      'A website for users who want to find ethically produced food, and learn about nutrition and sustainability',
     role: 'Web Design and Development Lead',
     team: (
       <div>
@@ -233,7 +234,8 @@ const Designs = [
   {
     title: 'the next iteration podcast',
     timeline: '4 weeks',
-    description: 'Brand Redesign for a Podcast',
+    description:
+      'A brand redesign for a multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
     role: 'Graphic Designer',
     team: <div>1 Graphic Designer</div>,
     type: 'Brand Redesign, Graphic Design',
@@ -350,7 +352,7 @@ const Designs = [
   {
     title: 'easypark',
     timeline: '1 Semester',
-    description: 'Mobile Parking Application Concept',
+    description: 'An app for users who want parking to be painless and effortless',
     role: 'Product Designer',
     team: <div>4 Product Designer</div>,
     type: 'Product Design, Mobile App Design',
@@ -482,7 +484,8 @@ const Designs = [
   {
     title: 'intro to illustrator & photoshop',
     timeline: '1 Semester (taught for 3 semesters!)',
-    description: 'Design Instructor for an offical UC Berkeley Course',
+    description:
+      'A University of California, Berkeley course for students who want to kickstart their journey into design',
     role: 'Course Instructor',
     team: (
       <div>
@@ -579,7 +582,7 @@ const Designs = [
   {
     title: 'assurance collection',
     timeline: '4 weeks',
-    description: 'Apparel/Tote Design for YHWH Apparel',
+    description: 'An apparel collection that showcases themes of assurance and spirituality ',
     role: 'Graphic Designer',
     team: (
       <div>

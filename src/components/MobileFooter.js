@@ -1,39 +1,36 @@
 import React from 'react';
 import '../styles/MobileFooter.css';
+import Pdf from '../images/resume.pdf';
+
+const onResumeClick = () => {
+  window.open(Pdf);
+};
 
 function MobileFooter() {
   return (
     <footer>
       <div className='footer-wrapper-mobile'>
         <div className='footer-icons-mobile'>
-          <a href='https://www.instagram.com/eshawmily/' target='_blank' className='footer-icon'>
-            <img
-              src={require('../images/instagramMobile.png')}
-              alt='Instagram Mobile'
-              id='instagram-mobile'
-            />
-          </a>
-          <a href='https://github.com/ekshaw' target='_blank' className='footer-icon'>
-            <img
-              src={require('../images/githubMobile.png')}
-              alt='Github Mobile'
-              id='github-mobile'
-            />
-          </a>
           <a href='https://www.linkedin.com/in/ekshaw/' target='_blank' className='footer-icon'>
             <img
-              src={require('../images/linkedinMobile.png')}
+              src={require('../images/linkedin.png')}
               alt='Linkedin Mobile'
               id='linkedin-mobile'
             />
           </a>
+          <a onClick={onResumeClick} className='footer-icon'>
+            <img src={require('../images/resume.png')} alt='Resume Mobile' id='resume-mobile' />
+          </a>
+          <a href='https://github.com/ekshaw' target='_blank' className='footer-icon'>
+            <img src={require('../images/github.png')} alt='Github Mobile' id='github-mobile' />
+          </a>
         </div>
         <div className='footer-text-mobile'>
           <p>
-            Want to connect? <br />
-            Follow me on my socials.
+            Want to connect on LinkedIn? <br />
+            Check out my resume.
             <br />
-            Check out my website on GitHub.
+            See my website on GitHub.
           </p>
         </div>
       </div>

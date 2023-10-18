@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css';
+import Pdf from '../images/resume.pdf';
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -8,25 +9,29 @@ const scrollToTop = () => {
   });
 };
 
+const onResumeClick = () => {
+  window.open(Pdf);
+};
+
 function Footer() {
   return (
     <footer>
       <div className='footer-wrapper'>
         <div className='footer-text'></div>
         <p>
-          Want to connect? Follow me on my socials.
+          Want to connect on LinkedIn?
           <br />
-          Check out my website on GitHub.
+          Check out my resume. See my website on GitHub.
         </p>
         <div className='footer-icons'>
-          <a href='https://www.instagram.com/eshawmily/' target='_blank' className='footer-icon'>
-            <img src={require('../images/instagram.png')} alt='Instagram' id='instagram' />
+          <a href='https://www.linkedin.com/in/ekshaw/' target='_blank' className='footer-icon'>
+            <img src={require('../images/linkedin.png')} alt='Linkedin' id='linkedin' />
+          </a>
+          <a onClick={onResumeClick} className='footer-icon'>
+            <img src={require('../images/resume.png')} alt='Resume' id='resume' />
           </a>
           <a href='https://github.com/ekshaw' target='_blank' className='footer-icon'>
             <img src={require('../images/github.png')} alt='Github' id='github' />
-          </a>
-          <a href='https://www.linkedin.com/in/ekshaw/' target='_blank' className='footer-icon'>
-            <img src={require('../images/linkedin.png')} alt='Linkedin' id='linkedin' />
           </a>
         </div>
       </div>

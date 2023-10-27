@@ -1,5 +1,132 @@
 const Designs = [
   {
+    title: 'recyclemate',
+    timeline: '1 semester',
+    description: 'An app that that gives users confidence in their waste disposal choices',
+    role: 'UX Researcher, Product Designer',
+    team: <div>5 UX Researchers</div>,
+    type: 'UX Research, Product Design',
+    tools: 'Figma',
+    designId: 'recycle_mate',
+    url: 'https://www.figma.com/file/ngRZADi8NGLOVeYSYU6D2z/RecycleMate?type=design&node-id=11%3A1833&mode=design&t=hn9GJzxnQPJLk723-1',
+    end: 'check out the design file',
+    overview: (
+      <div>
+        The Waste Disposal UX Research Project was a Design Methodology final project at the
+        University of California, Berkeley. With a team of 5 individuals, our goal was to delve into
+        the complexities of proper waste disposal and to enhance user experiences in understanding
+        and implementing waste disposal practices. The initiative stemmed from a recognition of the
+        persistent challenges individuals face in making environmentally responsible disposal
+        choices. An initial proof of concept was developed with a smart trash can that utilized
+        machine learning to sort trash into categories: garbage, recycling, and compost.
+        <br />
+        <br />
+        Building on this proof of concept, I created an app concept, RecycleMate, designed to inform
+        users about how specific items should be disposed of, leveraging the same technology while
+        providing additional features such as a log, the ability to set goals, and access to
+        articles about the impact of proper waste disposal.
+      </div>
+    ),
+    problem: (
+      <div>
+        The issue was twofold: first, lack of awareness and motivation in an individual to properly
+        dispose of waste, and second, limited accessible and user-friendly resources for individuals
+        seeking guidance on proper waste disposal. Users faced confusion and uncertainty about
+        disposing of everyday items, contributing to improper waste disposal practices and
+        environmental harm. Moreover, the lack of accessibility fostered apathy toward waste
+        disposal issues, with a striking absence of awareness regarding their environmental impact.
+        <br />
+        <br />
+        While our project had made strides in automating waste sorting to make disposal easier and
+        less time-consuming, there remained a gap in educating and motivating users to embrace
+        sustainable waste disposal practices. This gap presented an opportunity to enhance user
+        understanding and engagement, resulting in an app that addressed both aspects of the
+        problem.
+      </div>
+    ),
+    solution: (
+      <div>
+        The project was structured in two main phases: <br />
+        <br />
+        1. <b>Comprehensive User Research: </b>In this phase, extensive research was conducted to
+        understand the pain points, behaviors, and needs of users when it came to waste disposal.
+        This involved surveys, user interviews, and user testing to gain insights into the specific
+        challenges individuals faced and to uncover potential barriers to sustainable disposal
+        practices.
+        <br />
+        <br /> 2. <b>Design and Development of User-Centered Resources:</b> With a deep
+        understanding of user needs and challenges, the project's second phase involved the creation
+        of user-centered resources. This included the development of a smart trash can and an app
+        design concept, offering the potential for users to make sustainable choices.
+      </div>
+    ),
+    question: (
+      <div>
+        How might we empower individuals to make informed and environmentally responsible waste
+        disposal choices and motivate them to adopt sustainable practices?
+      </div>
+    ),
+    research: (
+      <div>
+        The research phase encompassed an in-depth exploration of the waste disposal landscape. It
+        included surveys, user interviews, and user testing to gain insights into user behaviors,
+        pain points, and information needs. The research revealed specific challenges users faced
+        when navigating the complex world of waste disposal, from understanding recycling symbols to
+        making decisions that reduced a user’s overall waste. These findings served as the
+        foundation for subsequent efforts to improve waste disposal education.
+      </div>
+    ),
+    ideation: (
+      <div>
+        With our findings, we focused on how to effectively utilize a comprehensive database of
+        waste disposal guidelines and visual indicators to identify items. Our goal was to
+        demonstrate that a product that could provide instant feedback and guidance to users seeking
+        to dispose of various items.
+        <br />
+        <br />
+        As an extension, the insights from the Learning and Test Cards became the foundation for the
+        idea of a mobile app.
+      </div>
+    ),
+
+    features: [
+      [
+        'proof of concept: smart trash can',
+        <div>
+          This trash can incorporated a machine learning algorithm designed to identify a range of
+          waste items, including items with barcodes and recycling symbols. The Smart Trash Can (we
+          named it Oscar) could accurately sort and categorize waste items as garbage, recyclables,
+          or compostables.
+        </div>,
+        require('../images/recycle-mate-04.png')
+      ],
+      [
+        'app concept',
+        <div>
+          As an extension to the project, I created an app design to address the critical issue of
+          motivation and willingness among individuals to properly dispose of waste. The app was
+          designed to bridge the gap between awareness and action, with an inviting, user-friendly
+          interface.
+        </div>,
+        require('../images/recycle-mate-05.png')
+      ],
+      [
+        'landing page',
+        <div>
+          This landing page was designed to showcase the app's core features, benefits, and its role
+          in transforming waste disposal behaviors. It conveys the app's mission of promoting
+          responsible waste disposal and environmental awareness.
+        </div>,
+        require('../images/recycle-mate-06.png')
+      ]
+    ],
+    images: [
+      require('../images/recycle-mate-01.png'),
+      require('../images/recycle-mate-02.png'),
+      require('../images/recycle-mate-03.png')
+    ]
+  },
+  {
     title: 'yhwh apparel',
     timeline: '12 weeks',
     description: 'A website that that empowers people to express their identities through apparel',
@@ -232,124 +359,6 @@ const Designs = [
     ]
   },
   {
-    title: 'the next iteration podcast',
-    timeline: '4 weeks',
-    description:
-      'A brand redesign for a multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
-    role: 'Graphic Designer',
-    team: <div>1 Graphic Designer</div>,
-    type: 'Brand Redesign, Graphic Design',
-    tools: 'Figma / Illustrator / Photoshop / Womp3D',
-    designId: 'the_next_iteration_podcast',
-    url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
-    end: 'check out the branding guide',
-    overview: (
-      <div>
-        With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
-        meditation to the future of technology and politics, The Next Iteration Podcast’s founders
-        and hosts wanted to refresh their visual identity and expand their reach. <br />
-        <br />
-        This project involved the creation of a new logo, comprehensive branding guidelines, assets
-        such as business cards and podcast thumbnails, and the exploration of potential merchandise.
-      </div>
-    ),
-    problem: (
-      <div>
-        The existing brand identity lacked consistency and failed to effectively convey the
-        podcast's eclectic nature. Additionally, the absence of clear branding guidelines hindered
-        the client from maintaining a uniform visual identity across various platforms and
-        promotional materials.
-      </div>
-    ),
-    solution: (
-      <div>
-        My strategy focused on creating a unified and visually engaging brand identity. I designed a
-        new logo that captured the essence of exploration and growth, aligning with the podcast's
-        name, "The Next Iteration." This fresh logo incorporated elements that symbolized diversity,
-        dynamism, and the complexity of the topics discussed on the podcast.
-        <br />
-        <br />
-        To ensure consistency, I developed comprehensive branding guidelines that provided clear
-        instructions on logo usage, color palettes, typography, and design elements. These
-        guidelines served as a roadmap for maintaining a cohesive visual identity across all
-        touchpoints.
-      </div>
-    ),
-    question: (
-      <div>
-        How might we engage users representing diverse backgrounds while upholding the podcast's
-        commitment to exploration and forward thinking?
-      </div>
-    ),
-    research: (
-      <div>
-        Client-provided insights into their vision and audience formed the foundation for creative
-        exploration and brand redesign efforts. Additionally, I listened to their podcast episodes
-        to gain an understanding of their existing content and analyzed other successful podcast
-        brands that catered to a similar demographic to understand effective visual storytelling and
-        engagement strategies.
-      </div>
-    ),
-    ideation: (
-      <div>
-        During the ideation phase, I brainstormed a variety of concepts spanning logo design, color
-        palettes, typography choices, and visual elements. Throughout this process, I maintained a
-        collaborative dialogue with the client, incorporating their feedback and insights. Notably,
-        the client expressed an affinity for the work of Karim Rashid. Inspired by Rashid's style,
-        the design approach incorporated 3D abstract shape elements.
-        <br />
-        <br />
-        The primary objective was to create a visual identity that encapsulated the podcast's
-        diverse range of content while preserving a cohesive and unified brand narrative.
-      </div>
-    ),
-
-    features: [
-      [
-        'new logo',
-        <div>
-          The brand redesign introduced a new logo that incorporated dynamic elements reflecting
-          growth, exploration, and diversity. The design featured abstract shapes and colors that
-          symbolized the multifaceted nature of the podcast's topics. This modern and vibrant logo
-          served as the anchor of the refreshed brand identity.
-        </div>,
-        require('../images/next-iteration-04.png')
-      ],
-      [
-        'branding guidelines',
-        <div>
-          To ensure consistency in branding, we developed comprehensive guidelines that detailed
-          logo usage, color codes, typography choices, and design principles. These guidelines
-          empowered the client to maintain a cohesive and recognizable visual identity across
-          various platforms and materials.
-        </div>,
-        require('../images/next-iteration-05.png')
-      ],
-      [
-        'podcast assets',
-        <div>
-          A key update was providing podcast thumbnail designs that aligned with the new brand
-          identity. These thumbnails were optimized for online platforms, enticing potential
-          listeners with visually appealing and thematically relevant imagery.
-        </div>,
-        require('../images/next-iteration-06.png')
-      ],
-      [
-        'website exploration',
-        <div>
-          To expand the podcast's reach and engagement, we explored potential website ideas that
-          incorporated the redesigned logo and branding elements.
-        </div>,
-        require('../images/next-iteration-07.png')
-      ]
-    ],
-    images: [
-      require('../images/next-iteration-01.png'),
-      require('../images/next-iteration-02.png'),
-      require('../images/next-iteration-03.png')
-    ]
-  },
-  {
     title: 'easypark',
     timeline: '1 Semester',
     description: 'An app for users who want parking to be painless and effortless',
@@ -479,6 +488,124 @@ const Designs = [
       require('../images/easy-park-01.png'),
       require('../images/easy-park-02.png'),
       require('../images/easy-park-03.png')
+    ]
+  },
+  {
+    title: 'the next iteration podcast',
+    timeline: '4 weeks',
+    description:
+      'A brand redesign for a multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
+    role: 'Graphic Designer',
+    team: <div>1 Graphic Designer</div>,
+    type: 'Brand Redesign, Graphic Design',
+    tools: 'Figma / Illustrator / Photoshop / Womp3D',
+    designId: 'the_next_iteration_podcast',
+    url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
+    end: 'check out the branding guide',
+    overview: (
+      <div>
+        With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
+        meditation to the future of technology and politics, The Next Iteration Podcast’s founders
+        and hosts wanted to refresh their visual identity and expand their reach. <br />
+        <br />
+        This project involved the creation of a new logo, comprehensive branding guidelines, assets
+        such as business cards and podcast thumbnails, and the exploration of potential merchandise.
+      </div>
+    ),
+    problem: (
+      <div>
+        The existing brand identity lacked consistency and failed to effectively convey the
+        podcast's eclectic nature. Additionally, the absence of clear branding guidelines hindered
+        the client from maintaining a uniform visual identity across various platforms and
+        promotional materials.
+      </div>
+    ),
+    solution: (
+      <div>
+        My strategy focused on creating a unified and visually engaging brand identity. I designed a
+        new logo that captured the essence of exploration and growth, aligning with the podcast's
+        name, "The Next Iteration." This fresh logo incorporated elements that symbolized diversity,
+        dynamism, and the complexity of the topics discussed on the podcast.
+        <br />
+        <br />
+        To ensure consistency, I developed comprehensive branding guidelines that provided clear
+        instructions on logo usage, color palettes, typography, and design elements. These
+        guidelines served as a roadmap for maintaining a cohesive visual identity across all
+        touchpoints.
+      </div>
+    ),
+    question: (
+      <div>
+        How might we engage users representing diverse backgrounds while upholding the podcast's
+        commitment to exploration and forward thinking?
+      </div>
+    ),
+    research: (
+      <div>
+        Client-provided insights into their vision and audience formed the foundation for creative
+        exploration and brand redesign efforts. Additionally, I listened to their podcast episodes
+        to gain an understanding of their existing content and analyzed other successful podcast
+        brands that catered to a similar demographic to understand effective visual storytelling and
+        engagement strategies.
+      </div>
+    ),
+    ideation: (
+      <div>
+        During the ideation phase, I brainstormed a variety of concepts spanning logo design, color
+        palettes, typography choices, and visual elements. Throughout this process, I maintained a
+        collaborative dialogue with the client, incorporating their feedback and insights. Notably,
+        the client expressed an affinity for the work of Karim Rashid. Inspired by Rashid's style,
+        the design approach incorporated 3D abstract shape elements.
+        <br />
+        <br />
+        The primary objective was to create a visual identity that encapsulated the podcast's
+        diverse range of content while preserving a cohesive and unified brand narrative.
+      </div>
+    ),
+
+    features: [
+      [
+        'new logo',
+        <div>
+          The brand redesign introduced a new logo that incorporated dynamic elements reflecting
+          growth, exploration, and diversity. The design featured abstract shapes and colors that
+          symbolized the multifaceted nature of the podcast's topics. This modern and vibrant logo
+          served as the anchor of the refreshed brand identity.
+        </div>,
+        require('../images/next-iteration-04.png')
+      ],
+      [
+        'branding guidelines',
+        <div>
+          To ensure consistency in branding, we developed comprehensive guidelines that detailed
+          logo usage, color codes, typography choices, and design principles. These guidelines
+          empowered the client to maintain a cohesive and recognizable visual identity across
+          various platforms and materials.
+        </div>,
+        require('../images/next-iteration-05.png')
+      ],
+      [
+        'podcast assets',
+        <div>
+          A key update was providing podcast thumbnail designs that aligned with the new brand
+          identity. These thumbnails were optimized for online platforms, enticing potential
+          listeners with visually appealing and thematically relevant imagery.
+        </div>,
+        require('../images/next-iteration-06.png')
+      ],
+      [
+        'website exploration',
+        <div>
+          To expand the podcast's reach and engagement, we explored potential website ideas that
+          incorporated the redesigned logo and branding elements.
+        </div>,
+        require('../images/next-iteration-07.png')
+      ]
+    ],
+    images: [
+      require('../images/next-iteration-01.png'),
+      require('../images/next-iteration-02.png'),
+      require('../images/next-iteration-03.png')
     ]
   },
   {

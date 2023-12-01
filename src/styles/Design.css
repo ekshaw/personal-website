@@ -58,6 +58,10 @@
   }
 }
 
+.design-title-left{
+  width: 48vw;
+}
+
 .design-title-left h1 {
   margin: 0;
 }

@@ -235,127 +235,131 @@ const Designs = [
     ]
   },
   {
-    title: 'berkeley student food collective',
-    timeline: '10 weeks',
+    title: "federal way women's health care",
+    timeline: '2 weeks',
     description:
-      'A website for users who want to find ethically produced food, and learn about nutrition and sustainability',
-    role: 'Web Design and Development Lead',
-    team: (
-      <div>
-        2 Web Design/Development Leads
-        <br /> 2 UI/UX Designers <br />2 Front End Developers <br />2 Back End Developers
-      </div>
-    ),
-    type: 'Product Design, Website Overhaul',
-    tools: 'Figma / Illustrator / React / Node.js',
-    designId: 'berkeley_student_food_collective',
-    url: '',
-    end: 'thank you for viewing!',
+      'A website for patients seeking a comprehensive women’s health clinic, providing information about services, treatments, and wellness',
+    role: 'Website Designer & Implementer',
+    team: <div>1 Website Designer & Implementer</div>,
+    type: 'Product Design',
+    tools: 'Figma / Website Builder',
+    designId: 'federal_way_womens_health_care',
+    url: 'https://federalwayobgyn.com/',
+    end: 'check out the live site',
     overview: (
       <div>
-        The Berkeley Student Food Collective (BSFC) website redesign's purpose is to showcase the
-        cooperative grocery store's core mission of providing fresh, local, and ethically produced
-        food at affordable prices while also serving as an educational platform to enlighten
-        students about nutrition and sustainable food systems. This project aims to transform the
-        online presence with a visually engaging design that reflects BSFC's commitment to
-        environmentally conscious practices and youth empowerment.
+        The Federal Way Women's Health Care website project aimed to enhance the online presence of
+        this obstetrics and gynecology practice while maintaining consistency with their existing
+        brand identity. With a focus on user experience and visual cohesion, the goal was to create
+        a web and mobile interface that catered to both new visitors and returning customers. The
+        client emphasized the retention of their brand's primary color (#4D63BA) for consistency and
+        recognition among their clientele. SEO strategies were integrated into the content for
+        improved visibility. The site aimed to reflect diversity, both in ethnicity and age,
+        mirroring the diverse patient demographics served by the clinic.
       </div>
     ),
     problem: (
       <div>
-        Our team identified that the overarching issue was information overload. The large volume of
-        content and unclear information architecture deterred users from engaging meaningfully with
-        the platform. <br />
+        The initial challenge involved aligning the website's aesthetics with the client's
+        expectations while maintaining brand consistency. During the first iteration, issues arose
+        regarding the visual presentation of images—client feedback highlighted a desire for less
+        clutter, a more uniform appearance, and subdued tonal colors. Additionally, the website
+        needed to mirror the diversity of patients served by the clinic, emphasizing inclusivity in
+        ethnicity and age representation. <br />
         <br />
-        The client asked that we keep the existing color palette and logo, but was open to
-        typography and iconography changes.
+        The client wanted a shift from an external website provider to a more user-friendly platform
+        that allowed easy maintenance and updates. With their domain already hosted on GoDaddy and
+        their familiarity with the platform, the decision was made to migrate and develop the site
+        there.
       </div>
     ),
     solution: (
       <div>
-        We focused on streamlining communication and designing pages with effective information
-        architecture. We aimed to condense information to convey key messages succinctly, reorganize
-        content in more approachable layout, and condense the number of pages to guide users
-        intuitively and provide easy access to vital information. In addition to this, we created
-        new visual elements to reflect the collective's energetic and sustainable ethos, refreshing
-        the website and making users feel more invited.
+        To address these challenges, iterations focused on refining the visual elements,
+        implementing more uniform and muted tonal colors, and curating images to better align with
+        the client's preferences for a clean, cohesive look. Emphasis was placed on inclusivity,
+        showcasing diversity in ethnicity and age across the website's imagery and content. SEO
+        strategies were strategically woven into the content to optimize visibility and improve
+        search engine rankings. The decision to transition to GoDaddy allowed the client to maintain
+        and update the site easily, leveraging their existing domain and familiarity with the
+        platform for a smoother user experience.
       </div>
     ),
     question: (
       <div>
-        How might we help users gain access to fresh, local, and ethically produced food and
-        educated them on nutrition and sustainable food systems?
+        How might we help women of different ethnicities and ages feel empowered to learn about
+        comprehensive women’s health and gain access to services and treatment easily at Federal Way
+        Women’s Health Care?
       </div>
     ),
     research: (
       <div>
-        To address the question, we studied similar cooperative websites to gather insights into
-        effective communication strategies and user engagement techniques. By analyzing these
-        platforms, we gained valuable knowledge about how other organizations in similar domains
-        successfully conveyed their missions and engaged their audiences.
-        <br />
-        <br />
-        The client offered insights into their target audience and shared their vision for the
-        website. Their input provided us with a deeper understanding of their specific needs and
-        expectations, enabling us to tailor our design and content strategies to align with their
-        goals and values. This collaborative approach ensured that the redesign not only met the
-        client's requirements but also resonated strongly with the cooperative's mission.
+        The research phase involved an in-depth analysis of the previous website, emphasizing
+        essential components while drawing inspiration from similar women's health clinic websites.
+        The structured layouts incorporated necessary elements of a clinic website and the visual
+        direction was shaped by the need for a clean, cohesive design that resonated with the
+        existing brand identity, incorporating the designated primary color (#4D63BA) while adhering
+        to the client's preferences for a more muted, light color palette.
       </div>
     ),
     ideation: (
       <div>
-        Throughout the ideation process, we remained focused on the user. We brainstormed ways to
-        tailor the website's design to meet the specific needs and preferences of BSFC's target
-        audience—students seeking fresh, sustainable, and affordable food options.
+        During the ideation phase, multiple strategies were explored to align the website's design
+        with Federal Way Women's Health Care's brand identity while emphasizing inclusivity and
+        diversity. Brainstorming sessions focused on refining visual elements, including color
+        schemes that complemented the primary brand color, and image selection criteria to ensure
+        representation across various ethnicities and age groups.
         <br />
         <br />
-        Our goal was to translate research findings into actionable design concepts that would
-        enhance the BSFC website's user experience. To address the issue of information overload, we
-        brainstormed ideas to simplify the navigation structure. This involved reevaluating the
-        existing website's page hierarchy and considering ways to combine related content into
-        cohesive sections to reduce the number of pages. Our discussions revolved around the balance
-        between providing comprehensive information and ensuring that users could easily digest and
-        engage with the material, leading to ideas like infographics and content cards.
+        Collaborative discussions centered on optimizing layouts inspired by successful women's
+        health clinic websites, integrating essential components such as Q&A sections for key
+        services, insurance and affiliation details, and ease of access to making appointments for
+        new and current patients. The aim was to create a clean, uniform, and user-friendly
+        interface that resonated with both new visitors and returning clients.
       </div>
     ),
 
     features: [
       [
-        'simplified navigation bar',
+        'patient-centered design',
         <div>
-          To streamline user navigation, we pared down the number of pages and designed a simplified
-          navigation bar. This bar categorizes content logically, ensuring that visitors can easily
-          access the information they seek, whether it's about opportunities to volunteer,
-          educational resources, or the cooperative's mission and values.
+          The website emphasizes a range of patient-centered services. To prioritize user engagement
+          and understanding, these service pages feature comprehensive Q&A sections for key services
+          such as well-woman exams, specialized pregnancy care, menopause management, and treatment
+          for common women's health issues. By incorporating informative Q&A segments, the website
+          ensures a deeper understanding of the offered services, addressing common queries and
+          empowering visitors to make informed healthcare decisions. This patient-focused design
+          aims to enhance user interaction and accessibility to essential healthcare information.
         </div>,
-        require('../images/berkeley-food-collective-04.png')
+        require('../images/federal-way-womens-04.png')
       ],
       [
-        'visual elements',
+        'inclusive imagery and representation',
         <div>
-          We introduced new visual elements that align with the BSFC's mission of sustainability and
-          youth empowerment. These fruit and vegetable icons not only symbolize the freshness and
-          local sourcing of the produce but also serve as representations of the cooperative's
-          commitment to healthy living and environmentally conscious practices.
+          Federal Way Women's Health Care website prides itself on inclusivity, showcasing diverse
+          representations in ethnicity and age across its imagery. By reflecting the diverse
+          demographics of the patients they serve, the website ensures a welcoming and relatable
+          visual experience for all visitors.
         </div>,
-        require('../images/berkeley-food-collective-05.png')
+        require('../images/federal-way-womens-05.png')
       ],
       [
-        'resource page',
+        'clean and user-friendly interface',
         <div>
-          A key feature of the website is the Resource Page, which serves as an educational hub. On
-          this page, users can access a variety of resources, including articles, videos, and
-          interactive tools related to nutrition, sustainable food systems, and cooperative values.
-          The toggle menu design encourages exploration and learning, ensuring users feel empowered
-          rather than overwhelmed.
+          Designed for ease of use, the website has a clean and user-friendly interface. It features
+          optimized layouts and a coherent color scheme that complements the brand's primary color.
+          This approach ensures an intuitive navigation experience, providing visitors with
+          effortless access to essential information. The focus on maintaining brand consistency
+          enhances the overall user experience while ensuring a visually appealing and functional
+          web and mobile interface.
         </div>,
-        require('../images/berkeley-food-collective-06.png')
+        require('../images/federal-way-womens-06.png')
       ]
     ],
     images: [
-      require('../images/berkeley-food-collective-01.png'),
-      require('../images/berkeley-food-collective-02.png'),
-      require('../images/berkeley-food-collective-03.png')
+      require('../images/federal-way-womens-01.png'),
+      require('../images/federal-way-womens-02.png'),
+      require('../images/federal-way-womens-03.png')
     ]
   },
   {
@@ -488,6 +492,130 @@ const Designs = [
       require('../images/easy-park-01.png'),
       require('../images/easy-park-02.png'),
       require('../images/easy-park-03.png')
+    ]
+  },
+  {
+    title: 'berkeley student food collective',
+    timeline: '10 weeks',
+    description:
+      'A website for users who want to find ethically produced food, and learn about nutrition and sustainability',
+    role: 'Web Design and Development Lead',
+    team: (
+      <div>
+        2 Web Design/Development Leads
+        <br /> 2 UI/UX Designers <br />2 Front End Developers <br />2 Back End Developers
+      </div>
+    ),
+    type: 'Product Design, Website Overhaul',
+    tools: 'Figma / Illustrator / React / Node.js',
+    designId: 'berkeley_student_food_collective',
+    url: '',
+    end: 'thank you for viewing!',
+    overview: (
+      <div>
+        The Berkeley Student Food Collective (BSFC) website redesign's purpose is to showcase the
+        cooperative grocery store's core mission of providing fresh, local, and ethically produced
+        food at affordable prices while also serving as an educational platform to enlighten
+        students about nutrition and sustainable food systems. This project aims to transform the
+        online presence with a visually engaging design that reflects BSFC's commitment to
+        environmentally conscious practices and youth empowerment.
+      </div>
+    ),
+    problem: (
+      <div>
+        Our team identified that the overarching issue was information overload. The large volume of
+        content and unclear information architecture deterred users from engaging meaningfully with
+        the platform. <br />
+        <br />
+        The client asked that we keep the existing color palette and logo, but was open to
+        typography and iconography changes.
+      </div>
+    ),
+    solution: (
+      <div>
+        We focused on streamlining communication and designing pages with effective information
+        architecture. We aimed to condense information to convey key messages succinctly, reorganize
+        content in more approachable layout, and condense the number of pages to guide users
+        intuitively and provide easy access to vital information. In addition to this, we created
+        new visual elements to reflect the collective's energetic and sustainable ethos, refreshing
+        the website and making users feel more invited.
+      </div>
+    ),
+    question: (
+      <div>
+        How might we help users gain access to fresh, local, and ethically produced food and
+        educated them on nutrition and sustainable food systems?
+      </div>
+    ),
+    research: (
+      <div>
+        To address the question, we studied similar cooperative websites to gather insights into
+        effective communication strategies and user engagement techniques. By analyzing these
+        platforms, we gained valuable knowledge about how other organizations in similar domains
+        successfully conveyed their missions and engaged their audiences.
+        <br />
+        <br />
+        The client offered insights into their target audience and shared their vision for the
+        website. Their input provided us with a deeper understanding of their specific needs and
+        expectations, enabling us to tailor our design and content strategies to align with their
+        goals and values. This collaborative approach ensured that the redesign not only met the
+        client's requirements but also resonated strongly with the cooperative's mission.
+      </div>
+    ),
+    ideation: (
+      <div>
+        Throughout the ideation process, we remained focused on the user. We brainstormed ways to
+        tailor the website's design to meet the specific needs and preferences of BSFC's target
+        audience—students seeking fresh, sustainable, and affordable food options.
+        <br />
+        <br />
+        Our goal was to translate research findings into actionable design concepts that would
+        enhance the BSFC website's user experience. To address the issue of information overload, we
+        brainstormed ideas to simplify the navigation structure. This involved reevaluating the
+        existing website's page hierarchy and considering ways to combine related content into
+        cohesive sections to reduce the number of pages. Our discussions revolved around the balance
+        between providing comprehensive information and ensuring that users could easily digest and
+        engage with the material, leading to ideas like infographics and content cards.
+      </div>
+    ),
+
+    features: [
+      [
+        'simplified navigation bar',
+        <div>
+          To streamline user navigation, we pared down the number of pages and designed a simplified
+          navigation bar. This bar categorizes content logically, ensuring that visitors can easily
+          access the information they seek, whether it's about opportunities to volunteer,
+          educational resources, or the cooperative's mission and values.
+        </div>,
+        require('../images/berkeley-food-collective-04.png')
+      ],
+      [
+        'visual elements',
+        <div>
+          We introduced new visual elements that align with the BSFC's mission of sustainability and
+          youth empowerment. These fruit and vegetable icons not only symbolize the freshness and
+          local sourcing of the produce but also serve as representations of the cooperative's
+          commitment to healthy living and environmentally conscious practices.
+        </div>,
+        require('../images/berkeley-food-collective-05.png')
+      ],
+      [
+        'resource page',
+        <div>
+          A key feature of the website is the Resource Page, which serves as an educational hub. On
+          this page, users can access a variety of resources, including articles, videos, and
+          interactive tools related to nutrition, sustainable food systems, and cooperative values.
+          The toggle menu design encourages exploration and learning, ensuring users feel empowered
+          rather than overwhelmed.
+        </div>,
+        require('../images/berkeley-food-collective-06.png')
+      ]
+    ],
+    images: [
+      require('../images/berkeley-food-collective-01.png'),
+      require('../images/berkeley-food-collective-02.png'),
+      require('../images/berkeley-food-collective-03.png')
     ]
   },
   {

@@ -1,30 +1,30 @@
 .navbar-container-mobile {
-    background-color: #EBE4CE;
     display: flex;
-    border-bottom: 1px solid #1f1f1f;
   }
 
-.navbar-logo-mobile {
-    padding: 4vw 6vw 2vw;
+.navbar-logo-mobile h1 {
+  margin: 0;
+  color: #38761D;
+  padding: 24px 32px;
 }
 
-.navbar-logo-mobile img{
-    width: 10vw;
-  }
-  
   aside {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #EBE4CE;
+    background-color: #6AA84F;
     height: 100vh;
     box-shadow: 0vw 1vw 2vw #888;
   }
   
   .menu-container-mobile {
-    margin: 24vw 8vw;
+    margin: 32vw 8vw;
     width: 20vw;
     height: 100vh;
+  }
+
+  .menu-container-mobile h2 {
+    line-height: 2;
   }
   
   .nav-btn-container-mobile {
@@ -36,10 +36,8 @@
   }
 
   .nav-btn-container-mobile button {
-    cursor: pointer;
-    margin: 4vw 4vw;
+    margin: 48px 32px 0;
     border: none;
-    padding: 2vw 4vw;
     background: transparent;
     position: fixed;
     right: 0;

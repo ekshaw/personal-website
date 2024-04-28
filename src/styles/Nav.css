@@ -1,66 +1,28 @@
 .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent;
-    padding: 1vw 2vw;
-    max-width: 40vw;
-    margin: 0 auto;
-    border-radius: 6vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 84vw;
+  margin: 0 auto;
+}
+
+
+.navbar-item-left h2 {
+  color: #38761D;
+}
+
+.navbar-item-right {
+  display: flex;
+  flex-direction: row;
 }
 
 .navbar-item {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    text-decoration: none;
-    color: #1f1f1f
+  margin: 20px;
+  display: inline-block;
 }
 
-.navbar-item:visited {
-   color: #1f1f1f
-}
-
-.navbar-item:active {
-    color: #1f1f1f;
-}
-  
-.navbar-item img{
-    width: 4vw;
-    height: auto;
-    transition: transform 0.5s ease;
-}
-
-.navbar-item:hover img {
-  transform: scale(1.2);
-}
-
-.navbar-item-text {
-  position: relative;
-  display: inline-block; /* Ensure the width of the pseudo-element matches the text */
-}
-
-.navbar-item-text p {
-  margin: .4vw 0;
-}
-
-.navbar-item-text::after {
-  content: '';
-  position: absolute;
-  bottom: 10%;
-  left: 0;
-  width: 100%; /* Make the underline the same width as the text */
-  height: 0.05vw;
-  background-color: #1f1f1f;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.5s ease;
-}
-
-.navbar-item-text:hover::after {
-  transform: scaleX(1);
+.navbar-item:hover p {  
+  cursor: pointer;
+  color: #38761D;
 }

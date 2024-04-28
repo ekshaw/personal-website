@@ -38,10 +38,36 @@
 }
 
 .design-card-text h1 {
-    font-size: 2vw;
     margin: 2vw 0 1vw;
 }
 
 .design-card-text p {
     margin: 0;
 }
+
+@media (max-width: 480px) {
+    .design-card-container {
+    width: 80vw;
+    margin: 12vw 2vw 6vw;
+    }
+    .design-card-image {
+        width: 80vw;
+        height: 40vw;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+    .design-card-image img {
+        width: 100%;
+    }
+    
+    .design-card-text-container {
+        width: fit-content;
+        height: auto;
+    }
+    
+    .design-card-text {
+        width: 80vw;
+        height: auto;
+      }
+    
+  }

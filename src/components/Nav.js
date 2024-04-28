@@ -1,78 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Nav.css';
-import { motion } from 'framer-motion';
+import Pdf from '../images/resume.pdf';
 
 function Nav() {
-  // Create a state variable to hold the scale value
-  const [scale, setScale] = useState(1);
-
-  // Define the scaling animation variants
-  const navScaleVariants = {
-    scaled: {
-      scale: 0.75,
-      backgroundColor: '#ebe4ce',
-      border: '1px solid #1f1f1f', // Add a 1px solid border with color #1f1f1f
-      transition: { duration: 0.3, ease: 'easeOut' }
-    },
-    unscaled: {
-      scale: 1,
-      backgroundColor: 'transparent',
-      border: 'none', // Remove the border when the navbar is not scaled
-      transition: { duration: 0.3, ease: 'easeOut' }
-    }
-  };
-
-  // Listen for scroll events and update the scale based on the scroll position
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollThreshold = 0;
-      const scrolled = window.scrollY > scrollThreshold;
-      setScale(scrolled ? 'scaled' : 'unscaled');
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    // Clean up the event listener when the component unmounts
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
 
+  const onResumeClick = () => {
+    window.open(Pdf);
+  };
+
   return (
-    <motion.nav className='navbar' variants={navScaleVariants} animate={scale}>
-      <Link to='/' className='navbar-item' onClick={scrollToTop}>
-        <div className='navbar-item-text'>
-          <p>Home</p>
-        </div>
-      </Link>
+    <div className='navbar'>
+      <div className='navbar-left'>
+        <Link to='/' className='navbar-item-left' onClick={scrollToTop}>
+          <h2>emily shaw</h2>
+        </Link>
+      </div>
+      <div className='navbar-right'>
+        <Link to='/about' className='navbar-item' onClick={scrollToTop}>
+          <p>about</p>
+        </Link>
 
-      <Link to='/about' className='navbar-item' onClick={scrollToTop}>
-        <div className='navbar-item-text'>
-          <p>About</p>
-        </div>
-      </Link>
+        <a onClick={onResumeClick} class='navbar-item'>
+          <p>resume</p>
+        </a>
 
-      <Link to='/' className='navbar-item' onClick={scrollToTop}>
-        <img src={require('../images/logo.png')} alt='Logo' id='logo-image' />
-      </Link>
-
-      <Link to='/work' className='navbar-item' onClick={scrollToTop}>
-        <div className='navbar-item-text'>
-          <p>Work</p>
-        </div>
-      </Link>
-
-      <a href='mailto:emily253shaw@gmail.com' class='navbar-item'>
-        <div className='navbar-item-text'>
-          <p>Contact</p>
-        </div>
-      </a>
-    </motion.nav>
+        <a href='mailto:emily253shaw@gmail.com' class='navbar-item'>
+          <p>contact</p>
+        </a>
+      </div>
+    </div>
   );
 }
 

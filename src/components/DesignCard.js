@@ -3,10 +3,6 @@ import '../styles/DesignCard.css';
 import Designs from '../content/Designs';
 
 class DesignCard extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   render() {
     const coverDesign = Designs[this.props.index].images[0];
     return (
@@ -17,8 +13,8 @@ class DesignCard extends Component {
           </div>
           <div className='design-card-text-container'>
             <div className='design-card-text'>
-              <h5>{Designs[this.props.index].type}</h5>
-              <h1>{Designs[this.props.index].title}</h1>
+              <h4>{Designs[this.props.index].type}</h4>
+              <h2>{Designs[this.props.index].title}</h2>
               <p>{Designs[this.props.index].description}</p>
             </div>
           </div>

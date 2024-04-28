@@ -1,128 +1,55 @@
-.App {
-  text-align: center;
+.app-container {
+  background-color: #fdfdfd;
+  /* overflow-x: hidden; */
+  min-height: 100vh;
 }
 
-.app-container {
-  background-color: #ebe4ce;
-  min-height: 100vh;
-  position: relative;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-container {
-  height: 0vw;
   top: 0px;
-  z-index: 1000000000000;
+  z-index: 1000;
   position: sticky;
-  background-color: transparent;
-}
-
-.navbar-container-mobile {
-  top: 0px;
-  z-index: 1000000000000;
-  position: sticky;
-}
-
-
-.footer-container-desktop {
-  background-color: #EBE4CE;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 h1 {
   color: #1f1f1f;
-  font-family: "orpheuspro", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3vw;
-  line-height: 1.2;
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 7vw;
-  }
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
 }
 
 h2{
   color: #1f1f1f;
-  font-family: "orpheuspro", serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 3vw;
-  
-  line-height: 0;
-}
-
-@media (max-width: 480px) {
-  h2 {
-    font-size: 7vw;
-  }
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 h3{
   color: #1f1f1f;
-  font-family: "orpheuspro", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3vw;
-  line-height: .5;
-  text-transform: uppercase;
-}
-
-@media (max-width: 480px) {
-  h3 {
-    font-size: 7vw;
-  }
-}
-
-h4 {
-  color: #1f1f1f;
-  text-align: center;
-  font-family: "orpheuspro", serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-style: normal;
-  font-size: 2.4vw;
-  line-height: 1.2;
+  font-size: 16px;
 }
 
-@media (max-width: 480px) {
-  h4 {
-    font-size: 5vw;
-  }
-}
-
-h5 {
+h4{
   color: #1f1f1f;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-style: normal;
-  font-size: 1.2vw;
-  line-height: 1.2;
+  font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-@media (max-width: 480px) {
-  h5 {
-    font-size: 3vw;
-  }
 }
 
 p {
   color: #1f1f1f;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 1.2vw;
-  line-height: 1.4;
-}
-
-@media (max-width: 480px) {
-  p {
-    font-size: 4vw;
-  }
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 a {

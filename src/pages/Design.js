@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Designs from '../content/Designs';
 import { useLocation } from 'react-router-dom';
 import '../styles/Design.css';
+import Footer from '../components/Footer';
 
 const Design = () => {
   const location = useLocation();
@@ -18,15 +19,11 @@ const Design = () => {
     return <div>Design not found</div>;
   }
 
-  const images = Designs[designNum].images.map((image, index) => (
-    <img key={index} src={image} alt={`Image ${index}`} className='design-image' />
-  ));
-
   const features = Designs[designNum].features.map((feature, index) => (
     <div key={index} className={`feature ${index % 2 === 0 ? 'design-even' : 'design-odd'}`}>
       <img src={feature[2]} alt={`Feature ${index}`} />
       <div className='feature-details'>
-        <h5>{feature[0]}</h5>
+        <h4>{feature[0]}</h4>
         <p>{feature[1]}</p>
       </div>
     </div>
@@ -46,20 +43,27 @@ const Design = () => {
               <p>{Designs[designNum].description}</p>
             </div>
             <div className='design-title-right'>
-              <img src={require('../images/star.png')} alt='Star' id='star' />
               <p>TIMELINE: {Designs[designNum].timeline}</p>
             </div>
           </div>
           <div className='design-description'>
             <div className='design-description-left'>
-              <h5>Role</h5>
-              <p>{Designs[designNum].role}</p>
-              <h5>Team</h5>
-              <p>{Designs[designNum].team}</p>
-              <h5>Type</h5>
-              <p>{Designs[designNum].type}</p>
-              <h5>Tools</h5>
-              <p>{Designs[designNum].tools}</p>
+              <div className='design-description-left-item'>
+                <h4>Role</h4>
+                <p>{Designs[designNum].role}</p>
+              </div>
+              <div className='design-description-left-item'>
+                <h4>Team</h4>
+                <p>{Designs[designNum].team}</p>
+              </div>
+              <div className='design-description-left-item'>
+                <h4>Type</h4>
+                <p>{Designs[designNum].type}</p>
+              </div>
+              <div className='design-description-left-item'>
+                <h4>Tools</h4>
+                <p>{Designs[designNum].tools}</p>
+              </div>
             </div>
             <div className='design-description-right'>
               <p>{Designs[designNum].overview}</p>
@@ -77,11 +81,11 @@ const Design = () => {
             </div>
             <div className='design-context-right'>
               <h1>context</h1>
-              <h5>Problem</h5>
+              <h4>Problem</h4>
               <p>{Designs[designNum].problem}</p>
-              <h5>Solution</h5>
+              <h4>Solution</h4>
               <p>{Designs[designNum].solution}</p>
-              <h5>Question</h5>
+              <h4>Question</h4>
               <p>{Designs[designNum].question}</p>
             </div>
           </div>
@@ -90,9 +94,9 @@ const Design = () => {
           <div className='design-process'>
             <div className='design-process-left'>
               <h1>process</h1>
-              <h5>Research</h5>
+              <h4>Research</h4>
               <p>{Designs[designNum].research}</p>
-              <h5>Ideation</h5>
+              <h4>Ideation</h4>
               <p>{Designs[designNum].ideation}</p>
             </div>
             <div className='design-process-right'>
@@ -109,28 +113,32 @@ const Design = () => {
             <h1>features overview</h1>
             {features}
           </div>
+        </div>{' '}
+        <div className='design-outro-wrapper'>
+          <a href={Designs[designNum].url}>
+            <div className='design-outro'>
+              <h1>
+                {Designs[designNum].end}
+                {Designs[designNum].url && (
+                  <a href={Designs[designNum].url}>
+                    <text> </text>
+                    <text
+                      style={{
+                        textDecoration: 'underline',
+                        textDecorationThickness: '.08vw',
+                        color: 'black'
+                      }}>
+                      here
+                    </text>
+                  </a>
+                )}
+              </h1>
+            </div>
+          </a>
         </div>
-        <a href={Designs[designNum].url}>
-          <div className='design-outro'>
-            <h1>
-              {Designs[designNum].end}
-              {Designs[designNum].url && (
-                <a href={Designs[designNum].url}>
-                  <text> </text>
-                  <text
-                    style={{
-                      textDecoration: 'underline',
-                      textDecorationThickness: '.08vw',
-                      color: 'black'
-                    }}>
-                    here
-                  </text>
-                </a>
-              )}
-            </h1>
-          </div>
-        </a>
-        {/* <div className='design-images-wrapper'>{images}</div> */}
+        <div className='design-footer-container'>
+          <Footer />
+        </div>
       </div>
     </div>
   );

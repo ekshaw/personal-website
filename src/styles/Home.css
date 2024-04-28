@@ -1,0 +1,162 @@
+.home-top-wrapper {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    }
+
+.home-top {
+    margin: 2vw 0;
+    max-width: 380px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .home-top{
+        margin: 40px;
+    }
+  }
+
+.home-second-wrapper {
+    position: relative;
+    background-color: #6aa84f;
+    width: 100%;
+}
+
+.home-second-wrapper img{
+    width: 100%;
+}
+
+#home-grass {
+    position: relative;
+    z-index: 1;
+}
+
+#home-flowers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.home-second {
+    width: 64vw;
+    display: grid;
+    gap: 16vw;
+    z-index: 3;
+    padding-bottom: 8vw;
+    margin: auto;
+    align-items: center; 
+  }
+  
+  .home-second-left {
+    grid-column: 1 / 2;
+  }
+  
+  .home-second-right {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+@media (max-width: 960px) {
+    .home-second {
+        width: 64vw;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        z-index: 3;
+        padding-bottom: 8vw;
+        margin: auto;
+      }
+
+      .home-second h2 {
+        text-align: center;
+      }
+      
+      .home-second-right {
+        grid-row: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
+  
+
+  .home-second-right h3 {
+    text-align: center;
+    margin: 4px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    border: 2px solid #1f1f1f;
+    border-radius: 80px; 
+}
+
+.home-third-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vw;
+  }
+  
+  .design-card-col {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+  }
+  
+  .design-card-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+.home-bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: relative;
+    background-color: #3D85C6;
+    width: 100%;
+}
+
+.home-bottom-wrapper img{
+    width: 100%;
+}
+
+#home-waves {
+    position: relative;
+    z-index: 1;
+}
+
+#home-drops,
+#home-bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#home-bubbles {
+    z-index: 2;
+}
+
+#home-drops {
+    z-index: 0;
+}
+
+.home-bottom {
+    margin: 2vw 0 0;
+    max-width: 380px;
+    text-align: center;
+}
+
+.home-bottom {
+    padding: 40px;
+}
+
+
+.home-footer-container {
+    padding-top: 4vw;
+    background-color: #3D85C6;
+}

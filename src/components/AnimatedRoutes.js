@@ -4,7 +4,6 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import '../styles/AnimatedRoutes.css';
 import Home from '../pages/Home';
 import About from '../pages/About';
-import Work from '../pages/Work';
 import Design from '../pages/Design';
 
 function AnimatedRoutes() {
@@ -17,7 +16,6 @@ function AnimatedRoutes() {
           <Routes location={location} key={location.pathname}>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/about' element={<About />} />
-            <Route exact path='/work' element={<Work />} />
             <Route path='/design' element={<Design />} />
           </Routes>
         </section>

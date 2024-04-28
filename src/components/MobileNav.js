@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion, useCycle } from 'framer-motion';
 import '../styles/MobileNav.css';
+import Pdf from '../images/resume.pdf';
 
 const ClosePath = props => (
   <motion.path
@@ -28,6 +29,10 @@ const OpenPath = props => (
     {...props}
   />
 );
+
+const onResumeClick = () => {
+  window.open(Pdf);
+};
 
 const scrollToTop = () => {
   window.scrollTo(0, 0);
@@ -87,7 +92,7 @@ export default function MobileNav() {
           }
           scrollToTop();
         }}>
-        <img src={require('../images/logo.png')} alt='Logo' id='logo-image' />
+        <h1>e.s.</h1>
       </Link>
       <AnimatePresence>
         {open && (
@@ -116,7 +121,7 @@ export default function MobileNav() {
                     scrollToTop();
                   }}>
                   <div className='navbar-item-text-mobile'>
-                    <h1>Home</h1>
+                    <h2>home</h2>
                   </div>
                 </Link>
               </motion.a>
@@ -128,26 +133,19 @@ export default function MobileNav() {
                     scrollToTop();
                   }}>
                   <div className='navbar-item-text-mobile'>
-                    <h1>About</h1>
+                    <h2>about</h2>
                   </div>
                 </Link>
               </motion.a>
               <motion.a variants={itemVariants}>
-                <Link
-                  to='/work'
-                  onClick={() => {
-                    closeNavigation();
-                    scrollToTop();
-                  }}>
-                  <div className='navbar-item-text-mobile'>
-                    <h1>Work</h1>
-                  </div>
-                </Link>
+                <a onClick={onResumeClick} class='navbar-item-text-mobile'>
+                  <h2>resume</h2>
+                </a>
               </motion.a>
               <motion.a variants={itemVariants}>
                 <a href='mailto:emily253shaw@gmail.com'>
                   <div className='navbar-item-text-mobile'>
-                    <h1>Contact</h1>
+                    <h2>contact</h2>
                   </div>
                 </a>
               </motion.a>

@@ -56,7 +56,22 @@ export const photos = [
   },
   {
     src: require('../images/about-photo-12.png'),
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
+  },
+  {
+    src: require('../images/about-photo-13.png'),
+    width: 16,
+    height: 9
+  },
+  {
+    src: require('../images/about-photo-14.png'),
+    width: 3,
+    height: 1
   }
+  // {
+  //   src: require('../images/about-photo-15.png'),
+  //   width: 4,
+  //   height: 3
+  // }
 ];

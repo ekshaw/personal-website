@@ -25,7 +25,7 @@ function About() {
         <div className='about-top'>
           <h1>get to know me</h1>
           <p>
-            hello there!😊 i'm UC Berkeley graduate 👩🏻‍🎓 with a major in Electrical Engineering &
+            hello there! 😊 i'm UC Berkeley graduate 👩🏻‍🎓 with a major in Electrical Engineering &
             Computer Science 💻 and The Berkeley Certificate in Design Innovation. while my
             background leans toward a more technical foundation, my passion in design ✒️, where my
             background provides a unique perspective 🔍 for approaching design challenges.
@@ -47,9 +47,10 @@ function About() {
           </div>
           <div className='about-middle-right'>
             <h3>backpacking & hiking (i’ve visited 10 national parks this year)</h3>
-            <h3>brewing/drinking coffee</h3>
-            <h3>making jewlery</h3>
+            <h3>brewing / drinking coffee</h3>
+            <h3>skincare</h3>
             <h3>swimming</h3>
+            <h3>cozy games (stardew valley is my favorite)</h3>
             <h3>reading (i love mieko kawakami & michael pollan)</h3>
           </div>
         </div>
@@ -58,8 +59,8 @@ function About() {
         <div className='about-bottom'>
           <h1>in my free time</h1>
           <p>
-            as a multidisciplinary designer 👩🏻‍🎨, i draw inspiration from everywhere and love to
-            explore different ways to exercise my creativity 🖍️. enjoy this compilation of some of
+            as a 👩🏻‍🎨 multidisciplinary designer, i draw inspiration from everywhere and love to
+            explore different ways 🖍️ to exercise my creativity. enjoy this compilation of some of
             my favorite 🖼️ personal projects.
           </p>
         </div>

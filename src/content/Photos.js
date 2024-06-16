@@ -10,13 +10,18 @@ export const photos = [
     height: 2
   },
   {
-    src: require('../images/about-photo-03.JPG'),
-    width: 3,
-    height: 4
+    src: require('../images/about-photo-16.png'),
+    width: 4,
+    height: 3
   },
   {
     src: require('../images/about-photo-04.png'),
     width: 5,
+    height: 4
+  },
+  {
+    src: require('../images/about-photo-03.JPG'),
+    width: 3,
     height: 4
   },
   {
@@ -60,18 +65,18 @@ export const photos = [
     height: 4
   },
   {
-    src: require('../images/about-photo-13.png'),
-    width: 16,
-    height: 9
-  },
-  {
     src: require('../images/about-photo-14.png'),
     width: 3,
     height: 1
+  },
+  {
+    src: require('../images/about-photo-15.png'),
+    width: 4,
+    height: 3
+  },
+  {
+    src: require('../images/about-photo-13.png'),
+    width: 16,
+    height: 9
   }
-  // {
-  //   src: require('../images/about-photo-15.png'),
-  //   width: 4,
-  //   height: 3
-  // }
 ];

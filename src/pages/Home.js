@@ -50,13 +50,21 @@ function Home() {
             <h2>skills/tools</h2>
           </div>
           <div className='home-second-right'>
-            <h3>user research & usability testing</h3>
-            <h3>front end development</h3>
+            <h3>product design</h3>
             <h3>graphic design</h3>
+            <h3>illustration</h3>
+            <h3>user research</h3>
+            <h3>usability testing</h3>
+            <h3>front end development</h3>
+            <h3>wireframing, mockups, prototyping</h3>
             <h3>figma</h3>
             <h3>xd</h3>
             <h3>illustrator</h3>
             <h3>photoshop</h3>
+            <h3>after effects</h3>
+            <h3>procreate</h3>
+            <h3>looom</h3>
+            <h3>womp</h3>
             <h3>react, node.js</h3>
             <h3>html, css, javascript</h3>
           </div>
@@ -66,11 +74,14 @@ function Home() {
             <h2>capabilities</h2>
           </div>
           <div className='home-second-right'>
-            <h3>web & app design</h3>
+            <h3>web & mobile ui design</h3>
             <h3>static websites</h3>
-            <h3>brand identity</h3>
-            <h3>campaign development</h3>
-            <h3>print design</h3>
+            <h3>design systems</h3>
+            <h3>mobile app design</h3>
+            <h3>brand identity guidelines / style guides</h3>
+            <h3>digital / print marketing assets</h3>
+            <h3>social media graphics</h3>
+            <h3>photo / video editing</h3>
             <h3>apparel design</h3>
             <h3>design workshops</h3>
           </div>

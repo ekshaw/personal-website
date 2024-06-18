@@ -53,18 +53,12 @@ function Home() {
             <h3>product design</h3>
             <h3>graphic design</h3>
             <h3>illustration</h3>
-            <h3>user research</h3>
-            <h3>usability testing</h3>
+            <h3>user research & usability testing</h3>
             <h3>front end development</h3>
             <h3>wireframing, mockups, prototyping</h3>
             <h3>figma</h3>
-            <h3>xd</h3>
-            <h3>illustrator</h3>
-            <h3>photoshop</h3>
-            <h3>after effects</h3>
             <h3>procreate</h3>
-            <h3>looom</h3>
-            <h3>womp</h3>
+            <h3>adobe creative suite (Ai, Ps, Xd, Ae, Pr)</h3>
             <h3>react, node.js</h3>
             <h3>html, css, javascript</h3>
           </div>

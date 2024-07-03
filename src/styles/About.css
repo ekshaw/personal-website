@@ -1,6 +1,6 @@
 .about-top-wrapper {
     width: 60vw;
-    margin: 2vw auto;
+    margin: 2vw auto 4vw;
     display: flex;
     flex-direction: row;
     align-items: center; 
@@ -10,6 +10,9 @@
 @media (max-width: 960px) {
     .about-top-wrapper {
         flex-direction: column;
+    }
+    .about-top-wrapper img {
+        padding: 80px;
     }
   }
   
@@ -24,7 +27,7 @@
 
 .about-top-wrapper img {
     height: 320px;
-    padding: 20px 40px;
+    padding-left: 80px;
 
 }
 
@@ -120,5 +123,5 @@
 }
 
 .about-bottom {
-    max-width: 520px;
+    max-width: 600px;
 }

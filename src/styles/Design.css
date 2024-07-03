@@ -23,7 +23,7 @@
   flex-direction: row;
   border-bottom: 1px solid #1f1f1f;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 
 @media (max-width: 960px) {

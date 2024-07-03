@@ -25,10 +25,15 @@ function About() {
         <div className='about-top'>
           <h1>get to know me</h1>
           <p>
-            hello there! 😊 i'm UC Berkeley graduate 👩🏻‍🎓 with a major in Electrical Engineering &
-            Computer Science 💻 and The Berkeley Certificate in Design Innovation. while my
-            background leans toward a more technical foundation, my passion in design ✒️, where my
-            background provides a unique perspective 🔍 for approaching design challenges.
+            Hello there! 😊 I'm UC Berkeley graduate 👩🏻‍🎓 with a B.S. in Electrical Engineering &
+            Computer Science 💻 and The Berkeley Certificate in Design Innovation. With a background
+            spanning in-house, creative agency, design education, and freelance design roles, I
+            blend my technical background with design expertise to create inclusive, engaging
+            designs!
+            <br></br>
+            <br></br> My design philosophy is rooted in creating MEANINGFUL experiences by making
+            purposeful, justifiable design decisions, prioritizing essential functions and
+            accessibility, and working on projects that have a 🌎 positive impact.
             <br></br>
             <br></br>i am open to internships, part-time, and full-time junior positions 📇 in the
             ux/ui, product design, and visual/graphic design fields.
@@ -50,6 +55,7 @@ function About() {
             <h3>brewing / drinking coffee</h3>
             <h3>skincare</h3>
             <h3>swimming</h3>
+            <h3>tennis</h3>
             <h3>cozy games (stardew valley is my favorite)</h3>
             <h3>reading (i love mieko kawakami & michael pollan)</h3>
           </div>
@@ -59,9 +65,22 @@ function About() {
         <div className='about-bottom'>
           <h1>in my free time</h1>
           <p>
-            as a 👩🏻‍🎨 multidisciplinary designer, i draw inspiration from everywhere and love to
-            explore different ways 🖍️ to exercise my creativity. enjoy this compilation of some of
-            my favorite 🖼️ personal projects.
+            As a 👩🏻‍🎨 multidisciplinary designer, I draw inspiration from everywhere and love to
+            explore different ways 🖍️ to exercise my creativity. Currently, I'm working on the
+            DailyUI design challenge; you can view my progress on Dribbble
+            <a href='https://dribbble.com/emilyshaw' target='_blank' rel='noreferrer'>
+              <text> </text>
+              <text
+                style={{
+                  color: 'green'
+                }}>
+                here
+              </text>
+            </a>
+            ! <br></br>
+            <br></br>Enjoy this compilation of some of my favorite 🖼️ personal projects.
+            <br></br>
+            <br></br>
           </p>
         </div>
         <div>

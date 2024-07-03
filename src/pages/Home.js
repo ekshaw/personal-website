@@ -100,7 +100,7 @@ function Home() {
             always open to meeting 🤝 more lovely people. contact me for 📋 design inquires. follow
             me on my socials. give me a 📚 book recommendation. just say hello ✨.
           </p>
-          <p>...</p>
+          <h2>...</h2>
         </div>
       </div>
 

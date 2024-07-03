@@ -141,22 +141,28 @@
     z-index: 2;
 }
 
+@media (max-width: 960px) {
+    #home-bubbles {
+        opacity: 0;
+    }
+}
+
 #home-drops {
     z-index: 0;
 }
 
 .home-bottom {
-    margin: 2vw 0 0;
+    margin: 0 0 3vw;
     max-width: 380px;
     text-align: center;
 }
 
 .home-bottom {
-    padding: 40px;
+    padding: 0px;
 }
 
 
 .home-footer-container {
-    padding-top: 4vw;
+    padding-top: 0vw;
     background-color: #3D85C6;
 }

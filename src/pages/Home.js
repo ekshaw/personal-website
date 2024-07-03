@@ -43,8 +43,8 @@ function Home() {
         </div>
       </div>
       <div className='home-second-wrapper'>
-        <img src={require('../images/home-01.png')} alt='Home Grass' id='home-grass' />
-        <img src={require('../images/home-02.png')} alt='Home Flowers' id='home-flowers' />
+        <img src={require('../images/home-01.png')} alt='' id='home-grass' />
+        <img src={require('../images/home-02.png')} alt='' id='home-flowers' />
         <div className='home-second'>
           <div className='home-second-left'>
             <h2>skills/tools</h2>
@@ -91,9 +91,9 @@ function Home() {
       </div>
 
       <div className='home-bottom-wrapper'>
-        <img src={require('../images/home-03.png')} alt='Home Waves' id='home-waves' />
-        <img src={require('../images/home-04.png')} alt='Home Bubbles' id='home-bubbles' />
-        <img src={require('../images/home-05.png')} alt='Home Drops' id='home-drops' />
+        <img src={require('../images/home-03.png')} alt='' id='home-waves' />
+        <img src={require('../images/home-04.png')} alt='' id='home-bubbles' />
+        <img src={require('../images/home-05.png')} alt='' id='home-drops' />
         <div className='home-bottom'>
           <h1>get in touch!📫</h1>
           <p>

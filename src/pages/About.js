@@ -39,13 +39,17 @@ function About() {
             ux/ui, product design, and visual/graphic design fields.
           </p>
         </div>
-        <img src={require('../images/aboutTopPic.jpg')} alt='About Top' id='about-top-picture' />
+        <img
+          src={require('../images/aboutTopPic.jpg')}
+          alt='Emily at her UC Berkeley graduation'
+          id='about-top-picture'
+        />
       </div>
 
       <div className='about-middle-wrapper'>
-        <img src={require('../images/about-01.png')} alt='About Dirt' id='about-dirt' />
-        <img src={require('../images/about-02.png')} alt='About Fruit' id='about-fruit' />
-        <img src={require('../images/about-03.png')} alt='About Vegetables' id='about-vegetable' />
+        <img src={require('../images/about-01.png')} alt='' id='about-dirt' />
+        <img src={require('../images/about-02.png')} alt='' id='about-fruit' />
+        <img src={require('../images/about-03.png')} alt='' id='about-vegetable' />
         <div className='about-middle'>
           <div className='about-middle-left'>
             <h2>personal interests</h2>

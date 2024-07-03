@@ -1,5 +1,5 @@
 .about-top-wrapper {
-    width: 60vw;
+    width: 68vw;
     margin: 2vw auto 4vw;
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@
   
 
 .about-top {
-    max-width: 520px;
+    max-width: 600px;
 }
 
 .about-top h1 {
@@ -26,7 +26,7 @@
 }
 
 .about-top-wrapper img {
-    height: 320px;
+    height: 400px;
     padding-left: 80px;
 
 }

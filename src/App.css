@@ -1,6 +1,6 @@
 .app-container {
   background-color: #fdfdfd;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   min-height: 100vh;
 }
 
@@ -38,9 +38,9 @@ h3{
 
 h4{
   color: #1f1f1f;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   text-transform: uppercase;
 }
 

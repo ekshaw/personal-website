@@ -1,0 +1,45 @@
+.design-odd-items-wrapper.has-heading {
+  padding-top: 40px;
+}
+
+.design-odd-items-heading h4 {
+  margin: 8px 0 16px;
+}
+
+.design-odd-items-title h2 {
+  margin: 0;
+}
+
+
+@media (min-width: 961px) {
+  .design-odd-items-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .design-odd-item.has-subtitle {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+}
+
+.design-odd-items-left {
+  flex: 1;
+}
+.design-odd-items-right {
+  flex: 3;
+}
+
+.design-odd-item {
+  padding-top: 20px;
+}
+
+.design-odd-item-left h4 {
+    margin: 4px 0 20px;
+}
+  
+.design-odd-item-right p {
+  margin: 0;
+}

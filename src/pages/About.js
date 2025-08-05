@@ -35,8 +35,9 @@ function About() {
             purposeful, justifiable design decisions, prioritizing essential functions and
             accessibility, and working on projects that have a 🌎 positive impact.
             <br></br>
-            <br></br>i am open to internships, part-time, and full-time junior positions 📇 in the
-            ux/ui, product design, and visual/graphic design fields.
+            <br></br>
+            Looking for a designer? I’m currently seeking a full-time role 📇 where I can grow as a
+            UX/UI, product, or visual designer while creating thoughtful, user-focused work.
           </p>
         </div>
         <img
@@ -55,13 +56,15 @@ function About() {
             <h2>personal interests</h2>
           </div>
           <div className='about-middle-right'>
-            <h3>backpacking & hiking (i’ve visited 10 national parks this year)</h3>
-            <h3>brewing / drinking coffee</h3>
-            <h3>skincare</h3>
+            <h3>backpacking & hiking</h3>
             <h3>swimming</h3>
             <h3>tennis</h3>
-            <h3>cozy games (stardew valley is my favorite)</h3>
-            <h3>reading (i love mieko kawakami & michael pollan)</h3>
+            <h3>running</h3>
+            <h3>skincare</h3>
+            <h3>cozy games</h3>
+            <h3>thrifting</h3>
+            <h3>brewing / drinking coffee</h3>
+            <h3>reading</h3>
           </div>
         </div>
       </div>
@@ -82,7 +85,7 @@ function About() {
               </text>
             </a>
             ! <br></br>
-            <br></br>Enjoy this compilation of some of my favorite 🖼️ personal projects.
+            <br></br>Enjoy this compilation of some of my favorite 🖼️ personal / community projects.
             <br></br>
             <br></br>
           </p>

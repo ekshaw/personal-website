@@ -1,0 +1,24 @@
+@media (min-width: 961px) {
+  .design-row-items {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    
+  }
+  
+  .design-row-item {
+    flex: 1;
+  }
+}
+
+@media (max-width: 960px) {
+  .design-row-items {
+    padding-top: 20px;  
+  }
+
+  .design-row-item {
+    padding: 20px 0;
+  }
+}

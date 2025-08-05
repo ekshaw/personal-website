@@ -1,0 +1,40 @@
+.design-even-items-wrapper.has-heading {
+  padding-top: 40px;
+}
+.design-even-items-heading h4 {
+  margin: 8px 0 16px;
+}
+
+.design-even-items-title h2 {
+  margin: 0;
+}
+
+@media (min-width: 961px) {
+  .design-even-items-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .design-even-items-left {
+    flex: 1;
+  }
+
+  .design-even-items-right {
+    flex: 3;
+  }
+}
+
+.design-even-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 40px;
+  padding-top: 40px;
+}
+
+@media (max-width: 480px) {
+  .design-even-items {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 30px;
+  }
+}

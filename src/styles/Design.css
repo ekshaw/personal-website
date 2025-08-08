@@ -168,5 +168,6 @@
 .design-footer-container {
   background-color: #f0f0f0;
   position: absolute;
+  width: 100%;
   bottom: 0;
 }

@@ -106,9 +106,9 @@ const Design = () => {
             </div>
           </a>
         </div>
-        <div className='design-footer-container'>
-          <Footer />
-        </div>
+      </div>
+      <div className='design-footer-container'>
+        <Footer />
       </div>
     </div>
   );

@@ -1118,7 +1118,6 @@ const Designs = [
             subimage: require('../images/easy-park-host-first-draft.png')
           }
         },
-
         {
           componentName: 'feature',
           props: {
@@ -1163,7 +1162,7 @@ const Designs = [
         {
           componentName: 'basic',
           props: {
-            title: 'Reflection',
+            title: 'Next Steps',
             summary: (
               <div>
                 Future additions include adding <b>tags for unique features</b> like EV charging,
@@ -1196,131 +1195,276 @@ const Designs = [
         }
       ]
     }
-  }
-  // {
-  //   title: 'berkeley student food collective',
-  //   timeline: '10 weeks',
-  //   description:
-  //     'A website for users who want to find ethically produced food, and learn about nutrition and sustainability',
-  //   role: 'Web Design and Development Lead',
-  //   team: (
-  //     <div>
-  //       2 Web Design/Development Leads
-  //       <br /> 2 UI/UX Designers <br />2 Front End Developers <br />2 Back End Developers
-  //     </div>
-  //   ),
-  //   type: 'Product Design, Website Overhaul',
-  //   tools: 'Figma / Illustrator / React / Node.js',
-  //   designId: 'berkeley_student_food_collective',
-  //   url: '',
-  //   end: 'thank you for viewing!',
-  //   overview: (
-  //     <div>
-  //       The Berkeley Student Food Collective (BSFC) website redesign's purpose is to showcase the
-  //       cooperative grocery store's core mission of providing fresh, local, and ethically produced
-  //       food at affordable prices while also serving as an educational platform to enlighten
-  //       students about nutrition and sustainable food systems. This project aims to transform the
-  //       online presence with a visually engaging design that reflects BSFC's commitment to
-  //       environmentally conscious practices and youth empowerment.
-  //     </div>
-  //   ),
-  //   problem: (
-  //     <div>
-  //       Our team identified that the overarching issue was information overload. The large volume of
-  //       content and unclear information architecture deterred users from engaging meaningfully with
-  //       the platform. <br />
-  //       <br />
-  //       The client asked that we keep the existing color palette and logo, but was open to
-  //       typography and iconography changes.
-  //     </div>
-  //   ),
-  //   solution: (
-  //     <div>
-  //       We focused on streamlining communication and designing pages with effective information
-  //       architecture. We aimed to condense information to convey key messages succinctly, reorganize
-  //       content in more approachable layout, and condense the number of pages to guide users
-  //       intuitively and provide easy access to vital information. In addition to this, we created
-  //       new visual elements to reflect the collective's energetic and sustainable ethos, refreshing
-  //       the website and making users feel more invited.
-  //     </div>
-  //   ),
-  //   question: (
-  //     <div>
-  //       How might we help users gain access to fresh, local, and ethically produced food and
-  //       educated them on nutrition and sustainable food systems?
-  //     </div>
-  //   ),
-  //   research: (
-  //     <div>
-  //       To address the question, we studied similar cooperative websites to gather insights into
-  //       effective communication strategies and user engagement techniques. By analyzing these
-  //       platforms, we gained valuable knowledge about how other organizations in similar domains
-  //       successfully conveyed their missions and engaged their audiences.
-  //       <br />
-  //       <br />
-  //       The client offered insights into their target audience and shared their vision for the
-  //       website. Their input provided us with a deeper understanding of their specific needs and
-  //       expectations, enabling us to tailor our design and content strategies to align with their
-  //       goals and values. This collaborative approach ensured that the redesign not only met the
-  //       client's requirements but also resonated strongly with the cooperative's mission.
-  //     </div>
-  //   ),
-  //   ideation: (
-  //     <div>
-  //       Throughout the ideation process, we remained focused on the user. We brainstormed ways to
-  //       tailor the website's design to meet the specific needs and preferences of BSFC's target
-  //       audience—students seeking fresh, sustainable, and affordable food options.
-  //       <br />
-  //       <br />
-  //       Our goal was to translate research findings into actionable design concepts that would
-  //       enhance the BSFC website's user experience. To address the issue of information overload, we
-  //       brainstormed ideas to simplify the navigation structure. This involved reevaluating the
-  //       existing website's page hierarchy and considering ways to combine related content into
-  //       cohesive sections to reduce the number of pages. Our discussions revolved around the balance
-  //       between providing comprehensive information and ensuring that users could easily digest and
-  //       engage with the material, leading to ideas like infographics and content cards.
-  //     </div>
-  //   ),
+  },
+  {
+    title: 'berkeley student food collective',
+    timeline: '10 weeks',
+    description:
+      'A website for users who want to find ethically produced food, and learn about nutrition and sustainability',
+    role: 'Web Design and Development Lead',
+    team: (
+      <div>
+        2 Web Design/Development Leads
+        <br /> 2 UI/UX Designers <br />2 Front End Developers <br />2 Back End Developers
+      </div>
+    ),
+    type: 'Product Design, Website Overhaul',
+    tools: 'Figma / Illustrator / React / Node.js',
+    designId: 'berkeley_student_food_collective',
+    url: '',
+    end: 'thank you for viewing!',
+    overview: (
+      <div>
+        The Berkeley Student Food Collective (BSFC) is a student-run non-profit that promotes
+        community wellness by providing access to fresh, local, and ethically sourced food—while
+        educating students on nutrition and sustainable food systems. As part of a student design
+        team, I co-led a full website redesign that focused on thoughtful design to better reflect
+        the BSFC's commitment to environmentally conscious practices and youth empowerment.
+      </div>
+    ),
+    images: [require('../images/bsfc-01.png'), require('../images/bsfc-04.png')],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Client Conversations',
+            summary: (
+              <div>
+                The client first approached us sharing that their current website felt outdated and
+                was not receiving a lot of traffic. While they had strong branding, including a
+                recognizable logo and a vibrant photo library, they felt the design failed to
+                capture the co-op’s energy or engage visitors meaningfully.<br></br> <br></br> They
+                were also unsure how to organize and present a growing collection of resources on
+                food insecurity, nutrition, and activism that currently lived on a Google Doc.
+              </div>
+            ),
+            subimage: require('../images/bsfc-before-about-us.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Current Experience',
+            summary: (
+              <div>
+                We conducted a content audit of the existing site, stakeholder interviews with BSFC
+                leadership, and competitor analysis of similar student co-ops, where several core
+                issues emerged.
+              </div>
+            ),
+            subimage: require('../images/bsfc-before-nav.png')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Pain Points',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '01 – Poor Navigation Structure',
+                subparagraph:
+                  'Content was buried under confusing menu hierarchies, making it difficult for users to learn about BSFC or get involved.'
+              },
+              {
+                subtitle: '02 – Weak Visual Identity',
+                subparagraph:
+                  'Despite strong branding assets, the site failed to express the co-op’s youth-driven, community-first mission.'
+              },
+              {
+                subtitle: '03 – Information Overload',
+                subparagraph:
+                  'The layout made it difficult to include the plethora of resources and information the client wanted to include on their website.'
+              },
+              {
+                subtitle: '04 – Low Engagement',
+                subparagraph:
+                  'While the site had key calls to action, like volunteering, donating, or attending events, conversion rates were low.'
+              }
+            ]
+          }
+        },
 
-  //   features: [
-  //     [
-  //       'simplified navigation bar',
-  //       <div>
-  //         To streamline user navigation, we pared down the number of pages and designed a simplified
-  //         navigation bar. This bar categorizes content logically, ensuring that visitors can easily
-  //         access the information they seek, whether it's about opportunities to volunteer,
-  //         educational resources, or the cooperative's mission and values.
-  //       </div>,
-  //       require('../images/berkeley-food-collective-04.png')
-  //     ],
-  //     [
-  //       'visual elements',
-  //       <div>
-  //         We introduced new visual elements that align with the BSFC's mission of sustainability and
-  //         youth empowerment. These fruit and vegetable icons not only symbolize the freshness and
-  //         local sourcing of the produce but also serve as representations of the cooperative's
-  //         commitment to healthy living and environmentally conscious practices.
-  //       </div>,
-  //       require('../images/berkeley-food-collective-05.png')
-  //     ],
-  //     [
-  //       'resource page',
-  //       <div>
-  //         A key feature of the website is the Resource Page, which serves as an educational hub. On
-  //         this page, users can access a variety of resources, including articles, videos, and
-  //         interactive tools related to nutrition, sustainable food systems, and cooperative values.
-  //         The toggle menu design encourages exploration and learning, ensuring users feel empowered
-  //         rather than overwhelmed.
-  //       </div>,
-  //       require('../images/berkeley-food-collective-06.png')
-  //     ]
-  //   ],
-  //   images: [
-  //     require('../images/berkeley-food-collective-01.png'),
-  //     require('../images/berkeley-food-collective-02.png'),
-  //     require('../images/berkeley-food-collective-03.png')
-  //   ]
-  // },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Problem',
+            title: 'Overview',
+            summary: (
+              <div>
+                An outdated website was standing in the way of BSFC’s mission. Our goal was to build
+                a site that not only aligned with the organization’s identity but also helped users
+                connect with BSFC’s mission through{' '}
+                <b>clear pathways to get involved, learn, and act.</b>
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'odd',
+          props: {
+            title: 'How Might We..',
+            paragraph: [
+              {
+                subparagraph:
+                  'Empower users to find and gain access to fresh, local, and ethically produced food?'
+              },
+              {
+                subparagraph:
+                  'Make it easier for visitors to find resources and opportunities on nutrition and sustainable food systems?'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Solution',
+            title: 'Website Structure',
+            summary: (
+              <div>
+                We mapped out the narrative: first inspire visitors with the mission, then guide
+                them to learn more and get involved. We also looked at other co-op websites and
+                community-driven brands to understand tone, pacing, and structure.
+              </div>
+            ),
+            subimage: require('../images/bsfc-lofi.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            summary: (
+              <div>
+                To improve usability, we restructured the site architecture to reduce page sprawl,
+                streamline categories, and highlight essential actions. One significant improvement
+                was refining the navigation bar: we grouped related pages (like “About,” “Team,” and
+                “History”) and surfaced key actions like “Volunteer” and “Donate.”
+              </div>
+            ),
+            subimage: require('../images/bsfc-nav.png')
+          }
+        },
+
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Visual Refresh',
+            summary: (
+              <div>
+                The client asked that we keep the existing color palette and logo, but was open to
+                typography and iconography changes. We explored nature-inspired colors, bold and
+                legible type, and illustrative elements that reflected the grassroots energy of the
+                co-op. The visual language needed to feel both trustworthy and youth-driven.
+              </div>
+            ),
+            subimage: require('../images/bsfc-colors.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            subimage: require('../images/bsfc-branding-guide.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Testing & Iteration',
+            summary: (
+              <div>
+                We held collaborative work sessions with BSFC leadership, sharing mid-fidelity
+                wireframes and multiple structural approaches. Our discussions revolved around the
+                balance between providing comprehensive information and ensuring that users could
+                easily digest and engage with the material, leading to ideas like infographics and
+                content cards.
+              </div>
+            ),
+            subimage: require('../images/bsfc-our-programs.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            subimage: require('../images/bsfc-03.png')
+          }
+        },
+        {
+          componentName: 'feature',
+          props: {
+            title: 'Features Overview',
+            features: [
+              {
+                subtitle: 'Simplified Navigation Bar',
+                paragraph:
+                  'The new navbar organizes content into intuitive sections, allowing users to quickly access key areas',
+                image: require('../images/bsfc-02.png')
+              },
+              {
+                subtitle: 'Visual Elements',
+                paragraph:
+                  'We introduced fresh iconography, playful illustrations, and eco-conscious motifs to reflect the co-op’s focus on sustainability and youth empowerment',
+                image: require('../images/bsfc-after.gif')
+              },
+              {
+                subtitle: 'Resource Hub',
+                paragraph:
+                  'We transformed the previously underutilized resource list into a centralized, scrollable hub. With toggles, users could explore categories like food justice, nutrition, or food access assistance without feeling overwhelmed',
+                image: require('../images/bsfc-06.png')
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Impact',
+            summary: (
+              <div>
+                The redesign led to a <b>25% drop in bounce rate</b> and an{' '}
+                <b>increase in form conversions</b>
+                for joining and volunteering. Final user testing showed that users were able to
+                access key information—like hours, events, and BSFC’s mission—around{' '}
+                <b>40% faster.</b> The site also received positive feedback from BSFC leadership and
+                student community members for its clarity, approachability, and alignment with the
+                co-op’s values.
+                <br></br>
+                <br></br>
+                <i>
+                  Note: The React site was eventually sunset as BSFC transitioned to a CMS platform
+                  to support easier content management without developer resources.
+                </i>
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Reflection',
+            summary: (
+              <div>
+                This project taught me how to work holistically, from research and strategy to
+                visual and technical execution. I learned how to transform abstract values into
+                tangible experiences and it left a lasting impression that good design can be a
+                powerful force for social good.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/bsfc-04.png')
+          }
+        }
+      ]
+    }
+  }
   // {
   //   title: 'the next iteration podcast',
   //   timeline: '4 weeks',

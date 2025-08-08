@@ -1464,125 +1464,242 @@ const Designs = [
         }
       ]
     }
-  }
-  // {
-  //   title: 'the next iteration podcast',
-  //   timeline: '4 weeks',
-  //   description:
-  //     'A brand redesign for a multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
-  //   role: 'Graphic Designer',
-  //   team: <div>1 Graphic Designer</div>,
-  //   type: 'Brand Redesign, Graphic Design',
-  //   tools: 'Figma / Illustrator / Photoshop / Womp3D',
-  //   designId: 'the_next_iteration_podcast',
-  //   url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
-  //   end: 'check out the branding guide',
-  //   overview: (
-  //     <div>
-  //       With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
-  //       meditation to the future of technology and politics, The Next Iteration Podcast’s founders
-  //       and hosts wanted to refresh their visual identity and expand their reach. <br />
-  //       <br />
-  //       This project involved the creation of a new logo, comprehensive branding guidelines, assets
-  //       such as business cards and podcast thumbnails, and the exploration of potential merchandise.
-  //     </div>
-  //   ),
-  //   problem: (
-  //     <div>
-  //       The existing brand identity lacked consistency and failed to effectively convey the
-  //       podcast's eclectic nature. Additionally, the absence of clear branding guidelines hindered
-  //       the client from maintaining a uniform visual identity across various platforms and
-  //       promotional materials.
-  //     </div>
-  //   ),
-  //   solution: (
-  //     <div>
-  //       My strategy focused on creating a unified and visually engaging brand identity. I designed a
-  //       new logo that captured the essence of exploration and growth, aligning with the podcast's
-  //       name, "The Next Iteration." This fresh logo incorporated elements that symbolized diversity,
-  //       dynamism, and the complexity of the topics discussed on the podcast.
-  //       <br />
-  //       <br />
-  //       To ensure consistency, I developed comprehensive branding guidelines that provided clear
-  //       instructions on logo usage, color palettes, typography, and design elements. These
-  //       guidelines served as a roadmap for maintaining a cohesive visual identity across all
-  //       touchpoints.
-  //     </div>
-  //   ),
-  //   question: (
-  //     <div>
-  //       How might we engage users representing diverse backgrounds while upholding the podcast's
-  //       commitment to exploration and forward thinking?
-  //     </div>
-  //   ),
-  //   research: (
-  //     <div>
-  //       Client-provided insights into their vision and audience formed the foundation for creative
-  //       exploration and brand redesign efforts. Additionally, I listened to their podcast episodes
-  //       to gain an understanding of their existing content and analyzed other successful podcast
-  //       brands that catered to a similar demographic to understand effective visual storytelling and
-  //       engagement strategies.
-  //     </div>
-  //   ),
-  //   ideation: (
-  //     <div>
-  //       During the ideation phase, I brainstormed a variety of concepts spanning logo design, color
-  //       palettes, typography choices, and visual elements. Throughout this process, I maintained a
-  //       collaborative dialogue with the client, incorporating their feedback and insights. Notably,
-  //       the client expressed an affinity for the work of Karim Rashid. Inspired by Rashid's style,
-  //       the design approach incorporated 3D abstract shape elements.
-  //       <br />
-  //       <br />
-  //       The primary objective was to create a visual identity that encapsulated the podcast's
-  //       diverse range of content while preserving a cohesive and unified brand narrative.
-  //     </div>
-  //   ),
+  },
+  {
+    title: 'the next iteration podcast',
+    timeline: '4 weeks',
+    description:
+      'A multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
+    role: 'Graphic Designer',
+    team: <div>1 Graphic Designer</div>,
+    type: 'Graphic Design, Brand Redesign',
+    tools: 'Illustrator / Figma / Womp3D',
+    designId: 'next_iteration_podcast',
+    url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
+    end: 'check out the branding guide',
+    overview: (
+      <div>
+        With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
+        meditation to the future of technology and politics, The Next Iteration Podcast’s wanted to
+        refresh their visual identity and expand their reach. The redesign spanned a new logo,
+        comprehensive branding guidelines, podcast thumbnails, and visual assets.
+      </div>
+    ),
+    images: [
+      require('../images/next-iteration-01.png'),
+      require('../images/next-iteration-02.png')
+    ],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Client Conversations',
+            summary: (
+              <div>
+                When the creators of The Next Iteration Podcast approached me, their vision was
+                clear: they wanted a brand that felt as multifaceted and future-facing as the
+                conversations they were having. The existing visuals, however, felt generic and
+                inconsistent, making it hard to stand out in a saturated podcast space.
+                <br></br>
+                <br></br>
+                In particular, the current logo was a Rubik’s Cube. While the team liked its
+                symbolism of different “iterations” referencing positions or stages in life, they
+                didn’t want the implication that life was a solvable problem or that there was a
+                “right” way to live life.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-before-assets.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Exploration',
+            summary: (
+              <div>
+                I started by gathering insights directly from the podcast creators about their
+                goals, target audience, and design preferences. I listened to episodes to better
+                understand their tone and content, and benchmarked the visual identities of similar
+                podcasts catering to the same demographic. The competitive analysis revealed a gap:
+                while many brands looked professional or playful, few balanced both, especially in a
+                way that felt personal and intellectually engaging.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-before-website.gif')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Pain Points',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '01 – Branding Misalignment',
+                subparagraph:
+                  'The existing branding failed to capture the podcast’s depth, range, and mission, making it harder to connect with the target audience.'
+              },
+              {
+                subtitle: '02 – Fragmented Visual Identity',
+                subparagraph:
+                  'Without a unified visual system or templates, designs varied widely across platforms, resulting in an inconsistent brand presence.'
+              }
+            ]
+          }
+        },
 
-  //   features: [
-  //     [
-  //       'new logo',
-  //       <div>
-  //         The brand redesign introduced a new logo that incorporated dynamic elements reflecting
-  //         growth, exploration, and diversity. The design featured abstract shapes and colors that
-  //         symbolized the multifaceted nature of the podcast's topics. This modern and vibrant logo
-  //         served as the anchor of the refreshed brand identity.
-  //       </div>,
-  //       require('../images/next-iteration-04.png')
-  //     ],
-  //     [
-  //       'branding guidelines',
-  //       <div>
-  //         To ensure consistency in branding, we developed comprehensive guidelines that detailed
-  //         logo usage, color codes, typography choices, and design principles. These guidelines
-  //         empowered the client to maintain a cohesive and recognizable visual identity across
-  //         various platforms and materials.
-  //       </div>,
-  //       require('../images/next-iteration-05.png')
-  //     ],
-  //     [
-  //       'podcast assets',
-  //       <div>
-  //         A key update was providing podcast thumbnail designs that aligned with the new brand
-  //         identity. These thumbnails were optimized for online platforms, enticing potential
-  //         listeners with visually appealing and thematically relevant imagery.
-  //       </div>,
-  //       require('../images/next-iteration-06.png')
-  //     ],
-  //     [
-  //       'website exploration',
-  //       <div>
-  //         To expand the podcast's reach and engagement, we explored potential website ideas that
-  //         incorporated the redesigned logo and branding elements.
-  //       </div>,
-  //       require('../images/next-iteration-07.png')
-  //     ]
-  //   ],
-  //   images: [
-  //     require('../images/next-iteration-01.png'),
-  //     require('../images/next-iteration-02.png'),
-  //     require('../images/next-iteration-03.png')
-  //   ]
-  // },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Problem',
+            title: 'Overview',
+            summary: (
+              <div>
+                The Next Iteration Podcast had strong content and a clear mission—bridging
+                meaningful, wide-ranging conversations with curious twenty-somethings. But without
+                branding guidelines, it made it harder to establish brand recognition and trust.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'odd',
+          props: {
+            title: 'How Might We..',
+            paragraph: [
+              {
+                subparagraph:
+                  'Create a brand that can flex across many themes while remaining instantly recognizable?'
+              },
+              {
+                subparagraph:
+                  'Balance playful energy with professionalism to appeal to an young, intellectual audience?'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Solution',
+            title: 'Concepts',
+            summary: (
+              <div>
+                I began sketching ideas rooted in curiosity and multidimensionality: spirals,
+                ripples, layered shapes—metaphors for ongoing growth and iteration. During feedback
+                sessions, the client referenced the work of Karim Rashid, prompting a shift toward
+                organic, fluid, abstract, and futuristic forms.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-03.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Color & Type',
+            summary: (
+              <div>
+                Wanting to represent the variety and diversity in their topics and quests, and lean
+                more into a more playful image, this shift also heavily influenced the color palette
+                and typography.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-color-palette.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            subimage: require('../images/next-iteration-typography.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'The Next Iteration',
+            summary: (
+              <div>
+                The client stressed they wanted to keep the aspect of the Rubik’s Cube, or at least
+                something that was rooted in and inspired by it. After discussions, this idea
+                evolved into a dynamic, modular logo composed of a shifting forms that symbolize
+                curiosity, exploration, and continual growth without a “final answer.” I realized
+                there were limitations in creating the design using only Adobe Illustrator and
+                Photoshop, so given the client’s vision, I used Womp3D for graphics as we moved
+                toward the final iteration.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-process.png')
+          }
+        },
+        {
+          componentName: 'feature',
+          props: {
+            title: 'Features Overview',
+            features: [
+              {
+                subtitle: 'Branding Guidelines',
+                paragraph:
+                  'A comprehensive guide detailing logo usage, color palettes, typography, and design principles for consistency across platforms',
+                image: require('../images/next-iteration-branding-guide.png')
+              },
+              {
+                subtitle: 'Podcast Assets',
+                paragraph:
+                  'Editable templates for episode thumbnails, cover art, and social media images, ensuring a cohesive look while allowing flexibility for new topics and guests',
+                image: require('../images/next-iteration-06.png')
+              },
+              {
+                subtitle: 'Website Concept',
+                paragraph:
+                  'A conceptual website design aligned with the refreshed brand identity, aimed at improving audience engagement and showcasing episodes, guests, and topics',
+                image: require('../images/next-iteration-website.gif')
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Next Steps',
+            summary: (
+              <div>
+                To extend the identity beyond digital channels, I want to explore physical brand
+                touchpoints—business card designs for networking, and merchandise like stickers and
+                totes to support community-building and audience loyalty. These assets create
+                opportunities for brand activation at events, in collaborations, and within the
+                podcast’s growing listener base.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Reflection',
+            summary: (
+              <div>
+                This project not only strengthened my branding and systems design skills but also
+                encouraged me to try out Womp3D, where I experimented with creating basic 3D
+                graphics for the first time. It was challenging, but I had a lot of fun designing
+                for this project and expanding my skillset!
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/next-iteration-thank-you.png')
+          }
+        }
+      ]
+    }
+  }
   // {
   //   title: 'intro to illustrator & photoshop',
   //   timeline: '1 Semester (taught for 3 semesters!)',

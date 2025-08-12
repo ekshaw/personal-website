@@ -574,6 +574,76 @@ const Designs = [
     }
   },
   {
+    title: 'meals on wheels',
+    timeline: '1 week',
+    description:
+      'A suite of social media and email marketing assets for Meals on Wheels’ year-end fundraising campaign.',
+    role: 'Graphic Designer',
+    team: (
+      <div>
+        1 Graphic Designer <br></br>1 Consultant<br></br>1 Copywriter<br></br>1 Client Photographer
+      </div>
+    ),
+    type: 'Graphic Design, Digital Marketing',
+    tools: 'Photoshop / After Effects / Premiere Pro / Illustrator',
+    designId: 'meals_on_wheels',
+    url: '',
+    end: 'thanks for viewing!',
+    overview: (
+      <div>
+        For Meals on Wheels’ year-end fundraising campaign, our goal was to tell the stories of
+        seniors whose lives are positively impacted by the program. The campaign aimed to inspire
+        donations by highlighting the human side of the organization’s mission across social media
+        and email channels.
+        <br></br>
+        <br></br>I collaborated closely with a copywriter, a campaign consultant, and the client to
+        produce a suite of marketing materials. The work included editing and assembling videos in
+        Premiere Pro, creating GIF animations in After Effects and Photoshop, enhancing photos for
+        better readability, and designing visual assets in Illustrator. Together, we crafted a
+        cohesive visual narrative that amplified the campaign’s emotional impact and encouraged
+        audience action.
+      </div>
+    ),
+    images: [require('../images/mow-01.png')],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Static Assets',
+            image: require('../images/mow-pngs.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Example Gif',
+            image: require('../images/mow-gif.gif')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Video Ads',
+            image: require('../images/mow-video-01.gif')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/mow-video-02.gif')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/mow-video-03.gif')
+          }
+        }
+      ]
+    }
+  },
+  {
     title: "federal way women's health care",
     timeline: '2 weeks',
     description:

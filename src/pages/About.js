@@ -70,7 +70,7 @@ function About() {
       </div>
       <div className='about-bottom-wrapper'>
         <div className='about-bottom'>
-          <h1>in my free time</h1>
+          <h1>freelance & free time</h1>
           <p>
             As a 👩🏻‍🎨 multidisciplinary designer, I draw inspiration from everywhere and love to
             explore different ways 🖍️ to exercise my creativity. Currently, I'm working on the
@@ -85,7 +85,7 @@ function About() {
               </text>
             </a>
             ! <br></br>
-            <br></br>Enjoy this compilation of some of my favorite 🖼️ personal / community projects.
+            <br></br>Enjoy this compilation of some of my favorite 🖼️ community / personal projects.
             <br></br>
             <br></br>
           </p>

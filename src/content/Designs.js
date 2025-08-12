@@ -814,6 +814,465 @@ const Designs = [
     }
   },
   {
+    title: 'the next iteration podcast',
+    timeline: '4 weeks',
+    description:
+      'A multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
+    role: 'Graphic Designer',
+    team: <div>1 Graphic Designer</div>,
+    type: 'Graphic Design, Brand Redesign',
+    tools: 'Illustrator / Figma / Womp3D',
+    designId: 'next_iteration_podcast',
+    url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
+    end: 'check out the branding guide',
+    overview: (
+      <div>
+        With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
+        meditation to the future of technology and politics, The Next Iteration Podcast’s wanted to
+        refresh their visual identity and expand their reach. The redesign spanned a new logo,
+        comprehensive branding guidelines, podcast thumbnails, and visual assets.
+      </div>
+    ),
+    images: [
+      require('../images/next-iteration-01.png'),
+      require('../images/next-iteration-02.png')
+    ],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Client Conversations',
+            summary: (
+              <div>
+                When the creators of The Next Iteration Podcast approached me, their vision was
+                clear: they wanted a brand that felt as multifaceted and future-facing as the
+                conversations they were having. The existing visuals, however, felt generic and
+                inconsistent, making it hard to stand out in a saturated podcast space.
+                <br></br>
+                <br></br>
+                In particular, the current logo was a Rubik’s Cube. While the team liked its
+                symbolism of different “iterations” referencing positions or stages in life, they
+                didn’t want the implication that life was a solvable problem or that there was a
+                “right” way to live life.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-before-assets.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Exploration',
+            summary: (
+              <div>
+                I started by gathering insights directly from the podcast creators about their
+                goals, target audience, and design preferences. I listened to episodes to better
+                understand their tone and content, and benchmarked the visual identities of similar
+                podcasts catering to the same demographic. The competitive analysis revealed a gap:
+                while many brands looked professional or playful, few balanced both, especially in a
+                way that felt personal and intellectually engaging.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-before-website.gif')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Pain Points',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '01 – Branding Misalignment',
+                subparagraph:
+                  'The existing branding failed to capture the podcast’s depth, range, and mission, making it harder to connect with the target audience.'
+              },
+              {
+                subtitle: '02 – Fragmented Visual Identity',
+                subparagraph:
+                  'Without a unified visual system or templates, designs varied widely across platforms, resulting in an inconsistent brand presence.'
+              }
+            ]
+          }
+        },
+
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Problem',
+            title: 'Overview',
+            summary: (
+              <div>
+                The Next Iteration Podcast had strong content and a clear mission—bridging
+                meaningful, wide-ranging conversations with curious twenty-somethings. But without
+                branding guidelines, it made it harder to establish brand recognition and trust.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'odd',
+          props: {
+            title: 'How Might We..',
+            paragraph: [
+              {
+                subparagraph:
+                  'Create a brand that can flex across many themes while remaining instantly recognizable?'
+              },
+              {
+                subparagraph:
+                  'Balance playful energy with professionalism to appeal to an young, intellectual audience?'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Solution',
+            title: 'Concepts',
+            summary: (
+              <div>
+                I began sketching ideas rooted in curiosity and multidimensionality: spirals,
+                ripples, layered shapes—metaphors for ongoing growth and iteration. During feedback
+                sessions, the client referenced the work of Karim Rashid, prompting a shift toward
+                organic, fluid, abstract, and futuristic forms.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-03.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Color & Type',
+            summary: (
+              <div>
+                Wanting to represent the variety and diversity in their topics and quests, and lean
+                more into a more playful image, this shift also heavily influenced the color palette
+                and typography.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-color-palette.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            subimage: require('../images/next-iteration-typography.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'The Next Iteration',
+            summary: (
+              <div>
+                The client stressed they wanted to keep the aspect of the Rubik’s Cube, or at least
+                something that was rooted in and inspired by it. After discussions, this idea
+                evolved into a dynamic, modular logo composed of a shifting forms that symbolize
+                curiosity, exploration, and continual growth without a “final answer.” I realized
+                there were limitations in creating the design using only Adobe Illustrator and
+                Photoshop, so given the client’s vision, I used Womp3D for graphics as we moved
+                toward the final iteration.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-process.png')
+          }
+        },
+        {
+          componentName: 'feature',
+          props: {
+            title: 'Features Overview',
+            features: [
+              {
+                subtitle: 'Branding Guidelines',
+                paragraph:
+                  'A comprehensive guide detailing logo usage, color palettes, typography, and design principles for consistency across platforms',
+                image: require('../images/next-iteration-branding-guide.png')
+              },
+              {
+                subtitle: 'Podcast Assets',
+                paragraph:
+                  'Editable templates for episode thumbnails, cover art, and social media images, ensuring a cohesive look while allowing flexibility for new topics and guests',
+                image: require('../images/next-iteration-06.png')
+              },
+              {
+                subtitle: 'Website Concept',
+                paragraph:
+                  'A conceptual website design aligned with the refreshed brand identity, aimed at improving audience engagement and showcasing episodes, guests, and topics',
+                image: require('../images/next-iteration-website.gif')
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Next Steps',
+            summary: (
+              <div>
+                To extend the identity beyond digital channels, I want to explore physical brand
+                touchpoints—business card designs for networking, and merchandise like stickers and
+                totes to support community-building and audience loyalty. These assets create
+                opportunities for brand activation at events, in collaborations, and within the
+                podcast’s growing listener base.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Reflection',
+            summary: (
+              <div>
+                This project not only strengthened my branding and systems design skills but also
+                encouraged me to try out Womp3D, where I experimented with creating basic 3D
+                graphics for the first time. It was challenging, but I had a lot of fun designing
+                for this project and expanding my skillset!
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/next-iteration-thank-you.png')
+          }
+        }
+      ]
+    }
+  },
+  {
+    title: 'intro to illustrator & photoshop',
+    timeline: '10 week course (3 cohorts)',
+    description: 'Instructor for a University of California, Berkeley introductory design course',
+    role: 'Course Instructor',
+    team: (
+      <div>
+        1 Course Instructor <br />1 Teaching Assistant
+      </div>
+    ),
+    type: 'Graphic Design, Design Education',
+    tools: 'Illustrator / Photoshop / XD',
+    designId: 'intro_to_illustrator_and_photoshop',
+    url: 'https://decal.berkeley.edu/courses/6967',
+    end: 'find the course information',
+    overview: (
+      <div>
+        Intro to Photoshop & Illustrator is a University of California, Berkeley course focused on
+        introductory design skills and principles. The course equips students with technical skills
+        in Adobe Illustrator, Photoshop, and XD while exploring foundational topics in graphic
+        design principles, processes, and trends through hands-on projects and lectures.
+        <br />
+        <br />
+        Over two years, I served as the course instructor for three cohorts, facilitating weekly
+        lectures and tutorials, revising curriculum content, and mentoring students through their
+        creative projects. When I first stepped into this role, it felt like coming full circle. I
+        had once sat in the same classroom as a student, learning the tools and foundations of
+        design!*
+        <br></br>
+        <br></br>
+        <i>*The works featured are designs I made as a student!</i>
+      </div>
+    ),
+    images: [require('../images/illustrator-01.png'), require('../images/illustrator-04.png')],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Overview',
+            title: 'Approach',
+            summary: (
+              <div>
+                Teaching design at a university where formal design courses were scarce meant I had
+                to think beyond long, lecture-heavy classes. My goal was to create a space where
+                students didn’t just learn tools, they learned how to think like designers. That
+                meant balancing technical instruction with design principles and industry relevance,
+                while fostering a safe environment for giving and receiving feedback.
+              </div>
+            ),
+            subimage: require('../images/illustrator-02.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            subimage: require('../images/illustrator-logo.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Curriculum',
+            summary: (
+              <div>
+                The curriculum featured a series of comprehensive tutorials and hands-on exercises
+                focused on Adobe Photoshop and Illustrator.
+                <br></br>
+                <br></br>
+                It was a place where skills grew alongside confidence. Each class was structured
+                into a short lecture or demo, followed by a hands-on tutorial or small team design
+                challenge, and concluded with a presentation and critique session for the previous
+                week’s take-home work.
+              </div>
+            ),
+            subimage: require('../images/illustrator-lesson-plan.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            summary: <div></div>,
+            subimage: require('../images/illustrator-photoshop.png')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Highlights',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '01 – Building Technical Fluency',
+                subparagraph: (
+                  <div>
+                    We began with the basics of Illustrator and Photoshop, building from simple
+                    shapes and layers to more complex compositions. By the end, students could
+                    navigate the tools with ease, translating their ideas into polished visuals.
+                    <br></br>
+                    <br></br>
+                    To reinforce learning, practical exercises were integrated into the curriculum,
+                    such as using the pen tool to create a variety of straight and curved lines and
+                    simple and complex shapes, or retouching a photo using a combination of
+                    Photoshop tools like the patch tool and spot healing brush.
+                  </div>
+                )
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/illustrator-exercises.png')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '02- Exploring Design Principles and Their Practical Implementation',
+                subparagraph: (
+                  <div>
+                    To prepare students for the demands of the design industry, the course covered
+                    core design principles like typography, color, and hierarchy, while also
+                    exploring concepts and techniques such as isometric design and recoloring.
+                    <br></br>
+                    <br></br>
+                    This gave students the knowledge needed to excel in a range of design projects,
+                    from creating a brand identity for a new company to designing an album cover for
+                    an artist or organizing a restaurant menu for a brunch spot.
+                  </div>
+                )
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/illustrator-design-challenge.png')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '03 – Fostering Constructive Critique',
+                subparagraph: (
+                  <div>
+                    Every project ended with a presentation and peer reviews, where students
+                    practiced analyzing design objectively and offering actionable feedback. This
+                    not only improved their work but also built the confidence to present and defend
+                    their creative decisions.
+                  </div>
+                )
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/illustrator-05.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/illustrator-03.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Reflection',
+            summary: (
+              <div>
+                Teaching this course sharpened my own design skills and understanding as much as it
+                developed my students’. Equipping them with the tools to realize their amazing ideas
+                and visions, while challenging them to think about the “why” behind each choice
+                reminded me how powerful design can be. It’s everywhere, capable of creating
+                meaningful impact for causes you care about, and it thrives even more when working
+                collaboratively with others.
+                <br></br>
+                <br></br>
+                If I were to teach it again, I’d integrate more collaborative projects to reflect
+                the team-based, cross-disciplinary nature of real-world design. This course shaped
+                my own design journey, and I’m grateful for the opportunity to both teach and help
+                foster a community of emerging creatives.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            summary: (
+              <div>
+                <i>Please enjoy these final showcase works from some of my past students:</i>
+              </div>
+            ),
+            paragraph: [
+              {
+                subtitle: '',
+                subparagraph: ''
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/illustrator-student-works.png')
+          }
+        }
+      ]
+    }
+  },
+  {
     title: 'easypark',
     timeline: '8 weeks',
     description: 'A final project for a mobile parking application',
@@ -1464,340 +1923,7 @@ const Designs = [
         }
       ]
     }
-  },
-  {
-    title: 'the next iteration podcast',
-    timeline: '4 weeks',
-    description:
-      'A multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
-    role: 'Graphic Designer',
-    team: <div>1 Graphic Designer</div>,
-    type: 'Graphic Design, Brand Redesign',
-    tools: 'Illustrator / Figma / Womp3D',
-    designId: 'next_iteration_podcast',
-    url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
-    end: 'check out the branding guide',
-    overview: (
-      <div>
-        With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
-        meditation to the future of technology and politics, The Next Iteration Podcast’s wanted to
-        refresh their visual identity and expand their reach. The redesign spanned a new logo,
-        comprehensive branding guidelines, podcast thumbnails, and visual assets.
-      </div>
-    ),
-    images: [
-      require('../images/next-iteration-01.png'),
-      require('../images/next-iteration-02.png')
-    ],
-    content: {
-      body: [
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Research',
-            title: 'Client Conversations',
-            summary: (
-              <div>
-                When the creators of The Next Iteration Podcast approached me, their vision was
-                clear: they wanted a brand that felt as multifaceted and future-facing as the
-                conversations they were having. The existing visuals, however, felt generic and
-                inconsistent, making it hard to stand out in a saturated podcast space.
-                <br></br>
-                <br></br>
-                In particular, the current logo was a Rubik’s Cube. While the team liked its
-                symbolism of different “iterations” referencing positions or stages in life, they
-                didn’t want the implication that life was a solvable problem or that there was a
-                “right” way to live life.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-before-assets.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Research',
-            title: 'Exploration',
-            summary: (
-              <div>
-                I started by gathering insights directly from the podcast creators about their
-                goals, target audience, and design preferences. I listened to episodes to better
-                understand their tone and content, and benchmarked the visual identities of similar
-                podcasts catering to the same demographic. The competitive analysis revealed a gap:
-                while many brands looked professional or playful, few balanced both, especially in a
-                way that felt personal and intellectually engaging.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-before-website.gif')
-          }
-        },
-        {
-          componentName: 'row',
-          props: {
-            title: 'Pain Points',
-            summary: '',
-            paragraph: [
-              {
-                subtitle: '01 – Branding Misalignment',
-                subparagraph:
-                  'The existing branding failed to capture the podcast’s depth, range, and mission, making it harder to connect with the target audience.'
-              },
-              {
-                subtitle: '02 – Fragmented Visual Identity',
-                subparagraph:
-                  'Without a unified visual system or templates, designs varied widely across platforms, resulting in an inconsistent brand presence.'
-              }
-            ]
-          }
-        },
-
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Problem',
-            title: 'Overview',
-            summary: (
-              <div>
-                The Next Iteration Podcast had strong content and a clear mission—bridging
-                meaningful, wide-ranging conversations with curious twenty-somethings. But without
-                branding guidelines, it made it harder to establish brand recognition and trust.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'odd',
-          props: {
-            title: 'How Might We..',
-            paragraph: [
-              {
-                subparagraph:
-                  'Create a brand that can flex across many themes while remaining instantly recognizable?'
-              },
-              {
-                subparagraph:
-                  'Balance playful energy with professionalism to appeal to an young, intellectual audience?'
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Solution',
-            title: 'Concepts',
-            summary: (
-              <div>
-                I began sketching ideas rooted in curiosity and multidimensionality: spirals,
-                ripples, layered shapes—metaphors for ongoing growth and iteration. During feedback
-                sessions, the client referenced the work of Karim Rashid, prompting a shift toward
-                organic, fluid, abstract, and futuristic forms.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-03.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Color & Type',
-            summary: (
-              <div>
-                Wanting to represent the variety and diversity in their topics and quests, and lean
-                more into a more playful image, this shift also heavily influenced the color palette
-                and typography.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-color-palette.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            subimage: require('../images/next-iteration-typography.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'The Next Iteration',
-            summary: (
-              <div>
-                The client stressed they wanted to keep the aspect of the Rubik’s Cube, or at least
-                something that was rooted in and inspired by it. After discussions, this idea
-                evolved into a dynamic, modular logo composed of a shifting forms that symbolize
-                curiosity, exploration, and continual growth without a “final answer.” I realized
-                there were limitations in creating the design using only Adobe Illustrator and
-                Photoshop, so given the client’s vision, I used Womp3D for graphics as we moved
-                toward the final iteration.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-process.png')
-          }
-        },
-        {
-          componentName: 'feature',
-          props: {
-            title: 'Features Overview',
-            features: [
-              {
-                subtitle: 'Branding Guidelines',
-                paragraph:
-                  'A comprehensive guide detailing logo usage, color palettes, typography, and design principles for consistency across platforms',
-                image: require('../images/next-iteration-branding-guide.png')
-              },
-              {
-                subtitle: 'Podcast Assets',
-                paragraph:
-                  'Editable templates for episode thumbnails, cover art, and social media images, ensuring a cohesive look while allowing flexibility for new topics and guests',
-                image: require('../images/next-iteration-06.png')
-              },
-              {
-                subtitle: 'Website Concept',
-                paragraph:
-                  'A conceptual website design aligned with the refreshed brand identity, aimed at improving audience engagement and showcasing episodes, guests, and topics',
-                image: require('../images/next-iteration-website.gif')
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Conclusion',
-            title: 'Next Steps',
-            summary: (
-              <div>
-                To extend the identity beyond digital channels, I want to explore physical brand
-                touchpoints—business card designs for networking, and merchandise like stickers and
-                totes to support community-building and audience loyalty. These assets create
-                opportunities for brand activation at events, in collaborations, and within the
-                podcast’s growing listener base.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Reflection',
-            summary: (
-              <div>
-                This project not only strengthened my branding and systems design skills but also
-                encouraged me to try out Womp3D, where I experimented with creating basic 3D
-                graphics for the first time. It was challenging, but I had a lot of fun designing
-                for this project and expanding my skillset!
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heroimage: require('../images/next-iteration-thank-you.png')
-          }
-        }
-      ]
-    }
   }
-  // {
-  //   title: 'intro to illustrator & photoshop',
-  //   timeline: '1 Semester (taught for 3 semesters!)',
-  //   description:
-  //     'A University of California, Berkeley course for students who want to kickstart their journey into design',
-  //   role: 'Course Instructor',
-  //   team: (
-  //     <div>
-  //       1 Course Instructor <br />1 Teaching Assistant
-  //     </div>
-  //   ),
-  //   type: 'Design Education, Graphic Design',
-  //   tools: 'Illustrator / Photoshop / XD',
-  //   designId: 'intro_to_illustrator_and_photoshop',
-  //   url: 'https://decal.berkeley.edu/courses/6967',
-  //   end: 'find the course information',
-  //   overview: (
-  //     <div>
-  //       Intro to Photoshop & Illustrator is an official university course sponsored by a faculty
-  //       member. This comprehensive course was designed by the creative agency I was a part of
-  //       (Innovative Design) and helped to equip students with the fundamental skills necessary for
-  //       effective graphic design and digital illustration. Over the course of three semesters, I
-  //       served as the instructor for this program and aided with curriculum revisions. Before
-  //       becoming an instructor, I was a TA and student of this course.*
-  //       <br />
-  //       <br />
-  //       *The works featured are designs I made as a student!
-  //     </div>
-  //   ),
-  //   problem: (
-  //     <div>
-  //       The challenge lay in providing students with a solid foundation in graphic design tools with
-  //       a curriculum was both engaging and comprehensive. As the instructor, I needed to strike a
-  //       balance between conveying complex design principles, keeping up with contemporary trends,
-  //       and creating an environment conducive to constructive feedback for skill development.
-  //     </div>
-  //   ),
-  //   solution: (
-  //     <div>
-  //       The curriculum featured a series of comprehensive tutorials and hands-on exercises focused
-  //       on Adobe Photoshop and Illustrator CC. The course aimed to empower students to master
-  //       technical tools while fostering their design skills. It also provided opportunities for
-  //       students to explore graphic design principles and implement them in practical projects. A
-  //       key component of the course was cultivating a culture of constructive feedback, enabling
-  //       students to grow as designers through peer evaluations and instructor guidance.
-  //     </div>
-  //   ),
-  //   question: (
-  //     <div>
-  //       How might we address the need for design education in an academic environment where design
-  //       courses are limited?
-  //     </div>
-  //   ),
-  //   research: '',
-  //   ideation: '',
-
-  //   features: [
-  //     [
-  //       'build technical skills in illustrator and photoshop',
-  //       <div>
-  //         The course featured a well-organized curriculum that started with the basics of Adobe
-  //         Illustrator and Photoshop. It progressively advanced to cover more advanced concepts so
-  //         that students built a strong foundation before tackling complex design tasks.
-  //         <br />
-  //         <br />
-  //         To reinforce learning, practical exercises were integrated into the curriculum. These
-  //         exercises encouraged students to apply what they learned, fostering a deeper understanding
-  //         of design principles.
-  //       </div>,
-  //       require('../images/illustrator-04.png')
-  //     ],
-  //     [
-  //       'explore graphic design principles and their practical implementation',
-  //       <div>
-  //         To prepare students for the demands of the design industry, the course covered essential
-  //         design concepts such as isometric design, recoloring techniques, and photo retouching.
-  //         These concepts equipped students with the skills needed to excel in diverse design
-  //         projects.
-  //       </div>,
-  //       require('../images/illustrator-05.png')
-  //     ],
-  //     [
-  //       'cultivate a culture of constructive feedback',
-  //       <div>
-  //         A fundamental aspect of the course was the cultivation of a culture of constructive
-  //         feedback. This encouraged students to learn not only from their own work but also from the
-  //         perspectives of their peers. It fostered a collaborative and growth-oriented learning
-  //         environment.
-  //       </div>,
-  //       require('../images/illustrator-03.png')
-  //     ]
-  //   ],
-  //   images: [
-  //     require('../images/illustrator-01.png'),
-  //     require('../images/illustrator-02.png'),
-  //     require('../images/illustrator-03.png')
-  //   ]
-  // },
   // {
   //   title: 'assurance collection',
   //   timeline: '4 weeks',
@@ -1808,7 +1934,7 @@ const Designs = [
   //       4 Graphic Designers <br />1 Content Writer
   //     </div>
   //   ),
-  //   type: 'Graphic Design, Apparel Design',
+  //   type: 'Graphic Design, Branding & Marketing, Apparel Design',
   //   tools: 'Illustrator / Photoshop',
   //   designId: 'assurance',
   //   url: 'https://yhwhapparel.medium.com/introducing-the-assurance-collection-2228b3de414',
@@ -1937,42 +2063,6 @@ const Designs = [
   //     require('../images/assurance-01.png'),
   //     require('../images/assurance-02.png'),
   //     require('../images/assurance-03.png')
-  //   ]
-  // }
-  // {
-  //   title: '"Jane Doe" & "John Smith\'s" Wedding',
-  //   type: 'Graphic Design',
-  //   designId: 'doe_wedding',
-  //   url: '',
-  //   images: [
-  //     require('../images/wedding-01.png'),
-  //     require('../images/wedding-02.png'),
-  //     require('../images/wedding-03.png'),
-  //     require('../images/wedding-04.png')
-  //   ]
-  // },
-  // {
-  //   title: 'Assurance',
-  //   type: 'Graphic Design',
-  //   designId: 'assurance',
-  //   url: 'http://www.yhwhapparel.com/',
-  //   images: [
-  //     require('../images/assurance-01.png'),
-  //     require('../images/assurance-02.png'),
-  //     require('../images/assurance-03.png'),
-  //     require('../images/assurance-04.png')
-  //   ]
-  // },
-  // {
-  //   title: 'Asha Berkeley',
-  //   type: 'Branding & Marketing',
-  //   designId: 'asha_berkeley',
-  //   url: 'https://berkeley.ashanet.org/',
-  //   images: [
-  //     require('../images/asha-01.png'),
-  //     require('../images/asha-02.png'),
-  //     require('../images/asha-03.png'),
-  //     require('../images/asha-04.png')
   //   ]
   // }
 ];

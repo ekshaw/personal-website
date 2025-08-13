@@ -1,261 +1,5 @@
 const Designs = [
   {
-    title: 'recyclemate',
-    timeline: '8 weeks (Final Project – Spring Semester)',
-    description: 'An app that that gives users confidence in their waste disposal choices',
-    role: 'UX Researcher, Product Designer, Visual Designer',
-    team: (
-      <div>
-        4 UX Researchers / Product Designers
-        <br />1 Machine Learning Engineer
-      </div>
-    ),
-    type: 'UX Research, Product Design',
-    tools: 'Figma, Adobe Illustrator, Miro',
-    designId: 'recycle_mate',
-    url: 'https://www.figma.com/file/ngRZADi8NGLOVeYSYU6D2z/RecycleMate?type=design&node-id=11%3A1833&mode=design&t=hn9GJzxnQPJLk723-1',
-    end: 'check out the design file',
-    overview: (
-      <div>
-        RecycleMate began in a Berkeley classroom with a smart trash can prototype ("Oscar") that
-        used machine learning to auto-sort waste, aiming to address the confusion and lack of
-        accessible resources around proper waste sorting.
-        <br />
-        <br />
-        After testing and research, the feedback largely centered around accessibility and
-        practicality. The next logical step: a mobile app concept that focused on education,
-        behavior change, and motivation with waste disposal.
-      </div>
-    ),
-    images: [require('../images/recycle-mate-01.png'), require('../images/recycle-mate-06.png')],
-    content: {
-      body: [
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Research',
-            title: 'Initial Exploration',
-            summary: (
-              <div>
-                We conducted a combination of surveys and user interviews, finding that on campus,
-                over 20% of waste was incorrectly sorted, with over 50% of the waste in the landfill
-                container. In interviews, given the task of categorizing trash, users expressed
-                hesitation, especially when faced with recycling symbols & categorizing between
-                different types of recyclables.
-              </div>
-            ),
-            subimage: require('../images/recycle-mate-02b.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Key Findings & Insights',
-            summary: (
-              <div>
-                Collaborative sessions utilizing UX frameworks helped surface the emotional friction
-                around waste disposal. Our users wanted to do the right thing but felt discouraged
-                by confusion and lack of feedback. Some users even shared that they weren’t
-                motivated to spend extra time or effort on properly throwing things away. These
-                insights laid the foundation for an experience that could bridge the gap between
-                awareness and action.
-              </div>
-            ),
-            subimage: require('../images/recycle-mate-02a.png')
-          }
-        },
-        {
-          componentName: 'row',
-          props: {
-            title: 'Pain Points',
-            summary: '',
-            paragraph: [
-              {
-                subtitle: '01 – No Reliable Disposal Guidance',
-                subparagraph:
-                  'Users found it difficult to locate accurate, easy-to-understand disposal information.'
-              },
-              {
-                subtitle: '02 – Low Motivation',
-                subparagraph:
-                  'Most users weren’t inclined to research proper methods or spend time sorting trash without added value or incentives.'
-              },
-              {
-                subtitle: '03 – Confusing Recycling Symbols',
-                subparagraph:
-                  'Labeling inconsistencies and unclear recycling symbols created confusion about how to properly categorize items.'
-              },
-              {
-                subtitle: '04 – No Feedback Loop',
-                subparagraph:
-                  'Users didn’t know if they were doing things “right,” leading to hesitation and inconsistent habits.'
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            image: require('../images/recycle-mate-03.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Problem',
-            title: 'Overview',
-            summary: (
-              <div>
-                Many individuals want to dispose responsibly but are faced with unclear labeling,
-                unreliable sources, and low motivation. The challenge: build a product that combines
-                real-time guidance, accessible education, and habit formation.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'odd',
-          props: {
-            title: 'How Might We..',
-            paragraph: [
-              {
-                subparagraph:
-                  'Empower individuals to make informed and environmentally responsible disposal choices?'
-              },
-              {
-                subparagraph: 'Reduce friction in the decision-making process around waste?'
-              },
-              {
-                subparagraph:
-                  'Turn occasional efforts into long term sustainable behaviors and routines?'
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Solution',
-            title: 'Early Concepts',
-            summary: (
-              <div>
-                The project began with Oscar, a smart trash can prototype built using machine
-                learning to identify and sort waste. It successfully categorized items into compost,
-                recycling, or trash using barcodes, symbols, and image recognition.
-              </div>
-            ),
-            subimage: require('../images/recycle-mate-04.png')
-          }
-        },
-        {
-          componentName: 'row',
-          props: {
-            title: 'Design Process',
-            summary: '',
-            paragraph: [
-              {
-                subtitle: 'Testing & Iteration',
-                subparagraph: (
-                  <div>
-                    After demoing the smart trash can and allowing users to interact with it,
-                    feedback showed that while the tech was effective, it wasn’t practical for most
-                    users. It lacked educational value and wasn’t helpful in public settings. While
-                    this marked the end of our capstone project, I wanted to extend this project and
-                    the feedback we received, leading to an app concept, RecycleMate—a more
-                    accessible, scalable way to educate and motivate users wherever they are.
-                  </div>
-                )
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heroimage: require('../images/recycle-mate-01.png')
-          }
-        },
-        {
-          componentName: 'feature',
-          props: {
-            title: 'Features Overview',
-            features: [
-              {
-                subtitle: 'Brand Identity',
-                paragraph:
-                  'A cohesive color palette, typography, and iconography system to make the app approachable and motivate users to want to use it.',
-                image: require('../images/recycle-mate-07.png')
-              },
-              {
-                subtitle: 'Onboarding Flow',
-                paragraph:
-                  'A brief, step-by-step introduction that quickly orients users to the app’s purpose and how to use it.',
-                image: require('../images/recycle-mate-onboarding.gif')
-              },
-              {
-                subtitle: 'Home Dashboard',
-                paragraph:
-                  'A visually engaging home screen with at-a-glance analytics showing progress, impact, and recent activity.',
-                image: require('../images/recycle-mate-05.png')
-              }
-              // {
-              //   subtitle: 'Item Scanner',
-              //   paragraph:
-              //     'An image recognition tool that helps users identify how to properly dispose of an item in real time.',
-              //   image: require('../images/recycle-mate-06.png')
-              // }
-            ]
-          }
-        },
-
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Conclusion',
-            title: 'Next Steps',
-            summary: (
-              <div>
-                RecycleMate addresses a major gap in sustainability by making waste education more
-                approachable. By simplifying complex sorting decisions and encouraging better
-                habits, users can build confidence and awareness around responsible waste disposal.
-                <br></br>
-                <br></br>
-                Moving forward, the app could benefit from a more robust, crowdsourced database and
-                improved image recognition to support a wider range of items. Gamification—like
-                badge systems or point-based rewards—could further drive motivation and engagement.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Reflection',
-            summary: (
-              <div>
-                This project marked a turning point in how I approach design, following a full
-                user-centered process: conducting research, identifying real pain points, and
-                building a solution directly from those insights. Rather than retrofitting solutions
-                to assumed problems, the app emerged organically from user needs.
-                <br></br>
-                <br></br>
-                It taught me how listening, testing, and iteration are the foundation of effective
-                design. RecycleMate fundamentally shaped how I approach UX problems: with curiosity,
-                empathy, and a clear commitment to the user.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heroimage: require('../images/recycle-mate-08.png')
-          }
-        }
-      ]
-    }
-  },
-  {
     title: 'yhwh apparel',
     timeline: '12 weeks',
     description: 'A website that that empowers people to express their identities through apparel',
@@ -1113,6 +857,402 @@ const Designs = [
           componentName: 'basic',
           props: {
             heroimage: require('../images/next-iteration-thank-you.png')
+          }
+        }
+      ]
+    }
+  },
+  {
+    title: 'recyclemate',
+    timeline: '8 weeks (Final Project – Spring Semester)',
+    description: 'An app that that gives users confidence in their waste disposal choices',
+    role: 'UX Researcher, Product Designer, Visual Designer',
+    team: (
+      <div>
+        4 UX Researchers / Product Designers
+        <br />1 Machine Learning Engineer
+      </div>
+    ),
+    type: 'UX Research, Product Design',
+    tools: 'Figma, Adobe Illustrator, Miro',
+    designId: 'recycle_mate',
+    url: 'https://www.figma.com/file/ngRZADi8NGLOVeYSYU6D2z/RecycleMate?type=design&node-id=11%3A1833&mode=design&t=hn9GJzxnQPJLk723-1',
+    end: 'check out the design file',
+    overview: (
+      <div>
+        RecycleMate began in a Berkeley classroom with a smart trash can prototype ("Oscar") that
+        used machine learning to auto-sort waste, aiming to address the confusion and lack of
+        accessible resources around proper waste sorting.
+        <br />
+        <br />
+        After testing and research, the feedback largely centered around accessibility and
+        practicality. The next logical step: a mobile app concept that focused on education,
+        behavior change, and motivation with waste disposal.
+      </div>
+    ),
+    images: [require('../images/recycle-mate-01.png'), require('../images/recycle-mate-06.png')],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Initial Exploration',
+            summary: (
+              <div>
+                We conducted a combination of surveys and user interviews, finding that on campus,
+                over 20% of waste was incorrectly sorted, with over 50% of the waste in the landfill
+                container. In interviews, given the task of categorizing trash, users expressed
+                hesitation, especially when faced with recycling symbols & categorizing between
+                different types of recyclables.
+              </div>
+            ),
+            subimage: require('../images/recycle-mate-02b.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Key Findings & Insights',
+            summary: (
+              <div>
+                Collaborative sessions utilizing UX frameworks helped surface the emotional friction
+                around waste disposal. Our users wanted to do the right thing but felt discouraged
+                by confusion and lack of feedback. Some users even shared that they weren’t
+                motivated to spend extra time or effort on properly throwing things away. These
+                insights laid the foundation for an experience that could bridge the gap between
+                awareness and action.
+              </div>
+            ),
+            subimage: require('../images/recycle-mate-02a.png')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Pain Points',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '01 – No Reliable Disposal Guidance',
+                subparagraph:
+                  'Users found it difficult to locate accurate, easy-to-understand disposal information.'
+              },
+              {
+                subtitle: '02 – Low Motivation',
+                subparagraph:
+                  'Most users weren’t inclined to research proper methods or spend time sorting trash without added value or incentives.'
+              },
+              {
+                subtitle: '03 – Confusing Recycling Symbols',
+                subparagraph:
+                  'Labeling inconsistencies and unclear recycling symbols created confusion about how to properly categorize items.'
+              },
+              {
+                subtitle: '04 – No Feedback Loop',
+                subparagraph:
+                  'Users didn’t know if they were doing things “right,” leading to hesitation and inconsistent habits.'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/recycle-mate-03.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Problem',
+            title: 'Overview',
+            summary: (
+              <div>
+                Many individuals want to dispose responsibly but are faced with unclear labeling,
+                unreliable sources, and low motivation. The challenge: build a product that combines
+                real-time guidance, accessible education, and habit formation.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'odd',
+          props: {
+            title: 'How Might We..',
+            paragraph: [
+              {
+                subparagraph:
+                  'Empower individuals to make informed and environmentally responsible disposal choices?'
+              },
+              {
+                subparagraph: 'Reduce friction in the decision-making process around waste?'
+              },
+              {
+                subparagraph:
+                  'Turn occasional efforts into long term sustainable behaviors and routines?'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Solution',
+            title: 'Early Concepts',
+            summary: (
+              <div>
+                The project began with Oscar, a smart trash can prototype built using machine
+                learning to identify and sort waste. It successfully categorized items into compost,
+                recycling, or trash using barcodes, symbols, and image recognition.
+              </div>
+            ),
+            subimage: require('../images/recycle-mate-04.png')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Design Process',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: 'Testing & Iteration',
+                subparagraph: (
+                  <div>
+                    After demoing the smart trash can and allowing users to interact with it,
+                    feedback showed that while the tech was effective, it wasn’t practical for most
+                    users. It lacked educational value and wasn’t helpful in public settings. While
+                    this marked the end of our capstone project, I wanted to extend this project and
+                    the feedback we received, leading to an app concept, RecycleMate—a more
+                    accessible, scalable way to educate and motivate users wherever they are.
+                  </div>
+                )
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/recycle-mate-01.png')
+          }
+        },
+        {
+          componentName: 'feature',
+          props: {
+            title: 'Features Overview',
+            features: [
+              {
+                subtitle: 'Brand Identity',
+                paragraph:
+                  'A cohesive color palette, typography, and iconography system to make the app approachable and motivate users to want to use it.',
+                image: require('../images/recycle-mate-07.png')
+              },
+              {
+                subtitle: 'Onboarding Flow',
+                paragraph:
+                  'A brief, step-by-step introduction that quickly orients users to the app’s purpose and how to use it.',
+                image: require('../images/recycle-mate-onboarding.gif')
+              },
+              {
+                subtitle: 'Home Dashboard',
+                paragraph:
+                  'A visually engaging home screen with at-a-glance analytics showing progress, impact, and recent activity.',
+                image: require('../images/recycle-mate-05.png')
+              }
+              // {
+              //   subtitle: 'Item Scanner',
+              //   paragraph:
+              //     'An image recognition tool that helps users identify how to properly dispose of an item in real time.',
+              //   image: require('../images/recycle-mate-06.png')
+              // }
+            ]
+          }
+        },
+
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Next Steps',
+            summary: (
+              <div>
+                RecycleMate addresses a major gap in sustainability by making waste education more
+                approachable. By simplifying complex sorting decisions and encouraging better
+                habits, users can build confidence and awareness around responsible waste disposal.
+                <br></br>
+                <br></br>
+                Moving forward, the app could benefit from a more robust, crowdsourced database and
+                improved image recognition to support a wider range of items. Gamification—like
+                badge systems or point-based rewards—could further drive motivation and engagement.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Reflection',
+            summary: (
+              <div>
+                This project marked a turning point in how I approach design, following a full
+                user-centered process: conducting research, identifying real pain points, and
+                building a solution directly from those insights. Rather than retrofitting solutions
+                to assumed problems, the app emerged organically from user needs.
+                <br></br>
+                <br></br>
+                It taught me how listening, testing, and iteration are the foundation of effective
+                design. RecycleMate fundamentally shaped how I approach UX problems: with curiosity,
+                empathy, and a clear commitment to the user.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/recycle-mate-08.png')
+          }
+        }
+      ]
+    }
+  },
+  {
+    title: 'assurance collection',
+    timeline: '4 weeks',
+    description:
+      'A seasonal apparel collection and cross-platform marketing campaign for YHWH Apparel, resulting in the brand’s highest-performing launch',
+    role: 'Graphic Designer, UI Designer',
+    team: (
+      <div>
+        4 Graphic Designers <br />1 Copywriter
+      </div>
+    ),
+    type: 'Graphic Design, Digital Marketing, Apparel Design, UI Design',
+    tools: 'Illustrator / Photoshop / Figma / Miro',
+    designId: 'assurance',
+    url: 'https://yhwhapparel.medium.com/introducing-the-assurance-collection-2228b3de414',
+    end: 'read more about the intentions behind the design',
+    overview: (
+      <div>
+        The Assurance Collection was a seasonal apparel drop for <b>YHWH Apparel</b>, a faith-based
+        streetwear brand, consisting of a long-sleeve t-shirt and tote bag. Designed to embody the
+        theme of “assurance” through scripture-inspired visuals, the collection merged spiritual
+        storytelling with modern, trend-conscious design.
+        <br />
+        <br />
+        Our team included four graphic designers and one copywriter. Ultimately, my design, a
+        surreal photo-manipulation style, was chosen as the visual centerpiece for the collection.
+        Alongside apparel design, I led the creation of <b>digital marketing assets</b> for the
+        launch.
+        <br />
+        <br />
+        Proceeds supported <b>Letters of Hope</b>, a nonprofit sharing the Gospel with incarcerated
+        individuals.
+      </div>
+    ),
+    images: [require('../images/assurance-01.png')],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Exploration',
+            summary: (
+              <div>
+                Our design team began the Assurance Collection by aligning on the theme through
+                scripture, drawing inspiration from passages like Acts 16:23–34, Hebrews 10:19–25,
+                Psalm 118:24, John 11:1–6, 17–27, and Habakkuk 1:1–5. Using Miro, we collaboratively
+                brainstormed concepts that could visually express the peace, confidence, and
+                community found in Christ.
+              </div>
+            ),
+            subimage: require('../images/assurance-03.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Process',
+            title: 'Concepts',
+            summary: (
+              <div>
+                From these sessions, we explored multiple directions with many designs progressing
+                into mid- and high-fidelity stages. After internal review with the team,{' '}
+                <b>my design was chosen as the primary visual direction</b> for both apparel pieces
+                and the campaign’s digital presence. My surreal photo manipulation style, combined
+                with typographic layouts, resonated strongly with our intended audience of college
+                students and twenty-somethings, while staying rooted in the collection’s faith-based
+                message.
+                <br></br>
+                <br></br>
+                As <b>UI Designer</b>, I also developed <b>digital assets to support the launch</b>,
+                including landing page popups (desktop + mobile), hero assets for the shop page,
+                social and website countdown graphics, and curated product page visuals to align
+                with the collection’s aesthetic.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Impact',
+            summary: (
+              <div>
+                The Assurance Collection became{' '}
+                <b>YHWH Apparel’s highest-performing launch to date.</b> The collection sold out
+                quickly after release — an unprecedented milestone for the brand — and demand was so
+                strong that it prompted the company’s first-ever restock.
+                <br></br>
+                <br></br>
+                Customer feedback praised both the apparel and the campaign’s visual storytelling,
+                noting how the designs felt meaningful, modern, and aligned with the brand’s
+                mission.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'apparel design',
+            image: require('../images/assurance-apparel-designs.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'apparel mockups',
+            image: require('../images/assurance-apparel-mockups.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'marketing & ui assets',
+            image: require('../images/assurance-countdowns.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/assurance-old-popups.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/assurance-new-popups.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            image: require('../images/assurance-mobile-mockups.png')
           }
         }
       ]
@@ -1994,147 +2134,6 @@ const Designs = [
       ]
     }
   }
-  // {
-  //   title: 'assurance collection',
-  //   timeline: '4 weeks',
-  //   description: 'An apparel collection that showcases themes of assurance and spirituality ',
-  //   role: 'Graphic Designer',
-  //   team: (
-  //     <div>
-  //       4 Graphic Designers <br />1 Content Writer
-  //     </div>
-  //   ),
-  //   type: 'Graphic Design, Branding & Marketing, Apparel Design',
-  //   tools: 'Illustrator / Photoshop',
-  //   designId: 'assurance',
-  //   url: 'https://yhwhapparel.medium.com/introducing-the-assurance-collection-2228b3de414',
-  //   end: 'read more about the intentions behind the design',
-  //   overview: (
-  //     <div>
-  //       The Assurance Collection marks a significant milestone for YHWH Apparel, an apparel brand
-  //       with a unique blend of faith and fashion. This collection, consisting of long-sleeve
-  //       t-shirts and tote bags, is not only a testament to the brand's commitment to creativity but
-  //       also a reflection of its deep spiritual values.
-  //       <br />
-  //       <br />
-  //       As a team of four graphic designers and a content writer, we collaborated closely to bring
-  //       this collection to life. My design, utilizing a technique that stitched together images in a
-  //       surreal manner with Photoshop, was chosen as the visual centerpiece of the collection.
-  //       Alongside my fellow graphic designers, who worked on typography and layout, we crafted a
-  //       collection that embodies the theme of "assurance" in a visually compelling way.
-  //       <br />
-  //       <br />
-  //       The profits from this collection supported Letters of Hope, a nonprofit that spreads the
-  //       Gospel to the incarcerated.
-  //     </div>
-  //   ),
-  //   problem: (
-  //     <div>
-  //       The challenge lay in translating the theme of assurance into a collection that not only
-  //       conveyed a powerful message but also resonated with our audience. Furthermore, the time
-  //       constraints posed by the impending launch date added an element of urgency to the design
-  //       process.
-  //     </div>
-  //   ),
-  //   solution: (
-  //     <div>
-  //       Our approach involved a deep dive into the theme of assurance through prayer, Bible study,
-  //       and scriptural exploration. We sought to understand the essence of assurance in Christ and
-  //       how it related to the world's uncertainties and challenges. This foundational understanding
-  //       informed our design choices.
-  //       <br />
-  //       <br />
-  //       The design process was a collaborative effort among the team members. We drew inspiration
-  //       from passages like Acts 16:23–34, Hebrews 10:19–25, Psalm 118:24, John 11:1–6, 17–27, and
-  //       Habakkuk 1:1–5, aligning our designs with these scriptural references. Our collective vision
-  //       centered on conveying the goodness of God, the complexities of life, and the comfort,
-  //       confidence, and community found in Christ. Visually, we aimed for a nature-inspired,
-  //       earth-related aesthetic.
-  //     </div>
-  //   ),
-  //   question: (
-  //     <div>
-  //       How might we create a collection that effectively communicates the theme of assurance?
-  //     </div>
-  //   ),
-  //   research: (
-  //     <div>
-  //       Our research began with prayer and Bible study, an integral part of the YHWH Apparel design
-  //       process. We delved into the Word of God to seek inspiration and insight. We explored
-  //       scriptures related to assurance and examined the concept from various angles.
-  //       <br />
-  //       <br />
-  //       In addition to scriptural exploration, we recognized the importance of understanding
-  //       contemporary design trends that resonate with our target audience—college students and
-  //       twenty-somethings. We delved into the visual preferences and aesthetics that captivate this
-  //       demographic, aiming to create designs that would genuinely connect with them.
-  //     </div>
-  //   ),
-  //   ideation: (
-  //     <div>
-  //       Drawing from our research, we initiated the ideation process. Together, we reflected on the
-  //       theme of assurance and the scriptures that resonated with it. Our brainstorming sessions
-  //       generated key messages that emphasized the challenges of life and the assurance found in
-  //       Christ. Visually, we envisioned an aesthetic inspired by nature and the Earth.
-  //       <br />
-  //       <br />
-  //       One of our primary sources of inspiration was the growing trend of surrealism in art and
-  //       design. We recognized that surreal and abstract styles had a unique ability to spark
-  //       curiosity and contemplation. Taking cues from artists like Kanghee Kim, whose work pushes
-  //       the boundaries of reality, we decided to experiment with surreal-style photo manipulations.
-  //       These manipulations allowed us to create designs that were not only visually stunning but
-  //       also thought-provoking.
-  //     </div>
-  //   ),
-
-  //   features: [
-  //     [
-  //       'long sleeve t-shirt',
-  //       <div>
-  //         Our long-sleeve t-shirt, inspired by Habakkuk 3:17–19, boldly declares "Assurance" in a
-  //         simple sans-serif font on the front. The back of the shirt features direct scripture from
-  //         Habakkuk 3, presented in a unique typography and layout design. The focal point is a
-  //         surreal-style photo manipulation
-  //       </div>,
-  //       require('../images/assurance-04.png')
-  //     ],
-  //     [
-  //       'tote bag',
-  //       <div>
-  //         The tote bag design draws from Habakkuk 1:1–5, acknowledging the brokenness and challenges
-  //         in the world. It features an editorial, newspaper-style layout with excerpts from
-  //         Habakkuk. The surreal-style photo manipulation symbolizes the assurance and peace of
-  //         knowing that God is in control, even when His work is not immediately visible.
-  //       </div>,
-  //       require('../images/assurance-05.png')
-  //     ],
-  //     [
-  //       'social media assets',
-  //       <div>
-  //         In conjunction with the launch, we designed a set of social media assets to promote the
-  //         collection effectively across various platforms. These assets were carefully crafted to
-  //         maintain a cohesive visual identity and engage our audience in meaningful conversations
-  //         about assurance and faith.
-  //       </div>,
-  //       require('../images/assurance-06.png')
-  //     ],
-  //     [
-  //       'website assets',
-  //       <div>
-  //         To ensure a seamless online shopping experience, we created website assets that align with
-  //         the collection's branding and imagery. These assets enhance the user interface and
-  //         maintain a consistent visual identity across the website, making it easier for customers
-  //         to explore and purchase products from the Assurance Collection.
-  //       </div>,
-  //       require('../images/assurance-07.png')
-  //     ]
-  //   ],
-  //   images: [
-  //     require('../images/assurance-01.png'),
-  //     require('../images/assurance-02.png'),
-  //     require('../images/assurance-03.png')
-  //   ]
-  // }
 ];
 
 export default Designs;

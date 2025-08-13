@@ -61,6 +61,7 @@ function Home() {
             <h3>adobe creative suite (Ai, Ps, Xd, Ae, Pr)</h3>
             <h3>react, node.js</h3>
             <h3>html, css, javascript</h3>
+            <h3>cms platforms</h3>
           </div>
         </div>
         <div className='home-second'>

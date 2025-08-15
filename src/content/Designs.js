@@ -318,34 +318,32 @@ const Designs = [
     }
   },
   {
-    title: 'meals on wheels',
-    timeline: '1 week',
+    title: 'digital marketing campaigns',
+    timeline: 'Ongoing',
     description:
-      'A suite of social media and email marketing assets for Meals on Wheels’ year-end fundraising campaign.',
-    role: 'Graphic Designer',
-    team: (
-      <div>
-        1 Graphic Designer <br></br>1 Consultant<br></br>1 Copywriter<br></br>1 Client Photographer
-      </div>
-    ),
-    type: 'Graphic Design, Digital Marketing',
-    tools: 'Photoshop / After Effects / Premiere Pro / Illustrator',
-    designId: 'meals_on_wheels',
+      'A multidisciplinary portfolio of marketing assets for a variety of clients, causes, and campaigns',
+    role: 'Designer',
+    team: <div>Various Designers, Copywriters, Consultants, & Photographers</div>,
+    type: 'Graphic Design, Visual Storytelling, Digital Marketing',
+    tools: 'Photoshop / After Effects / Premiere Pro / Illustrator / Figma',
+    designId: 'digital_marketing',
     url: '',
     end: 'thanks for viewing!',
     overview: (
       <div>
-        For Meals on Wheels’ year-end fundraising campaign, our goal was to tell the stories of
-        seniors whose lives are positively impacted by the program. The campaign aimed to inspire
-        donations by highlighting the human side of the organization’s mission across social media
-        and email channels.
+        This collection highlights some marketing campaigns I’ve created across social, web, email,
+        and print for a variety of clients and causes. I draw from visual design, motion graphics,
+        video editing, illustration, and layout skills to create assets that are user-centered and
+        feel meaningful. Using tools like the Adobe Creative Suite and Figma, I’ve made everything
+        from animated GIFs and short videos to editorial-style layouts and custom illustrations. I
+        collaborate closely with design teammates, copywriters, consultants, and other stakeholders,
+        often balancing multiple clients and brand guidelines at once. In these fast-paced settings,
+        I stay on top of industry trends and turn around revisions quickly based on user testing
+        feedback or performance metrics.
         <br></br>
-        <br></br>I collaborated closely with a copywriter, a campaign consultant, and the client to
-        produce a suite of marketing materials. The work included editing and assembling videos in
-        Premiere Pro, creating GIF animations in After Effects and Photoshop, enhancing photos for
-        better readability, and designing visual assets in Illustrator. Together, we crafted a
-        cohesive visual narrative that amplified the campaign’s emotional impact and encouraged
-        audience action.
+        <br></br>
+        With a balance of user centered thought, brand consistency, and a bit of creative
+        experimentation, these projects were built to grab attention, tell a story, and get results!
       </div>
     ),
     images: [require('../images/mow-01.png')],
@@ -354,7 +352,281 @@ const Designs = [
         {
           componentName: 'gallery',
           props: {
-            heading: 'static assets',
+            heading: 'Americares',
+            images: [
+              {
+                src: require('../images/amcr-01.gif'),
+                width: 9,
+                height: 16
+              },
+              {
+                src: require('../images/amcr-02.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/amcr-03.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/amcr-04.png'),
+                width: 1,
+                height: 1
+              },
+
+              {
+                src: require('../images/amcr-05.gif'),
+                width: 1,
+                height: 2
+              },
+
+              {
+                src: require('../images/amcr-06.gif'),
+                width: 1,
+                height: 2
+              },
+
+              {
+                src: require('../images/amcr-07.gif'),
+                width: 9,
+                height: 16
+              },
+              {
+                src: require('../images/amcr-08.gif'),
+                width: 9,
+                height: 16
+              },
+              {
+                src: require('../images/amcr-09.gif'),
+                width: 4,
+                height: 3
+              },
+              {
+                src: require('../images/amcr-10.gif'),
+                width: 4,
+                height: 3
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'Citymeals on Wheels',
+            images: [
+              {
+                src: require('../images/city-01.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/city-02.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/city-03.png'),
+                width: 600,
+                height: 270
+              },
+              {
+                src: require('../images/city-04.gif'),
+                width: 600,
+                height: 340
+              },
+              {
+                src: require('../images/city-05.gif'),
+                width: 600,
+                height: 415
+              },
+              {
+                src: require('../images/city-06.gif'),
+                width: 1,
+                height: 1
+              },
+
+              {
+                src: require('../images/city-08.png'),
+                width: 600,
+                height: 420
+              },
+              {
+                src: require('../images/city-09.png'),
+                width: 600,
+                height: 364
+              },
+              {
+                src: require('../images/city-10.png'),
+                width: 600,
+                height: 400
+              },
+              {
+                src: require('../images/city-07.gif'),
+                width: 1080,
+                height: 380
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'Friends of the Earth',
+            images: [
+              {
+                src: require('../images/foe-01.gif'),
+                width: 600,
+                height: 480
+              },
+              {
+                src: require('../images/foe-02.gif'),
+                width: 600,
+                height: 480
+              },
+              {
+                src: require('../images/foe-03.gif'),
+                width: 600,
+                height: 480
+              },
+              {
+                src: require('../images/foe-04.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/foe-05.jpg'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/foe-06.gif'),
+                width: 1400,
+                height: 250
+              },
+              {
+                src: require('../images/foe-07.png'),
+                width: 480,
+                height: 320
+              },
+              {
+                src: require('../images/foe-08.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/foe-09.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/foe-10.gif'),
+                width: 1,
+                height: 1
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'Greenpeace',
+            images: [
+              {
+                src: require('../images/green-01.png'),
+                width: 60,
+                height: 294
+              },
+              {
+                src: require('../images/green-02.gif'),
+                width: 6,
+                height: 5
+              },
+              {
+                src: require('../images/green-03.png'),
+                width: 60,
+                height: 48
+              },
+              {
+                src: require('../images/green-04.png'),
+                width: 6,
+                height: 5
+              },
+              {
+                src: require('../images/green-05.png'),
+                width: 60,
+                height: 258
+              },
+              {
+                src: require('../images/green-06.png'),
+                width: 600,
+                height: 1493
+              },
+              {
+                src: require('../images/green-07.png'),
+                width: 600,
+                height: 1255
+              },
+              {
+                src: require('../images/green-08.png'),
+                width: 60,
+                height: 57
+              },
+              {
+                src: require('../images/green-09.png'),
+                width: 600,
+                height: 842
+              },
+              {
+                src: require('../images/green-13.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/green-10.gif'),
+                width: 600,
+                height: 848
+              },
+              {
+                src: require('../images/green-11.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/green-12.gif'),
+                width: 60,
+                height: 72
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'Innocence Project',
+            images: [
+              {
+                src: require('../images/ip-01.png'),
+                width: 600,
+                height: 327
+              },
+              {
+                src: require('../images/ip-02.png'),
+                width: 600,
+                height: 327
+              },
+              {
+                src: require('../images/ip-03.png'),
+                width: 600,
+                height: 327
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'Meals on Wheels',
             images: [
               {
                 src: require('../images/mow-static-01.png'),
@@ -410,28 +682,12 @@ const Designs = [
                 src: require('../images/mow-static-11.png'),
                 width: 1,
                 height: 1
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'gallery',
-          props: {
-            heading: 'example gif',
-            images: [
+              },
               {
                 src: require('../images/mow-gif.gif'),
                 width: 1,
                 height: 1
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'gallery',
-          props: {
-            heading: 'video ads',
-            images: [
+              },
               {
                 src: require('../images/mow-video-01.gif'),
                 width: 1,
@@ -448,481 +704,6 @@ const Designs = [
                 height: 1
               }
             ]
-          }
-        }
-      ]
-    }
-  },
-  {
-    title: "federal way women's health care",
-    timeline: '2 weeks',
-    description:
-      'A website for patients seeking a comprehensive women’s health clinic, providing information about services, treatments, and wellness',
-    role: 'Website Designer & Implementer',
-    team: <div>1 Website Designer & Implementer</div>,
-    type: 'Product Design, Website Overhaul',
-    tools: 'Figma / Website Builder',
-    designId: 'federal_way_womens_health_care',
-    url: 'https://federalwayobgyn.com/',
-    end: 'check out the live site',
-    overview: (
-      <div>
-        The Federal Way Women’s Health Care website was redesigned to deliver a{' '}
-        <b>patient-friendly experience</b> for a diverse audience of women seeking OB-GYN care. The
-        project focused on <b>inclusivity and accessibility</b>, building a site that patients could
-        navigate easily while giving the clinic’s staff the ability to update content quickly
-        without relying on an external developer.
-      </div>
-    ),
-    images: [
-      require('../images/federal-way-womens-01.png'),
-      require('../images/federal-way-womens-07.png')
-    ],
-    content: {
-      body: [
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Research',
-            title: 'Client Conversations',
-            summary: (
-              <div>
-                Clinic staff expressed frustration with their existing third-party website provider.
-                Updates were slow, expensive, and required waiting on responses from outside help.
-                They needed a site they could manage internally and wanted it to feel more welcoming
-                and representative of their patients.
-              </div>
-            ),
-            subimage: require('../images/federal-way-womens-08.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Current Experience',
-            summary: (
-              <div>
-                I analyzed the original site and found the{' '}
-                <b>information architecture lacked hierarchy</b>, with long blocks of unstructured
-                text that made it hard for patients to find key details. Staff emphasized the need
-                for important content like new patient forms and contact information to be more
-                prominent. They also pointed out that the existing visuals felt generic and wanted{' '}
-                <b>imagery that was more purposeful.</b>
-              </div>
-            ),
-            subimage: require('../images/federal-way-womens-before-q&a-video.gif')
-          }
-        },
-        {
-          componentName: 'row',
-          props: {
-            title: 'Pain Points',
-            summary: '',
-            paragraph: [
-              {
-                subtitle: '01 – Cluttered Design',
-                subparagraph:
-                  'Pages were visually overwhelming with information, making it hard for patients to find what they needed.'
-              },
-              {
-                subtitle: '02 – Limited Inclusivity',
-                subparagraph:
-                  'Imagery didn’t reflect the diversity of patients, leaving the brand feeling disconnected from its community.'
-              },
-              {
-                subtitle: '03 – Staff Frustrations',
-                subparagraph:
-                  'The old site relied on a third-party provider, making updates slow, costly, and difficult to manage.'
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Problem',
-            title: 'Overview',
-            summary: (
-              <div>
-                Federal Way Women’s Health Care needed a site that balanced{' '}
-                <b>trust, inclusivity, and usability.</b> The redesign aimed to simplify complex
-                service information to improve user flow, reflect patient diversity, and empower
-                staff to manage updates internally.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'odd',
-          props: {
-            title: 'How Might We..',
-            paragraph: [
-              {
-                subparagraph:
-                  'Design a trustworthy and inclusive experience that serves women of all ages, backgrounds, and ethnicities?'
-              },
-              {
-                subparagraph:
-                  'Empower clinic staff with a website they can easily update themselves?'
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Solution',
-            title: 'Structure & Flow',
-            summary: (
-              <div>
-                I started by mapping out the <b>site structure and user flows</b>, thinking through
-                how someone might land on the site, explore services, and get in touch. One thing
-                that stood out right away: it was hard for new patients to actually contact the
-                clinic—there was contact info listed, but nothing clickable. I added a{' '}
-                <b>Contact Us form</b> directly to the site and made the phone number{' '}
-                <b>tap-to-call</b>, especially helpful for mobile users. <br></br>
-                <br></br>The staff mentioned that the long service descriptions were essential. To
-                keep the info but make it easier to digest, I turned those sections into{' '}
-                <b>expandable Q&As</b>, so users could get the answers they needed without scrolling
-                through a wall of text.
-              </div>
-            ),
-            subimage: require('../images/federal-way-womens-health-clinic-contact-us.gif')
-          }
-        },
-        {
-          componentName: 'row',
-          props: {
-            title: 'Design Process',
-            summary: '',
-            paragraph: [
-              {
-                subtitle: 'Testing & Iteration',
-                subparagraph: (
-                  <div>
-                    I focused on building a site that was easy for both patients and staff to use.
-                    To simplify updates, I transitioned the site to a GoDaddy-managed platform,
-                    which offered SEO benefits and allowed staff to make changes themselves without
-                    needing a developer. Since their domain was already hosted with GoDaddy, the
-                    staff were familiar with the platform, which eased the transition.
-                    <br></br>
-                    <br></br>
-                    Throughout the process, I had the clinic staff interact with prototypes,
-                    providing feedback that guided refinements, like simplifying the homepage
-                    structure and curating inclusive imagery.
-                  </div>
-                )
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heroimage: require('../images/federal-way-womens-09.png')
-          }
-        },
-        {
-          componentName: 'feature',
-          props: {
-            title: 'Features Overview',
-            features: [
-              {
-                subtitle: 'Patient-Centered Q&A',
-                paragraph:
-                  'Clear, accessible information on services like well-women exams, pregnancy care, and menopause support',
-                image: require('../images/federal-way-womens-q&a-video.gif')
-              },
-              {
-                subtitle: 'Inclusive Imagery',
-                paragraph:
-                  'Photography and language reflecting the clinic’s diverse patient demographics',
-                image: require('../images/federal-way-womens-10.png')
-              },
-              {
-                subtitle: 'Clean Interface',
-                paragraph:
-                  'A minimal design using muted neutrals with the brand’s signature purple color for consistency',
-                image: require('../images/federal-way-womens-04.png')
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Conclusion',
-            title: 'Impact',
-            summary: (
-              <div>
-                The redesigned website dramatically improved the clinic’s online presence, replacing
-                a site that often didn’t function correctly for users and left patients frustrated.
-                The new design made it easy for patients to find information and navigate services
-                without confusion, while{' '}
-                <b>SEO optimization helped the site rank at the top for local search results.</b>{' '}
-                <br></br>
-                <br></br>
-                Most importantly,{' '}
-                <b>staff now have full control over updates and content management</b>, eliminating
-                their reliance on an unresponsive third-party provider and ensuring the site can
-                grow and adapt with the clinic’s needs.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Reflection',
-            summary: (
-              <div>
-                This project emphasized the importance of designing for{' '}
-                <b>both the patient journey and the client’s workflow.</b> Thinking about the needs
-                of everyone involved, the final website is a scalable, maintainable solution that
-                delivers value beyond launch.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heroimage: require('../images/federal-way-womens-05.png')
-          }
-        }
-      ]
-    }
-  },
-  {
-    title: 'the next iteration podcast',
-    timeline: '4 weeks',
-    description:
-      'A multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
-    role: 'Graphic Designer',
-    team: <div>1 Graphic Designer</div>,
-    type: 'Graphic Design, Brand Redesign',
-    tools: 'Illustrator / Figma / Womp3D',
-    designId: 'next_iteration_podcast',
-    url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
-    end: 'check out the branding guide',
-    overview: (
-      <div>
-        With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
-        meditation to the future of technology and politics, The Next Iteration Podcast’s wanted to
-        refresh their visual identity and expand their reach. The redesign spanned a new logo,
-        comprehensive branding guidelines, podcast thumbnails, and visual assets.
-      </div>
-    ),
-    images: [
-      require('../images/next-iteration-01.png'),
-      require('../images/next-iteration-02.png')
-    ],
-    content: {
-      body: [
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Research',
-            title: 'Client Conversations',
-            summary: (
-              <div>
-                When the creators of The Next Iteration Podcast approached me, their vision was
-                clear: they wanted a brand that felt as multifaceted and future-facing as the
-                conversations they were having. The existing visuals, however, felt generic and
-                inconsistent, making it hard to stand out in a saturated podcast space.
-                <br></br>
-                <br></br>
-                In particular, the current logo was a Rubik’s Cube. While the team liked its
-                symbolism of different “iterations” referencing positions or stages in life, they
-                didn’t want the implication that life was a solvable problem or that there was a
-                “right” way to live life.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-before-assets.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Research',
-            title: 'Exploration',
-            summary: (
-              <div>
-                I started by gathering insights directly from the podcast creators about their
-                goals, target audience, and design preferences. I listened to episodes to better
-                understand their tone and content, and benchmarked the visual identities of similar
-                podcasts catering to the same demographic. The competitive analysis revealed a gap:
-                while many brands looked professional or playful, few balanced both, especially in a
-                way that felt personal and intellectually engaging.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-before-website.gif')
-          }
-        },
-        {
-          componentName: 'row',
-          props: {
-            title: 'Pain Points',
-            summary: '',
-            paragraph: [
-              {
-                subtitle: '01 – Branding Misalignment',
-                subparagraph:
-                  'The existing branding failed to capture the podcast’s depth, range, and mission, making it harder to connect with the target audience.'
-              },
-              {
-                subtitle: '02 – Fragmented Visual Identity',
-                subparagraph:
-                  'Without a unified visual system or templates, designs varied widely across platforms, resulting in an inconsistent brand presence.'
-              }
-            ]
-          }
-        },
-
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Problem',
-            title: 'Overview',
-            summary: (
-              <div>
-                The Next Iteration Podcast had strong content and a clear mission—bridging
-                meaningful, wide-ranging conversations with curious twenty-somethings. But without
-                branding guidelines, it made it harder to establish brand recognition and trust.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'odd',
-          props: {
-            title: 'How Might We..',
-            paragraph: [
-              {
-                subparagraph:
-                  'Create a brand that can flex across many themes while remaining instantly recognizable?'
-              },
-              {
-                subparagraph:
-                  'Balance playful energy with professionalism to appeal to an young, intellectual audience?'
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Solution',
-            title: 'Concepts',
-            summary: (
-              <div>
-                I began sketching ideas rooted in curiosity and multidimensionality: spirals,
-                ripples, layered shapes—metaphors for ongoing growth and iteration. During feedback
-                sessions, the client referenced the work of Karim Rashid, prompting a shift toward
-                organic, fluid, abstract, and futuristic forms.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-03.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Color & Type',
-            summary: (
-              <div>
-                Wanting to represent the variety and diversity in their topics and quests, and lean
-                more into a more playful image, this shift also heavily influenced the color palette
-                and typography.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-color-palette.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            subimage: require('../images/next-iteration-typography.png')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'The Next Iteration',
-            summary: (
-              <div>
-                The client stressed they wanted to keep the aspect of the Rubik’s Cube, or at least
-                something that was rooted in and inspired by it. After discussions, this idea
-                evolved into a dynamic, modular logo composed of a shifting forms that symbolize
-                curiosity, exploration, and continual growth without a “final answer.” I realized
-                there were limitations in creating the design using only Adobe Illustrator and
-                Photoshop, so given the client’s vision, I used Womp3D for graphics as we moved
-                toward the final iteration.
-              </div>
-            ),
-            subimage: require('../images/next-iteration-process.png')
-          }
-        },
-        {
-          componentName: 'feature',
-          props: {
-            title: 'Features Overview',
-            features: [
-              {
-                subtitle: 'Branding Guidelines',
-                paragraph:
-                  'A comprehensive guide detailing logo usage, color palettes, typography, and design principles for consistency across platforms',
-                image: require('../images/next-iteration-branding-guide.png')
-              },
-              {
-                subtitle: 'Podcast Assets',
-                paragraph:
-                  'Editable templates for episode thumbnails, cover art, and social media images, ensuring a cohesive look while allowing flexibility for new topics and guests',
-                image: require('../images/next-iteration-06.png')
-              },
-              {
-                subtitle: 'Website Concept',
-                paragraph:
-                  'A conceptual website design aligned with the refreshed brand identity, aimed at improving audience engagement and showcasing episodes, guests, and topics',
-                image: require('../images/next-iteration-website.gif')
-              }
-            ]
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heading: 'Conclusion',
-            title: 'Next Steps',
-            summary: (
-              <div>
-                To extend the identity beyond digital channels, I want to explore physical brand
-                touchpoints—business card designs for networking, and merchandise like stickers and
-                totes to support community-building and audience loyalty. These assets create
-                opportunities for brand activation at events, in collaborations, and within the
-                podcast’s growing listener base.
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            title: 'Reflection',
-            summary: (
-              <div>
-                This project not only strengthened my branding and systems design skills but also
-                encouraged me to try out Womp3D, where I experimented with creating basic 3D
-                graphics for the first time. It was challenging, but I had a lot of fun designing
-                for this project and expanding my skillset!
-              </div>
-            )
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            heroimage: require('../images/next-iteration-thank-you.png')
           }
         }
       ]
@@ -1185,6 +966,481 @@ const Designs = [
     }
   },
   {
+    title: 'the next iteration podcast',
+    timeline: '4 weeks',
+    description:
+      'A multidisciplinary podcast with a mission to engage and enlighten twenty-somethings',
+    role: 'Graphic Designer',
+    team: <div>1 Graphic Designer</div>,
+    type: 'Graphic Design, Brand Redesign',
+    tools: 'Illustrator / Figma / Womp3D',
+    designId: 'next_iteration_podcast',
+    url: 'https://www.figma.com/proto/sYaRwlDIWE9aHwKVvyNixA/nextiteration-branding-guide?page-id=0%3A1&type=design&node-id=1-2&viewport=266%2C197%2C0.06&t=nqQWRQxsCFDvaSxw-1&scaling=min-zoom&starting-point-node-id=1%3A2&mode=design',
+    end: 'check out the branding guide',
+    overview: (
+      <div>
+        With a mission to engage and enlighten twenty-somethings on a diverse range of topics, from
+        meditation to the future of technology and politics, The Next Iteration Podcast’s wanted to
+        refresh their visual identity and expand their reach. The redesign spanned a new logo,
+        comprehensive branding guidelines, podcast thumbnails, and visual assets.
+      </div>
+    ),
+    images: [
+      require('../images/next-iteration-01.png'),
+      require('../images/next-iteration-02.png')
+    ],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Client Conversations',
+            summary: (
+              <div>
+                When the creators of The Next Iteration Podcast approached me, their vision was
+                clear: they wanted a brand that felt as multifaceted and future-facing as the
+                conversations they were having. The existing visuals, however, felt generic and
+                inconsistent, making it hard to stand out in a saturated podcast space.
+                <br></br>
+                <br></br>
+                In particular, the current logo was a Rubik’s Cube. While the team liked its
+                symbolism of different “iterations” referencing positions or stages in life, they
+                didn’t want the implication that life was a solvable problem or that there was a
+                “right” way to live life.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-before-assets.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Exploration',
+            summary: (
+              <div>
+                I started by gathering insights directly from the podcast creators about their
+                goals, target audience, and design preferences. I listened to episodes to better
+                understand their tone and content, and benchmarked the visual identities of similar
+                podcasts catering to the same demographic. The competitive analysis revealed a gap:
+                while many brands looked professional or playful, few balanced both, especially in a
+                way that felt personal and intellectually engaging.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-before-website.gif')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Pain Points',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '01 – Branding Misalignment',
+                subparagraph:
+                  'The existing branding failed to capture the podcast’s depth, range, and mission, making it harder to connect with the target audience.'
+              },
+              {
+                subtitle: '02 – Fragmented Visual Identity',
+                subparagraph:
+                  'Without a unified visual system or templates, designs varied widely across platforms, resulting in an inconsistent brand presence.'
+              }
+            ]
+          }
+        },
+
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Problem',
+            title: 'Overview',
+            summary: (
+              <div>
+                The Next Iteration Podcast had strong content and a clear mission—bridging
+                meaningful, wide-ranging conversations with curious twenty-somethings. But without
+                branding guidelines, it made it harder to establish brand recognition and trust.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'odd',
+          props: {
+            title: 'How Might We..',
+            paragraph: [
+              {
+                subparagraph:
+                  'Create a brand that can flex across many themes while remaining instantly recognizable?'
+              },
+              {
+                subparagraph:
+                  'Balance playful energy with professionalism to appeal to an young, intellectual audience?'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Solution',
+            title: 'Concepts',
+            summary: (
+              <div>
+                I began sketching ideas rooted in curiosity and multidimensionality: spirals,
+                ripples, layered shapes—metaphors for ongoing growth and iteration. During feedback
+                sessions, the client referenced the work of Karim Rashid, prompting a shift toward
+                organic, fluid, abstract, and futuristic forms.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-03.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Color & Type',
+            summary: (
+              <div>
+                Wanting to represent the variety and diversity in their topics and quests, and lean
+                more into a more playful image, this shift also heavily influenced the color palette
+                and typography.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-color-palette.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            subimage: require('../images/next-iteration-typography.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'The Next Iteration',
+            summary: (
+              <div>
+                The client stressed they wanted to keep the aspect of the Rubik’s Cube, or at least
+                something that was rooted in and inspired by it. After discussions, this idea
+                evolved into a dynamic, modular logo composed of a shifting forms that symbolize
+                curiosity, exploration, and continual growth without a “final answer.” I realized
+                there were limitations in creating the design using only Adobe Illustrator and
+                Photoshop, so given the client’s vision, I used Womp3D for graphics as we moved
+                toward the final iteration.
+              </div>
+            ),
+            subimage: require('../images/next-iteration-process.png')
+          }
+        },
+        {
+          componentName: 'feature',
+          props: {
+            title: 'Features Overview',
+            features: [
+              {
+                subtitle: 'Branding Guidelines',
+                paragraph:
+                  'A comprehensive guide detailing logo usage, color palettes, typography, and design principles for consistency across platforms',
+                image: require('../images/next-iteration-branding-guide.png')
+              },
+              {
+                subtitle: 'Podcast Assets',
+                paragraph:
+                  'Editable templates for episode thumbnails, cover art, and social media images, ensuring a cohesive look while allowing flexibility for new topics and guests',
+                image: require('../images/next-iteration-06.png')
+              },
+              {
+                subtitle: 'Website Concept',
+                paragraph:
+                  'A conceptual website design aligned with the refreshed brand identity, aimed at improving audience engagement and showcasing episodes, guests, and topics',
+                image: require('../images/next-iteration-website.gif')
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Next Steps',
+            summary: (
+              <div>
+                To extend the identity beyond digital channels, I want to explore physical brand
+                touchpoints—business card designs for networking, and merchandise like stickers and
+                totes to support community-building and audience loyalty. These assets create
+                opportunities for brand activation at events, in collaborations, and within the
+                podcast’s growing listener base.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Reflection',
+            summary: (
+              <div>
+                This project not only strengthened my branding and systems design skills but also
+                encouraged me to try out Womp3D, where I experimented with creating basic 3D
+                graphics for the first time. It was challenging, but I had a lot of fun designing
+                for this project and expanding my skillset!
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/next-iteration-thank-you.png')
+          }
+        }
+      ]
+    }
+  },
+  {
+    title: "federal way women's health care",
+    timeline: '2 weeks',
+    description:
+      'A website for patients seeking a comprehensive women’s health clinic, providing information about services, treatments, and wellness',
+    role: 'Website Designer & Implementer',
+    team: <div>1 Website Designer & Implementer</div>,
+    type: 'Product Design, Website Overhaul',
+    tools: 'Figma / Website Builder',
+    designId: 'federal_way_womens_health_care',
+    url: 'https://federalwayobgyn.com/',
+    end: 'check out the live site',
+    overview: (
+      <div>
+        The Federal Way Women’s Health Care website was redesigned to deliver a{' '}
+        <b>patient-friendly experience</b> for a diverse audience of women seeking OB-GYN care. The
+        project focused on <b>inclusivity and accessibility</b>, building a site that patients could
+        navigate easily while giving the clinic’s staff the ability to update content quickly
+        without relying on an external developer.
+      </div>
+    ),
+    images: [
+      require('../images/federal-way-womens-01.png'),
+      require('../images/federal-way-womens-07.png')
+    ],
+    content: {
+      body: [
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Research',
+            title: 'Client Conversations',
+            summary: (
+              <div>
+                Clinic staff expressed frustration with their existing third-party website provider.
+                Updates were slow, expensive, and required waiting on responses from outside help.
+                They needed a site they could manage internally and wanted it to feel more welcoming
+                and representative of their patients.
+              </div>
+            ),
+            subimage: require('../images/federal-way-womens-08.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Current Experience',
+            summary: (
+              <div>
+                I analyzed the original site and found the{' '}
+                <b>information architecture lacked hierarchy</b>, with long blocks of unstructured
+                text that made it hard for patients to find key details. Staff emphasized the need
+                for important content like new patient forms and contact information to be more
+                prominent. They also pointed out that the existing visuals felt generic and wanted{' '}
+                <b>imagery that was more purposeful.</b>
+              </div>
+            ),
+            subimage: require('../images/federal-way-womens-before-q&a-video.gif')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Pain Points',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: '01 – Cluttered Design',
+                subparagraph:
+                  'Pages were visually overwhelming with information, making it hard for patients to find what they needed.'
+              },
+              {
+                subtitle: '02 – Limited Inclusivity',
+                subparagraph:
+                  'Imagery didn’t reflect the diversity of patients, leaving the brand feeling disconnected from its community.'
+              },
+              {
+                subtitle: '03 – Staff Frustrations',
+                subparagraph:
+                  'The old site relied on a third-party provider, making updates slow, costly, and difficult to manage.'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Problem',
+            title: 'Overview',
+            summary: (
+              <div>
+                Federal Way Women’s Health Care needed a site that balanced{' '}
+                <b>trust, inclusivity, and usability.</b> The redesign aimed to simplify complex
+                service information to improve user flow, reflect patient diversity, and empower
+                staff to manage updates internally.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'odd',
+          props: {
+            title: 'How Might We..',
+            paragraph: [
+              {
+                subparagraph:
+                  'Design a trustworthy and inclusive experience that serves women of all ages, backgrounds, and ethnicities?'
+              },
+              {
+                subparagraph:
+                  'Empower clinic staff with a website they can easily update themselves?'
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Solution',
+            title: 'Structure & Flow',
+            summary: (
+              <div>
+                I started by mapping out the <b>site structure and user flows</b>, thinking through
+                how someone might land on the site, explore services, and get in touch. One thing
+                that stood out right away: it was hard for new patients to actually contact the
+                clinic—there was contact info listed, but nothing clickable. I added a{' '}
+                <b>Contact Us form</b> directly to the site and made the phone number{' '}
+                <b>tap-to-call</b>, especially helpful for mobile users. <br></br>
+                <br></br>The staff mentioned that the long service descriptions were essential. To
+                keep the info but make it easier to digest, I turned those sections into{' '}
+                <b>expandable Q&As</b>, so users could get the answers they needed without scrolling
+                through a wall of text.
+              </div>
+            ),
+            subimage: require('../images/federal-way-womens-health-clinic-contact-us.gif')
+          }
+        },
+        {
+          componentName: 'row',
+          props: {
+            title: 'Design Process',
+            summary: '',
+            paragraph: [
+              {
+                subtitle: 'Testing & Iteration',
+                subparagraph: (
+                  <div>
+                    I focused on building a site that was easy for both patients and staff to use.
+                    To simplify updates, I transitioned the site to a GoDaddy-managed platform,
+                    which offered SEO benefits and allowed staff to make changes themselves without
+                    needing a developer. Since their domain was already hosted with GoDaddy, the
+                    staff were familiar with the platform, which eased the transition.
+                    <br></br>
+                    <br></br>
+                    Throughout the process, I had the clinic staff interact with prototypes,
+                    providing feedback that guided refinements, like simplifying the homepage
+                    structure and curating inclusive imagery.
+                  </div>
+                )
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/federal-way-womens-09.png')
+          }
+        },
+        {
+          componentName: 'feature',
+          props: {
+            title: 'Features Overview',
+            features: [
+              {
+                subtitle: 'Patient-Centered Q&A',
+                paragraph:
+                  'Clear, accessible information on services like well-women exams, pregnancy care, and menopause support',
+                image: require('../images/federal-way-womens-q&a-video.gif')
+              },
+              {
+                subtitle: 'Inclusive Imagery',
+                paragraph:
+                  'Photography and language reflecting the clinic’s diverse patient demographics',
+                image: require('../images/federal-way-womens-10.png')
+              },
+              {
+                subtitle: 'Clean Interface',
+                paragraph:
+                  'A minimal design using muted neutrals with the brand’s signature purple color for consistency',
+                image: require('../images/federal-way-womens-04.png')
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heading: 'Conclusion',
+            title: 'Impact',
+            summary: (
+              <div>
+                The redesigned website dramatically improved the clinic’s online presence, replacing
+                a site that often didn’t function correctly for users and left patients frustrated.
+                The new design made it easy for patients to find information and navigate services
+                without confusion, while{' '}
+                <b>SEO optimization helped the site rank at the top for local search results.</b>{' '}
+                <br></br>
+                <br></br>
+                Most importantly,{' '}
+                <b>staff now have full control over updates and content management</b>, eliminating
+                their reliance on an unresponsive third-party provider and ensuring the site can
+                grow and adapt with the clinic’s needs.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            title: 'Reflection',
+            summary: (
+              <div>
+                This project emphasized the importance of designing for{' '}
+                <b>both the patient journey and the client’s workflow.</b> Thinking about the needs
+                of everyone involved, the final website is a scalable, maintainable solution that
+                delivers value beyond launch.
+              </div>
+            )
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
+            heroimage: require('../images/federal-way-womens-05.png')
+          }
+        }
+      ]
+    }
+  },
+  {
     title: 'assurance collection',
     timeline: '4 weeks',
     description:
@@ -1319,6 +1575,142 @@ const Designs = [
           componentName: 'basic',
           props: {
             image: require('../images/assurance-mobile-mockups.png')
+          }
+        }
+      ]
+    }
+  },
+  {
+    title: 'meals on wheels',
+    timeline: '1 week',
+    description:
+      'A suite of social media and email marketing assets for Meals on Wheels’ year-end fundraising campaign',
+    role: 'Graphic Designer',
+    team: (
+      <div>
+        1 Graphic Designer <br></br>1 Consultant<br></br>1 Copywriter<br></br>1 Client Photographer
+      </div>
+    ),
+    type: 'Graphic Design, Motion Graphics, Digital Marketing',
+    tools: 'Photoshop / After Effects / Premiere Pro / Illustrator',
+    designId: 'meals_on_wheels',
+    url: '',
+    end: 'thanks for viewing!',
+    overview: (
+      <div>
+        For Meals on Wheels’ year-end fundraising campaign, our goal was to tell the stories of
+        seniors whose lives are positively impacted by the program. The campaign aimed to inspire
+        donations by highlighting the human side of the organization’s mission across social media
+        and email channels.
+        <br></br>
+        <br></br>I collaborated closely with a copywriter, a campaign consultant, and the client to
+        produce a suite of marketing materials. The work included editing and assembling videos in
+        Premiere Pro, creating GIF animations in After Effects and Photoshop, enhancing photos for
+        better readability, and designing visual assets in Illustrator. Together, we crafted a
+        cohesive visual narrative that amplified the campaign’s emotional impact and encouraged
+        audience action.
+      </div>
+    ),
+    images: [require('../images/mow-01.png')],
+    content: {
+      body: [
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'static assets',
+            images: [
+              {
+                src: require('../images/mow-static-01.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-02.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-03.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-04.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-05.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-06.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-07.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-08.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-09.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-10.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-11.png'),
+                width: 1,
+                height: 1
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'example gif',
+            images: [
+              {
+                src: require('../images/mow-gif.gif'),
+                width: 1,
+                height: 1
+              }
+            ]
+          }
+        },
+        {
+          componentName: 'gallery',
+          props: {
+            heading: 'video ads',
+            images: [
+              {
+                src: require('../images/mow-video-01.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-video-02.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-video-03.gif'),
+                width: 1,
+                height: 1
+              }
+            ]
           }
         }
       ]
@@ -1554,7 +1946,7 @@ const Designs = [
     description: 'A final project for a mobile parking application',
     role: 'Product Designer',
     team: <div>4 Product Designers</div>,
-    type: 'Product Design, Mobile Application',
+    type: 'Product Design, UX Research, Mobile Application',
     tools: 'Figma / Android Studio',
     designId: 'easy_park',
     url: 'https://www.figma.com/file/e2XwFYjv1KX1caYpGFWLC2/EasyPark?type=design&node-id=11%3A1833&mode=design&t=2JxYRmKGqW7ZjsZP-1',

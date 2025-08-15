@@ -8,6 +8,7 @@ import DesignOddItems from '../components/DesignOddItems.js';
 import DesignRowItems from '../components/DesignRowItems.js';
 import DesignBasicItems from '../components/DesignBasicItems.js';
 import DesignFeatureItems from '../components/DesignFeatureItems.js';
+import DesignGalleryItems from '../components/DesignGalleryItems.js';
 
 const Design = () => {
   const location = useLocation();
@@ -33,7 +34,8 @@ const Design = () => {
     odd: DesignOddItems,
     basic: DesignBasicItems,
     row: DesignRowItems,
-    feature: DesignFeatureItems
+    feature: DesignFeatureItems,
+    gallery: DesignGalleryItems
   };
 
   const renderComponents = Designs[designNum].content.body.map(({ componentName, props }) => {

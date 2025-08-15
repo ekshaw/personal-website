@@ -352,36 +352,102 @@ const Designs = [
     content: {
       body: [
         {
-          componentName: 'basic',
+          componentName: 'gallery',
           props: {
-            heading: 'Static Assets',
-            image: require('../images/mow-pngs.png')
+            heading: 'static assets',
+            images: [
+              {
+                src: require('../images/mow-static-01.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-02.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-03.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-04.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-05.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-06.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-07.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-08.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-09.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-10.png'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-static-11.png'),
+                width: 1,
+                height: 1
+              }
+            ]
           }
         },
         {
-          componentName: 'basic',
+          componentName: 'gallery',
           props: {
-            heading: 'Example Gif',
-            image: require('../images/mow-gif.gif')
+            heading: 'example gif',
+            images: [
+              {
+                src: require('../images/mow-gif.gif'),
+                width: 1,
+                height: 1
+              }
+            ]
           }
         },
         {
-          componentName: 'basic',
+          componentName: 'gallery',
           props: {
-            heading: 'Video Ads',
-            image: require('../images/mow-video-01.gif')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            image: require('../images/mow-video-02.gif')
-          }
-        },
-        {
-          componentName: 'basic',
-          props: {
-            image: require('../images/mow-video-03.gif')
+            heading: 'video ads',
+            images: [
+              {
+                src: require('../images/mow-video-01.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-video-02.gif'),
+                width: 1,
+                height: 1
+              },
+              {
+                src: require('../images/mow-video-03.gif'),
+                width: 1,
+                height: 1
+              }
+            ]
           }
         }
       ]

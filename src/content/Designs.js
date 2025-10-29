@@ -148,10 +148,25 @@ const Designs = [
             ]
           }
         },
+
         {
           componentName: 'basic',
           props: {
             heading: 'Solution',
+            title: 'Foundations',
+            summary: (
+              <div>
+                Applying the new brand guidelines, we explored applications of the new typography
+                and color palette. The <b>neutral tones became the foundation</b> for consistency,
+                while allowing seasonal campaigns and bold product imagery to stand out.
+              </div>
+            ),
+            subimage: require('../images/yhwh-design-system.png')
+          }
+        },
+        {
+          componentName: 'basic',
+          props: {
             title: 'Journey Mapping',
             summary: (
               <div>
@@ -203,23 +218,6 @@ const Designs = [
           componentName: 'basic',
           props: {
             image: require('../images/yhwh-mobile.png')
-          }
-        },
-        {
-          componentName: 'row',
-          props: {
-            summary: '',
-            paragraph: [
-              {
-                subparagraph: (
-                  <div>
-                    Visually, we explored applications of the new color palette. The{' '}
-                    <b>neutral tones became the foundation</b> for consistency, while allowing
-                    seasonal campaigns and bold product imagery to stand out.
-                  </div>
-                )
-              }
-            ]
           }
         },
         {

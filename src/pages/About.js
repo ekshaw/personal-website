@@ -34,10 +34,6 @@ function About() {
             <br></br> My design philosophy is rooted in creating MEANINGFUL experiences by making
             purposeful, justifiable design decisions, prioritizing essential functions and
             accessibility, and working on projects that have a 🌎 positive impact.
-            <br></br>
-            <br></br>
-            Looking for a designer? I’m currently seeking a full-time role 📇 where I can grow as a
-            UX/UI, product, or visual designer while creating thoughtful, user-focused work.
           </p>
         </div>
         <img

@@ -36,9 +36,11 @@ function Home() {
         <div className='home-top'>
           <h1>hi, i’m emily👋🏼</h1>
           <p>
-            multidisciplinary 🎨 designer. born and raised in 🌲 washington. graduated from 🐻 uc
-            berkeley. based in the 🌉 bay area.<span className='span'> → </span> have a look around
-            to explore my work and get to know me.
+            multidisciplinary 🎨 designer, currently creating smiles at 🕹️ nintendo. born and raised
+            in 🌲 washington state. graduated from 🐻 uc berkeley. based in the ☔ greater seattle
+            area.
+            <span className='span'> → </span> have a look around to explore my work and get to know
+            me.
           </p>
         </div>
       </div>
